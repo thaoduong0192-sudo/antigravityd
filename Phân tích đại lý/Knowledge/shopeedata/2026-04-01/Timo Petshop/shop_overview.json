@@ -1,0 +1,36 @@
+{
+    "success": true,
+    "data": {
+        "MaDaiLy": "E0117",
+        "shopUrl": "https://shopee.vn/timopetshop",
+        "id": "69142838",
+        "name": "Timo Petshop",
+        "shopAvatar": "https://down-ws-cn.img.susercontent.com/4f8d8ef88878d2ed08a1584fb2612747_tn.webp",
+        "shopType": "Preferred",
+        "shipMethod": "Local",
+        "shopOpenTime": "2018-05-12",
+        "rating": 4.94,
+        "products": "138",
+        "brandProducts": "7",
+        "followers": "8,28k",
+        "newProducts": "0",
+        "coreMetrics": [
+            {
+                "label": "Revenue",
+                "value": "₫78,45tr"
+            },
+            {
+                "label": "Units Sold",
+                "value": "6,02k"
+            },
+            {
+                "label": "Average Selling Price",
+                "value": "₫13,04k"
+            }
+        ],
+        "shop_id": "69142838"
+    },
+    "message": null,
+    "cached": null,
+    "code": null
+}

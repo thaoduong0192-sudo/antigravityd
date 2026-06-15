@@ -1,0 +1,70 @@
+{
+    "shop_id": "7495307793697901554",
+    "total_collected": 8,
+    "data": [
+        {
+            "revenue": "₫3,30tr",
+            "sale": "16",
+            "id": "1731544497404349426",
+            "unit_price": "₫228,12k",
+            "collect_day": "2025-02-17",
+            "product_title": "Sữa tắm Diva cao cấp cho chó mèo chai 400ml - Dưỡng ẩm, khử mùi hôi, hương thơm lưu lại dài lâu"
+        },
+        {
+            "revenue": "₫1,32tr",
+            "sale": "32",
+            "id": "1731658167323298802",
+            "unit_price": "₫41,11k",
+            "collect_day": "2025-01-21",
+            "product_title": "Pate CATCHY dành cho mèo con & mèo lớn (lon 400G)"
+        },
+        {
+            "revenue": "₫418,07k",
+            "sale": "7",
+            "id": "1730601414533745650",
+            "unit_price": "₫69,08k",
+            "collect_day": "2024-11-13",
+            "product_title": "Cát đất sét Catchy 5Plus túi 8L - Cát ít bụi và hạt cát to với khả năng vón chặt tuyệt vời cho mèo"
+        },
+        {
+            "revenue": "₫372,42k",
+            "sale": "12",
+            "id": "1730440882161224690",
+            "unit_price": "₫31,51k",
+            "collect_day": "2024-12-08",
+            "product_title": "Xương gặm cho chó Orgo - Thanh gặm cho chó thơm ngon, sạch răng, thơm miệng, đỡ ngứa răng,... túi 90g."
+        },
+        {
+            "revenue": "₫257,67k",
+            "sale": "6",
+            "id": "1731588348988983282",
+            "unit_price": "₫39,50k",
+            "collect_day": "2025-07-18",
+            "product_title": "Sữa tắm Diva - DoggyMan cao cấp cho chó mèo siêu khử mùi thơm lâu, bản mini (55ml, 50ml, 14ml)"
+        },
+        {
+            "revenue": "₫0,00",
+            "sale": "0",
+            "id": "1731574224548236274",
+            "unit_price": "₫146,70k",
+            "collect_day": "2025-08-06",
+            "product_title": "[MrVet] Hạt Mr.Vet T1 T2 T3 cho mèo mọi lứa tuổi - Thức ăn hoàn chỉnh bổ sung dinh dưỡng hằng ngày cho Boss"
+        },
+        {
+            "revenue": "₫0,00",
+            "sale": "0",
+            "id": "1732220913855400946",
+            "unit_price": "₫30,78k",
+            "collect_day": "2025-04-13",
+            "product_title": "Hạt Smartheart túi 400g cho chó con và chó trưởng thành - Thức ăn hoàn chỉnh bổ sung dinh dưỡng cho chó"
+        },
+        {
+            "revenue": "₫0,00",
+            "sale": "0",
+            "id": "1729745162312649714",
+            "unit_price": "₫528,33k",
+            "collect_day": "2024-10-16",
+            "product_title": "[SIÊU NGON] Súp thưởng Ciao Thái Lan hộp 50 thanh"
+        }
+    ]
+}

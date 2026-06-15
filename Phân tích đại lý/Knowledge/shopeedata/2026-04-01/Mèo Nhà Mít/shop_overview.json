@@ -1,0 +1,36 @@
+{
+    "success": true,
+    "data": {
+        "shopUrl": "https://shopee.vn/meonhamit",
+        "id": "1496431629",
+        "name": "Mèo Nhà Mít",
+        "shopAvatar": "https://down-ws-cn.img.susercontent.com/vn-11134216-820l4-mfy7jsph9jigfc_tn.webp",
+        "shopType": "Preferred",
+        "shipMethod": "Local",
+        "shopOpenTime": "2025-03-13",
+        "rating": 4.94,
+        "products": "59",
+        "brandProducts": "18",
+        "followers": "3,84k",
+        "newProducts": "0",
+        "coreMetrics": [
+            {
+                "label": "Revenue",
+                "value": "₫1,34tỉ"
+            },
+            {
+                "label": "Units Sold",
+                "value": "9,21k"
+            },
+            {
+                "label": "Average Selling Price",
+                "value": "₫144,98k"
+            }
+        ],
+        "MaDaiLy": "E1869",
+        "shop_id": "1496431629"
+    },
+    "message": null,
+    "cached": null,
+    "code": null
+}

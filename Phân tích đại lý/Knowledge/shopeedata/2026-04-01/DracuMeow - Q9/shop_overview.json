@@ -1,0 +1,36 @@
+{
+    "success": true,
+    "data": {
+        "shopUrl": "https://shopee.vn/dracumeowq9",
+        "id": "286898458",
+        "name": "DracuMeow - Q9",
+        "shopAvatar": "https://down-ws-cn.img.susercontent.com/vn-11134233-7qukw-ljnv8imhv1kkce_tn.webp",
+        "shopType": "Preferred",
+        "shipMethod": "Local",
+        "shopOpenTime": "2020-07-19",
+        "rating": 4.97,
+        "products": "128",
+        "brandProducts": "101",
+        "followers": "708",
+        "newProducts": "1",
+        "coreMetrics": [
+            {
+                "label": "Revenue",
+                "value": "₫982,75tr"
+            },
+            {
+                "label": "Units Sold",
+                "value": "10,73k"
+            },
+            {
+                "label": "Average Selling Price",
+                "value": "₫91,62k"
+            }
+        ],
+        "MaDaiLy": "E0307",
+        "shop_id": "286898458"
+    },
+    "message": null,
+    "cached": null,
+    "code": null
+}

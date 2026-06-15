@@ -1,0 +1,36 @@
+{
+    "success": true,
+    "data": {
+        "MaDaiLy": "E0011",
+        "shopUrl": "https://shopee.vn/megopetshop",
+        "id": "69041148",
+        "name": "MEGO PET SHOP",
+        "shopAvatar": "https://down-ws-cn.img.susercontent.com/vn-11134216-820l4-mihhzaqmqx3bd2_tn.webp",
+        "shopType": "Preferred",
+        "shipMethod": "Local",
+        "shopOpenTime": "2018-05-11",
+        "rating": 4.96,
+        "products": "77",
+        "brandProducts": "33",
+        "followers": "25,84k",
+        "newProducts": "0",
+        "coreMetrics": [
+            {
+                "label": "Revenue",
+                "value": "₫242,73tr"
+            },
+            {
+                "label": "Units Sold",
+                "value": "5,04k"
+            },
+            {
+                "label": "Average Selling Price",
+                "value": "₫48,16k"
+            }
+        ],
+        "shop_id": "69041148"
+    },
+    "message": null,
+    "cached": null,
+    "code": null
+}

@@ -1,0 +1,36 @@
+{
+    "success": true,
+    "data": {
+        "MaDaiLy": "E0328",
+        "shopUrl": "https://shopee.vn/miupet_house",
+        "id": "1086273456",
+        "name": "MiuPet House",
+        "shopAvatar": "https://down-ws-cn.img.susercontent.com/vn-11134233-7r98o-ltghuv3dsr2i73_tn.webp",
+        "shopType": "Standard",
+        "shipMethod": "Local",
+        "shopOpenTime": "2023-10-03",
+        "rating": 4.93,
+        "products": "178",
+        "brandProducts": "1",
+        "followers": "11,76k",
+        "newProducts": "0",
+        "coreMetrics": [
+            {
+                "label": "Revenue",
+                "value": "₫1,59tỉ"
+            },
+            {
+                "label": "Units Sold",
+                "value": "13,39k"
+            },
+            {
+                "label": "Average Selling Price",
+                "value": "₫118,69k"
+            }
+        ],
+        "shop_id": "1086273456"
+    },
+    "message": null,
+    "cached": null,
+    "code": null
+}

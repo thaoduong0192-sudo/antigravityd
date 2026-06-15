@@ -1,0 +1,36 @@
+{
+    "success": true,
+    "data": {
+        "MaDaiLy": "E0579",
+        "shopUrl": "https://shopee.vn/canhcut_pettymeow",
+        "id": "594035673",
+        "name": "Cánh Cụt Pettymeow",
+        "shopAvatar": "https://down-ws-cn.img.susercontent.com/7cb991d5dfd4623f0697e752f3b35d80_tn.webp",
+        "shopType": "Preferred",
+        "shipMethod": "Local",
+        "shopOpenTime": "2021-11-16",
+        "rating": 4.96,
+        "products": "165",
+        "brandProducts": "130",
+        "followers": "16,38k",
+        "newProducts": "0",
+        "coreMetrics": [
+            {
+                "label": "Revenue",
+                "value": "₫6,22tỉ"
+            },
+            {
+                "label": "Units Sold",
+                "value": "22,03k"
+            },
+            {
+                "label": "Average Selling Price",
+                "value": "₫282,39k"
+            }
+        ],
+        "shop_id": "594035673"
+    },
+    "message": null,
+    "cached": null,
+    "code": null
+}

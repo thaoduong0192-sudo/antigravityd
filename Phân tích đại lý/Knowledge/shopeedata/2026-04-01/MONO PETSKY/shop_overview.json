@@ -1,0 +1,36 @@
+{
+    "success": true,
+    "data": {
+        "MaDaiLy": "E0006",
+        "shopUrl": "https://shopee.vn/monopetsky26",
+        "id": "1286100127",
+        "name": "MONO PETSKY",
+        "shopAvatar": "https://down-ws-cn.img.susercontent.com/vn-11134216-7ras8-m1m6dm6yv42b78_tn.webp",
+        "shopType": "Preferred",
+        "shipMethod": "Local",
+        "shopOpenTime": "2024-06-20",
+        "rating": 4.93,
+        "products": "52",
+        "brandProducts": "47",
+        "followers": "582",
+        "newProducts": "0",
+        "coreMetrics": [
+            {
+                "label": "Revenue",
+                "value": "₫15,55tr"
+            },
+            {
+                "label": "Units Sold",
+                "value": "102"
+            },
+            {
+                "label": "Average Selling Price",
+                "value": "₫152,43k"
+            }
+        ],
+        "shop_id": "1286100127"
+    },
+    "message": null,
+    "cached": null,
+    "code": null
+}

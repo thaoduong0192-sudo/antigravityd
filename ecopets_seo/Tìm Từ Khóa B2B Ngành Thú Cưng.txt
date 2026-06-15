@@ -1,0 +1,224 @@
+﻿Nhóm 1: Từ khóa Tìm kiếm Nguồn hàng và Tối ưu Chuỗi Cung ứng (Transaction & Sourcing Intent)
+Đây là nhóm từ khóa mang lại tỷ lệ chuyển đổi cao nhất, bởi người tìm kiếm đang cầm sẵn tiền và khao khát tìm được nhà cung cấp uy tín để lấp đầy kệ hàng. Bài PR nhắm vào nhóm này phải nhấn mạnh biên lợi nhuận, chính sách đổi trả và gói Starter 1 triệu đồng.
+STT
+	Cụm từ khóa (Keywords)
+	STT
+	Cụm từ khóa (Keywords)
+	1
+	nguồn sỉ thức ăn chó mèo
+	14
+	nhập sỉ quần áo thú cưng
+	2
+	sỉ phụ kiện thú cưng tphcm
+	15
+	xưởng sản xuất phụ kiện chó mèo
+	3
+	đại lý thuốc thú y tphcm
+	16
+	sỉ thực phẩm bổ sung chó mèo
+	4
+	nguồn hàng sỉ pet shop
+	17
+	tìm nguồn hàng spa thú cưng
+	5
+	tìm nhà phân phối thuốc thú y
+	18
+	sỉ cát vệ sinh cho mèo
+	6
+	đại lý sỉ men vi sinh chó mèo
+	19
+	lấy sỉ đồ grooming
+	7
+	sỉ thức ăn chó mèo giá gốc
+	20
+	nguồn sỉ pate cho mèo
+	8
+	tìm nguồn hàng sỉ phụ kiện thú cưng
+	21
+	sỉ đồ chơi chó mèo
+	9
+	phân phối thức ăn thú cưng
+	22
+	nguồn hàng sỉ thuốc thú y
+	10
+	nhà phân phối thức ăn chó mèo
+	23
+	sỉ sữa tắm chó mèo
+	11
+	lấy sỉ thực phẩm chức năng thú cưng
+	24
+	đại lý thức ăn chó mèo hà nội
+	12
+	sỉ hạt cho chó
+	25
+	sỉ lồng chuồng chó mèo
+	13
+	sỉ canxi hữu cơ cho chó mèo
+	26
+	chính sách đại lý pet shop
+	Nhóm 2: Từ khóa Chiến lược Quản trị, Vận hành và Thiết lập Cơ sở (Informational & Setup Intent)
+Tệp khách hàng tìm kiếm nhóm này đang trong giai đoạn khởi nghiệp hoặc muốn mở rộng quy mô. Họ khao khát kiến thức, kinh nghiệm và sự tư vấn. Bài PR nhắm vào họ cần thể hiện vai trò cố vấn chuyên gia, chỉ ra những rủi ro tồn kho mà họ sắp đối mặt và đưa ra giải pháp phòng tránh thông qua gói hợp tác an toàn.
+STT
+	Cụm từ khóa (Keywords)
+	STT
+	Cụm từ khóa (Keywords)
+	27
+	kinh nghiệm mở pet shop
+	40
+	chi phí mở phòng khám thú y
+	28
+	mở spa thú cưng cần bao nhiêu vốn
+	41
+	kế hoạch kinh doanh pet shop
+	29
+	thủ tục mở phòng khám thú y
+	42
+	setup spa grooming
+	30
+	setup pet hotel
+	43
+	mở pet shop lấy hàng ở đâu
+	31
+	thiết kế phòng khám thú y
+	44
+	điều kiện kinh doanh thuốc thú y
+	32
+	kinh nghiệm kinh doanh pet hotel
+	45
+	thiết kế spa thú cưng diện tích nhỏ
+	33
+	mở cửa hàng phụ kiện thú cưng
+	46
+	mô hình kinh doanh thú cưng
+	34
+	rủi ro kinh doanh spa thú cưng
+	47
+	tư vấn mở cửa hàng thú cưng
+	35
+	kinh nghiệm quản lý pet shop
+	48
+	mở bệnh viện thú y
+	36
+	chứng chỉ hành nghề spa thú cưng
+	49
+	kinh nghiệm mở pet hotel
+	37
+	mở cửa hàng thú cưng cần giấy phép gì
+	50
+	kinh doanh spa thú cưng
+	38
+	cách thiết kế pet shop
+	51
+	điều kiện mở phòng khám thú y
+	39
+	bài học thất bại mở pet shop
+	52
+	nguồn vốn mở pet shop
+	Nhóm 3: Từ khóa Tối đa hóa Doanh thu, Marketing và Thu hút Khách hàng (Growth & Marketing Intent)
+Khi các cơ sở vật lý gặp tình trạng ế ẩm hoặc muốn tăng cường giá trị vòng đời khách hàng, họ sẽ tìm các chiến thuật tăng trưởng. Bài PR cần đánh mạnh vào khả năng dễ demo, tỷ lệ tự chốt sale cao của dạng viên nhai và câu chuyện truyền thông xã hội (CSR) mà thương hiệu cung cấp sẵn cho họ.
+STT
+	Cụm từ khóa (Keywords)
+	STT
+	Cụm từ khóa (Keywords)
+	53
+	cách tăng doanh thu phòng khám thú y
+	66
+	kịch bản tư vấn khách hàng pet shop
+	54
+	marketing cho pet shop
+	67
+	cách tăng doanh thu cho spa grooming
+	55
+	chiến lược kinh doanh spa thú cưng
+	68
+	xây dựng thương hiệu phòng khám thú y
+	56
+	tìm kiếm khách hàng thú y
+	69
+	thu hút khách hàng spa chó mèo
+	57
+	quảng cáo spa thú cưng
+	70
+	tạo phễu khách hàng thú y
+	58
+	cách thu hút khách đến pet shop
+	71
+	content marketing thú cưng
+	59
+	marketing cho pet hotel
+	72
+	cách bán thức ăn chó mèo hiệu quả
+	60
+	cách giữ chân khách hàng thú y
+	73
+	chiến dịch csr ngành thú cưng
+	61
+	upsell trong spa thú cưng
+	74
+	kpi cho nhân viên pet shop
+	62
+	chương trình khuyến mãi pet shop
+	75
+	các bước marketing cho petshop
+	63
+	marketing b2b ngành thú cưng
+	76
+	chiến lược marketing online thú cưng
+	64
+	cách marketing cho pet hotel hiệu quả
+	77
+	seo từ khóa ngành thú cưng
+	65
+	cách tăng khách cho spa thú cưng
+	78
+	bài viết content chuẩn seo chăm sóc thú cưng
+	Nhóm 4: Từ khóa Chuyển đổi số, Phần mềm Quản lý và Xu hướng Công nghệ (Technology & Trend Intent)
+Khách hàng tìm kiếm nhóm này đang gặp vấn đề về quá tải vận hành, thất thoát hàng hóa hoặc mong muốn cập nhật xu thế quốc tế. Bài PR sẽ kết nối việc ứng dụng công nghệ để kiểm soát tồn kho với lợi ích của việc nhập các sản phẩm có vòng quay vốn nhanh, hạn sử dụng dài và không gây hao hụt.
+STT
+	Cụm từ khóa (Keywords)
+	STT
+	Cụm từ khóa (Keywords)
+	79
+	phần mềm quản lý pet shop
+	90
+	xu hướng ngành thú cưng 2025
+	80
+	phần mềm quản lý phòng khám thú y
+	91
+	xu hướng thức ăn chó mèo
+	81
+	phần mềm quản lý spa thú cưng
+	92
+	thiết bị y tế thú y công nghệ cao
+	82
+	phần mềm quản lý pet hotel
+	93
+	khách sạn thú cưng cao cấp
+	83
+	app quản lý cửa hàng thú cưng
+	94
+	dịch vụ chăm sóc thú cưng chuyên nghiệp
+	84
+	quản lý lịch hẹn spa chó mèo
+	95
+	spa chó mèo phong cách nhật
+	85
+	phần mềm crm thú y
+	96
+	thực phẩm chức năng phục hồi thú y
+	86
+	hệ thống pos cho pet shop
+	97
+	viên nhai dinh dưỡng cho chó mèo
+	87
+	quản lý tồn kho thức ăn thú cưng
+	98
+	men vi sinh sống cho chó mèo
+	88
+	app nhắc lịch tiêm phòng thú cưng
+	99
+	thức ăn trị liệu thú y
+	89
+	tự động hóa quy trình phòng khám
+	100
+	bảo hiểm thú cưng việt nam

@@ -1,0 +1,36 @@
+{
+    "success": true,
+    "data": {
+        "shopUrl": "https://shopee.vn/thaopppppppp",
+        "id": "59422138",
+        "name": "RỘN RÀNG_Pet Store",
+        "shopAvatar": "https://down-ws-cn.img.susercontent.com/vn-11134216-820l4-mejzmkxcdh4w7c_tn.webp",
+        "shopType": "Preferred",
+        "shipMethod": "Local",
+        "shopOpenTime": "2018-03-06",
+        "rating": 4.94,
+        "products": "244",
+        "brandProducts": "125",
+        "followers": "1,57k",
+        "newProducts": "0",
+        "coreMetrics": [
+            {
+                "label": "Revenue",
+                "value": "₫754,00tr"
+            },
+            {
+                "label": "Units Sold",
+                "value": "25,62k"
+            },
+            {
+                "label": "Average Selling Price",
+                "value": "₫29,43k"
+            }
+        ],
+        "MaDaiLy": "E0261",
+        "shop_id": "59422138"
+    },
+    "message": null,
+    "cached": null,
+    "code": null
+}

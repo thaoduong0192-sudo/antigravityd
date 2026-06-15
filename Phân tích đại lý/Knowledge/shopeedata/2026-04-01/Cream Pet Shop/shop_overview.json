@@ -1,0 +1,36 @@
+{
+    "success": true,
+    "data": {
+        "MaDaiLy": "E0559",
+        "shopUrl": "https://shopee.vn/creampetshop",
+        "id": "967963854",
+        "name": "Cream Pet Shop",
+        "shopAvatar": "https://down-ws-cn.img.susercontent.com/vn-11134216-7r98o-lx6airy9znix04_tn.webp",
+        "shopType": "Preferred",
+        "shipMethod": "Local",
+        "shopOpenTime": "2023-03-13",
+        "rating": 4.96,
+        "products": "98",
+        "brandProducts": "50",
+        "followers": "7,35k",
+        "newProducts": "0",
+        "coreMetrics": [
+            {
+                "label": "Revenue",
+                "value": "₫815,25tr"
+            },
+            {
+                "label": "Units Sold",
+                "value": "9,99k"
+            },
+            {
+                "label": "Average Selling Price",
+                "value": "₫81,62k"
+            }
+        ],
+        "shop_id": "967963854"
+    },
+    "message": null,
+    "cached": null,
+    "code": null
+}

@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antigravity Marketing Kit - AI Marketing Skills for Gemini CLI</title>
+    <meta name="description"
+        content="66+ marketing-focused skills, 20 agents, and 15 workflows for AI-powered marketing. Install with one command.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <img src="assets/icon.png" alt="Logo" class="logo-img">
+                <span class="logo-text">Antigravity Marketing</span>
+            </a>
+            <div class="nav-links">
+                <a href="#features" data-i18n="nav.features">Features</a>
+                <a href="#skills" data-i18n="nav.skills">Skills</a>
+                <a href="#install" data-i18n="nav.install">Install</a>
+                <a href="https://github.com/nguyenphp/antigravity-marketing" target="_blank" class="nav-github">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                    </svg>
+                </a>
+                <button class="lang-toggle" onclick="toggleLanguage()">
+                    <span id="lang-label">🇻🇳 VI</span>
+                </button>
+            </div>
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#features" data-i18n="nav.features" onclick="toggleMobileMenu()">Features</a>
+        <a href="#skills" data-i18n="nav.skills" onclick="toggleMobileMenu()">Skills</a>
+        <a href="#install" data-i18n="nav.install" onclick="toggleMobileMenu()">Install</a>
+        <a href="https://github.com/nguyenphp/antigravity-marketing" target="_blank">GitHub</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg">
+            <div class="decoration circle-1"></div>
+            <div class="decoration circle-2"></div>
+            <div class="decoration circle-3"></div>
+        </div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-logo-container">
+                    <img src="assets/logo.png" alt="Antigravity Marketing" class="hero-logo-img">
+                </div>
+                <div class="hero-badge" data-i18n="hero.badge">🎯 Marketing Skills for AI Agents</div>
+                <h1 class="hero-title">
+                    <span data-i18n="hero.title1">Antigravity</span>
+                    <span class="gradient-text" data-i18n="hero.title2">Marketing Kit</span>
+                </h1>
+                <p class="hero-subtitle" data-i18n="hero.subtitle">
+                    66+ marketing skills, 20 agents, and 15 workflows. Supercharge your AI-powered marketing with one
+                    command.
+                </p>
+                <div class="hero-cta">
+                    <a href="#install" class="btn btn-primary">
+                        <span data-i18n="hero.getStarted">Get Started</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                    </a>
+                    <a href="https://github.com/nguyenphp/antigravity-marketing" target="_blank"
+                        class="btn btn-secondary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                        </svg>
+                        <span data-i18n="hero.viewGithub">View on GitHub</span>
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">66+</span>
+                        <span class="stat-label" data-i18n="hero.skills">Skills</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">20</span>
+                        <span class="stat-label" data-i18n="hero.agents">Agents</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">15</span>
+                        <span class="stat-label" data-i18n="hero.workflows">Workflows</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-code">
+                <div class="code-window">
+                    <div class="code-header">
+                        <div class="code-dots">
+                            <span></span><span></span><span></span>
+                        </div>
+                        <span class="code-title">Terminal</span>
+                    </div>
+                    <div class="code-body">
+                        <code>
+                        <span class="code-prompt">$</span> npx @nguyenphp/antigravity-marketing init<br>
+                        <span class="code-dim">Checking requirements... 🌍</span><br>
+                        <span class="code-dim">Fetching latest marketing skills (66+)... 📦</span><br>
+                        <span class="code-dim">Initializing specialized AI agents... 🤖</span><br><br>
+                        <span class="code-output">
+                        ╔══════════════════════════════════════════╗<br>
+                        ║   🚀 ANTIGRAVITY MARKETING KIT CLI 🚀    ║<br>
+                        ╚══════════════════════════════════════════╝<br><br>
+                        </span>
+                        <span class="code-success">✓</span> Marketing Kit v1.0.17 installed!<br><br>
+                        <span class="code-info">📦 Included Assets:</span><br>
+                        &nbsp;&nbsp;&nbsp;• 66+ Specialized Marketing Skills<br>
+                        &nbsp;&nbsp;&nbsp;• 20 AI Agents: Strategist, Growth, Content, Analytics...<br>
+                        &nbsp;&nbsp;&nbsp;• 15 Slash Workflows (/campaign, /content...)<br>
+                        &nbsp;&nbsp;&nbsp;• Automated Video Engine (Remotion)<br><br>
+                        <span class="code-dim">Ready for deployment. Happy marketing! 🎯</span>
+                    </code>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="features.title">Why Antigravity Marketing?</h2>
+                <p class="section-subtitle" data-i18n="features.subtitle">Everything you need to supercharge your AI
+                    marketing workflow</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🧠</div>
+                    <h3 data-i18n="features.skills.title">41+ Marketing Skills</h3>
+                    <p data-i18n="features.skills.desc">Content, SEO, social media, email, PPC, growth hacking, and
+                        more. All optimized for marketing excellence.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3 data-i18n="features.agents.title">4 Specialized Agents</h3>
+                    <p data-i18n="features.agents.desc">Marketing strategist, content creator, growth specialist, and
+                        analytics expert ready to assist.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔄</div>
+                    <h3 data-i18n="features.workflows.title">4 Workflow Commands</h3>
+                    <p data-i18n="features.workflows.desc">Campaign creation, content writing, analytics, and
+                        optimization workflows at your fingertips.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3 data-i18n="features.easy.title">One Command Install</h3>
+                    <p data-i18n="features.easy.desc">Get started in seconds with npx. No complex setup required.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎨</div>
+                    <h3 data-i18n="features.design.title">Design Intelligence</h3>
+                    <p data-i18n="features.design.desc">UI/UX Pro Max and frontend design skills for stunning marketing
+                        pages.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3 data-i18n="features.analytics.title">Data-Driven</h3>
+                    <p data-i18n="features.analytics.desc">Analytics, attribution, and optimization skills to measure
+                        and improve results.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Showcase Section -->
+    <section id="showcase" class="video-showcase">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="showcase.title">🎥 Video Automation Showcase</h2>
+                <p class="section-subtitle" data-i18n="showcase.subtitle">Sức mạnh sản xuất video tự động kế thừa từ
+                    Remotion Skills.</p>
+            </div>
+            <div class="video-showcase-container" style="margin-bottom: 60px;">
+                <div style="grid-column: 1 / -1; margin-bottom: 20px;">
+                    <h3
+                        style="color: var(--primary-light); font-size: 1.5rem; display: flex; align-items: center; gap: 10px;">
+                        <span
+                            style="background: var(--bg-card); padding: 5px 15px; border-radius: 100px; font-size: 0.8rem; border: 1px solid var(--border);">Version
+                            1.0</span>
+                        Original Motion Graphics
+                    </h3>
+                </div>
+                <div class="video-card">
+                    <div class="video-card-label">YouTube / Presentation (16:9)</div>
+                    <video controls preload="metadata">
+                        <source src="assets/videos/antigravity-promo-169.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="video-card">
+                    <div class="video-card-label">TikTok / Reels (9:16)</div>
+                    <video controls preload="metadata">
+                        <source src="assets/videos/antigravity-promo-916.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+
+            <div class="video-showcase-container">
+                <div style="grid-column: 1 / -1; margin-bottom: 20px;">
+                    <h3 style="color: var(--accent); font-size: 1.5rem; display: flex; align-items: center; gap: 10px;">
+                        <span
+                            style="background: var(--bg-card); padding: 5px 15px; border-radius: 100px; font-size: 0.8rem; border: 1px solid var(--border);">Version
+                            2.0</span>
+                        Automated Remotion Engine
+                    </h3>
+                </div>
+                <div class="video-card">
+                    <div class="video-card-label">Automated (16:9)</div>
+                    <video controls preload="metadata">
+                        <source src="assets/videos/antigravity-promo-new-169.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="video-card">
+                    <div class="video-card-label">Automated (9:16)</div>
+                    <video controls preload="metadata">
+                        <source src="assets/videos/antigravity-promo-new-916.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="skills.title">All 66+ Skills</h2>
+                <p class="section-subtitle" data-i18n="skills.subtitle">Click any skill to see what it can do for you
+                </p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4 data-i18n="skills.content">Content & Creative</h4>
+                    <div class="skill-items">
+                        <div class="skill-item" onclick="showSkillModal('content-marketing')"
+                            data-skill="content-marketing"><span class="skill-icon">✍️</span> content-marketing</div>
+                        <div class="skill-item" onclick="showSkillModal('branding-expert')"
+                            data-skill="branding-expert"><span class="skill-icon">🎨</span> branding-expert</div>
+                        <div class="skill-item" onclick="showSkillModal('video-marketing')"
+                            data-skill="video-marketing"><span class="skill-icon">🎬</span> video-marketing</div>
+                        <div class="skill-item" onclick="showSkillModal('video-automation')"
+                            data-skill="video-automation"><span class="skill-icon">🎞️</span> video-automation</div>
+                        <div class="skill-item" onclick="showSkillModal('content-repurposing')"
+                            data-skill="content-repurposing"><span class="skill-icon">♻️</span> content-repurposing
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4 data-i18n="skills.growth">Growth & Acquisition</h4>
+                    <div class="skill-items">
+                        <div class="skill-item" onclick="showSkillModal('growth-hacking')" data-skill="growth-hacking">
+                            <span class="skill-icon">🚀</span> growth-hacking
+                        </div>
+                        <div class="skill-item" onclick="showSkillModal('ppc-advertising')"
+                            data-skill="ppc-advertising"><span class="skill-icon">💰</span> ppc-advertising</div>
+                        <div class="skill-item" onclick="showSkillModal('influencer-marketing')"
+                            data-skill="influencer-marketing"><span class="skill-icon">👥</span> influencer-marketing
+                        </div>
+                        <div class="skill-item" onclick="showSkillModal('affiliate-marketing')"
+                            data-skill="affiliate-marketing"><span class="skill-icon">🤝</span> affiliate-marketing
+                        </div>
+                        <div class="skill-item" onclick="showSkillModal('lead-gen-scraper')"
+                            data-skill="lead-gen-scraper"><span class="skill-icon">🎯</span> lead-gen-scraper</div>
+                        <div class="skill-item" onclick="showSkillModal('launch-strategy')"
+                            data-skill="launch-strategy"><span class="skill-icon">🚀</span> launch-strategy</div>
+                        <div class="skill-item" onclick="showSkillModal('referral-program')"
+                            data-skill="referral-program"><span class="skill-icon">🔗</span> referral-program</div>
+                        <div class="skill-item" onclick="showSkillModal('programmatic-seo')"
+                            data-skill="programmatic-seo"><span class="skill-icon">🤖</span> programmatic-seo</div>
+                        <div class="skill-item" onclick="showSkillModal('app-store-optimization')"
+                            data-skill="app-store-optimization"><span class="skill-icon">📱</span>
+                            app-store-optimization</div>
+                        <div class="skill-item" onclick="showSkillModal('viral-generator-builder')"
+                            data-skill="viral-generator-builder"><span class="skill-icon">🧪</span>
+                            viral-generator-builder</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4 data-i18n="skills.channels">Channels</h4>
+                    <div class="skill-items">
+                        <div class="skill-item" onclick="showSkillModal('social-media-expert')"
+                            data-skill="social-media-expert"><span class="skill-icon">📱</span> social-media-expert
+                        </div>
+                        <div class="skill-item" onclick="showSkillModal('email-marketing')"
+                            data-skill="email-marketing"><span class="skill-icon">📧</span> email-marketing</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4 data-i18n="skills.optimization">Optimization & Analytics</h4>
+                    <div class="skill-items">
+                        <div class="skill-item" onclick="showSkillModal('seo-fundamentals')"
+                            data-skill="seo-fundamentals"><span class="skill-icon">🔍</span> seo-fundamentals</div>
+                        <div class="skill-item" onclick="showSkillModal('keyword-research-deep')"
+                            data-skill="keyword-research-deep"><span class="skill-icon">🔑</span> keyword-research-deep
+                        </div>
+                        <div class="skill-item" onclick="showSkillModal('analytics-marketing')"
+                            data-skill="analytics-marketing"><span class="skill-icon">📊</span> analytics-marketing
+                        </div>
+                        <div class="skill-item" onclick="showSkillModal('conversion-optimization')"
+                            data-skill="conversion-optimization"><span class="skill-icon">🎯</span>
+                            conversion-optimization</div>
+                        <div class="skill-item" onclick="showSkillModal('marketing-automation')"
+                            data-skill="marketing-automation"><span class="skill-icon">⚙️</span> marketing-automation
+                        </div>
+                        <div class="skill-item" onclick="showSkillModal('ab-test-dashboard')"
+                            data-skill="ab-test-dashboard"><span class="skill-icon">🧪</span> ab-test-dashboard</div>
+                        <div class="skill-item" onclick="showSkillModal('onboarding-cro')" data-skill="onboarding-cro">
+                            <span class="skill-icon">👋</span> onboarding-cro
+                        </div>
+                        <div class="skill-item" onclick="showSkillModal('page-cro')" data-skill="page-cro"><span
+                                class="skill-icon">📄</span> page-cro</div>
+                        <div class="skill-item" onclick="showSkillModal('popup-cro')" data-skill="popup-cro"><span
+                                class="skill-icon">🪟</span> popup-cro</div>
+                        <div class="skill-item" onclick="showSkillModal('signup-flow-cro')"
+                            data-skill="signup-flow-cro"><span class="skill-icon">📝</span> signup-flow-cro</div>
+                        <div class="skill-item" onclick="showSkillModal('paywall-upgrade-cro')"
+                            data-skill="paywall-upgrade-cro"><span class="skill-icon">💳</span> paywall-upgrade-cro
+                        </div>
+                        <div class="skill-item" onclick="showSkillModal('pricing-strategy')"
+                            data-skill="pricing-strategy"><span class="skill-icon">🏷️</span> pricing-strategy</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4 data-i18n="skills.ads">Ads & Creative</h4>
+                    <div class="skill-items">
+                        <div class="skill-item" onclick="showSkillModal('ad-creative-variations')"
+                            data-skill="ad-creative-variations"><span class="skill-icon">🎨</span>
+                            ad-creative-variations</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4 data-i18n="skills.competitor">Competitor Intelligence</h4>
+                    <div class="skill-items">
+                        <div class="skill-item" onclick="showSkillModal('competitor-teardown')"
+                            data-skill="competitor-teardown"><span class="skill-icon">🔎</span> competitor-teardown
+                        </div>
+                        <div class="skill-item" onclick="showSkillModal('competitor-monitor')"
+                            data-skill="competitor-monitor"><span class="skill-icon">👁️</span> competitor-monitor</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4 data-i18n="skills.design">Design & Development</h4>
+                    <div class="skill-items">
+                        <div class="skill-item" onclick="showSkillModal('ui-ux-pro-max')" data-skill="ui-ux-pro-max">
+                            <span class="skill-icon">✨</span> ui-ux-pro-max
+                        </div>
+                        <div class="skill-item" onclick="showSkillModal('frontend-design')"
+                            data-skill="frontend-design"><span class="skill-icon">🖥️</span> frontend-design</div>
+                        <div class="skill-item" onclick="showSkillModal('tailwind-patterns')"
+                            data-skill="tailwind-patterns"><span class="skill-icon">🎨</span> tailwind-patterns</div>
+                        <div class="skill-item" onclick="showSkillModal('documentation-templates')"
+                            data-skill="documentation-templates"><span class="skill-icon">📝</span>
+                            documentation-templates</div>
+                        <div class="skill-item" onclick="showSkillModal('remotion-best-practices')"
+                            data-skill="remotion-best-practices"><span class="skill-icon">🎬</span>
+                            remotion-best-practices</div>
+                        <div class="skill-item" onclick="showSkillModal('brand-guidelines-anthropic')"
+                            data-skill="brand-guidelines-anthropic"><span class="skill-icon">🎨</span>
+                            brand-guidelines-anthropic</div>
+                        <div class="skill-item" onclick="showSkillModal('brand-guidelines-community')"
+                            data-skill="brand-guidelines-community"><span class="skill-icon">🌈</span>
+                            brand-guidelines-community</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skill Modal -->
+    <div class="modal-overlay" id="skillModal" onclick="closeSkillModal(event)">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeSkillModal()">&times;</button>
+            <div class="modal-icon" id="modalIcon">🎯</div>
+            <h3 class="modal-title" id="modalTitle">Skill Name</h3>
+            <p class="modal-description" id="modalDescription">Description here...</p>
+            <div class="modal-capabilities">
+                <h4 data-i18n="modal.capabilities">🚀 What it can do</h4>
+                <ul id="modalCapabilities"></ul>
+            </div>
+            <div class="modal-examples">
+                <h4 data-i18n="modal.examples">💡 Real-world Examples</h4>
+                <ul id="modalExamples"></ul>
+            </div>
+            <div class="modal-footer">
+                <span class="modal-tag" data-i18n="modal.included">✨ Ready to use in CLI</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Install Section -->
+    <section class="install" id="install">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="install.title">Get Started in Seconds</h2>
+                <p class="section-subtitle" data-i18n="install.subtitle">Choose your installation method</p>
+            </div>
+            <div class="install-options">
+                <div class="install-card">
+                    <h3 data-i18n="install.npx.title">Using npx (No Install)</h3>
+                    <div class="code-block">
+                        <code>npx @nguyenphp/antigravity-marketing init</code>
+                        <button class="copy-btn" onclick="copyCode(this)">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="install-card">
+                    <h3 data-i18n="install.global.title">Install Global</h3>
+                    <div class="code-block">
+                        <code>npm install -g @nguyenphp/antigravity-marketing</code>
+                        <button class="copy-btn" onclick="copyCode(this)">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="code-block">
+                        <code>ag-marketing-kit init</code>
+                        <button class="copy-btn" onclick="copyCode(this)">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="cli-commands">
+                <h3 data-i18n="install.commands.title">CLI Commands</h3>
+                <div class="commands-grid">
+                    <div class="command">
+                        <code>ag-marketing-kit init</code>
+                        <span data-i18n="install.commands.init">Install .agent folder</span>
+                    </div>
+                    <div class="command">
+                        <code>ag-marketing-kit update</code>
+                        <span data-i18n="install.commands.update">Update to latest version</span>
+                    </div>
+                    <div class="command">
+                        <code>ag-marketing-kit status</code>
+                        <span data-i18n="install.commands.status">Check installation status</span>
+                    </div>
+                    <div class="command">
+                        <code>ag-marketing-kit list</code>
+                        <span data-i18n="install.commands.list">List all available skills</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support Section -->
+    <section class="support" id="support">
+        <div class="container">
+            <div class="support-content">
+                <h2 data-i18n="support.title">Support This Project</h2>
+                <p data-i18n="support.desc">If you find this project useful, consider supporting its development</p>
+
+                <!-- QR Code for Vietnam -->
+                <div class="qr-donate">
+                    <img src="vietcombank-qr.jpg" alt="Vietcombank QR Code - Donate" class="qr-image">
+                    <p class="qr-caption" data-i18n="support.qr">Scan to donate via Vietcombank (Vietnam)</p>
+                </div>
+
+                <div class="support-buttons">
+                    <a href="https://www.buymeacoffee.com/nguyenphp" target="_blank" class="support-btn coffee">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M20.216 6.415l-.132-.666c-.119-.598-.388-1.163-1.001-1.379-.197-.069-.42-.098-.57-.241-.152-.143-.196-.366-.231-.572-.065-.378-.125-.756-.192-1.133-.057-.325-.102-.69-.25-.987-.195-.4-.597-.634-.996-.788a5.723 5.723 0 00-.626-.194c-1-.263-2.05-.36-3.077-.416a25.834 25.834 0 00-3.7.062c-.915.083-1.88.184-2.75.5-.318.116-.646.256-.888.501-.297.302-.393.77-.177 1.146.154.267.415.456.692.58.36.162.737.284 1.123.366 1.075.238 2.189.331 3.287.37 1.218.05 2.437.01 3.65-.118.299-.033.598-.073.896-.119.352-.054.578-.513.474-.834-.124-.383-.457-.531-.834-.473-.466.074-.96.108-1.382.146-1.177.08-2.358.082-3.536.006a22.228 22.228 0 01-1.157-.107c-.086-.01-.18-.025-.258-.036-.243-.036-.484-.08-.724-.13-.111-.027-.111-.185 0-.212h.005c.277-.06.557-.108.838-.147h.002c.131-.009.263-.032.394-.048a25.076 25.076 0 013.426-.12c.674.019 1.347.067 2.017.144l.228.031c.267.04.533.088.798.145.392.085.895.113 1.07.542.055.137.08.288.111.431l.319 1.484a.237.237 0 01-.199.284h-.003c-.037.006-.075.01-.112.015a36.704 36.704 0 01-4.743.295 37.059 37.059 0 01-4.699-.304c-.14-.017-.293-.042-.417-.06-.326-.048-.649-.108-.973-.161-.393-.065-.768-.032-1.123.161-.29.16-.527.404-.675.701-.154.316-.199.66-.267 1-.069.34-.176.707-.135 1.056.087.753.613 1.365 1.37 1.502a39.69 39.69 0 0011.343.376.483.483 0 01.535.53l-.071.697-1.018 9.907c-.041.41-.047.832-.125 1.237-.122.637-.553 1.028-1.182 1.171-.577.131-1.165.2-1.756.205-.656.004-1.31-.025-1.966-.022-.699.004-1.556-.06-2.095-.58-.475-.458-.54-1.174-.605-1.793l-.731-7.013-.322-3.094c-.037-.351-.286-.695-.678-.678-.336.015-.718.3-.678.679l.228 2.185.949 9.112c.147 1.344 1.174 2.068 2.446 2.272.742.12 1.503.144 2.257.156.966.016 1.942.053 2.892-.122 1.408-.258 2.465-1.198 2.616-2.657.34-3.332.683-6.663 1.024-9.995l.215-2.087a.484.484 0 01.39-.426c.402-.078.787-.212 1.074-.518.455-.488.546-1.124.385-1.766zm-1.478.772c-.145.137-.363.201-.578.233-2.416.359-4.866.54-7.308.46-1.748-.06-3.477-.254-5.207-.498-.17-.024-.353-.055-.47-.18-.22-.236-.111-.71-.054-.995.052-.26.152-.609.463-.646.484-.057 1.046.148 1.526.22.577.088 1.156.159 1.737.212 2.48.226 5.002.19 7.472-.14.45-.06.899-.13 1.345-.21.399-.072.84-.206 1.08.206.166.281.188.657.162.974a.544.544 0 01-.169.364z" />
+                        </svg>
+                        <span>Buy Me a Coffee</span>
+                    </a>
+                    <a href="https://github.com/sponsors/nguyenphp" target="_blank" class="support-btn sponsor">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                        </svg>
+                        <span>GitHub Sponsors</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Credits Section -->
+    <section class="credits">
+        <div class="container">
+            <h3 data-i18n="credits.title">Built With & Credits</h3>
+            <div class="credits-grid">
+                <a href="https://github.com/vudovn/antigravity-kit" target="_blank" class="credit-item">
+                    <span class="credit-icon">🚀</span>
+                    <span class="credit-name">Antigravity Kit</span>
+                    <span class="credit-desc" data-i18n="credits.antigravity">Base CLI structure</span>
+                </a>
+                <a href="https://ui-ux-pro-max-skill.nextlevelbuilder.io/" target="_blank" class="credit-item">
+                    <span class="credit-icon">🎨</span>
+                    <span class="credit-name">UI UX Pro Max</span>
+                    <span class="credit-desc" data-i18n="credits.uiux">Design skills</span>
+                </a>
+                <a href="https://claudekit.cc/" target="_blank" class="credit-item">
+                    <span class="credit-icon">🛠️</span>
+                    <span class="credit-name">ClaudeKit</span>
+                    <span class="credit-desc" data-i18n="credits.claudekit">Core skills</span>
+                </a>
+                <a href="https://github.com/remotion-dev/skills" target="_blank" class="credit-item">
+                    <span class="credit-icon">🎬</span>
+                    <span class="credit-name">Remotion Dev Skills</span>
+                    <span class="credit-desc" data-i18n="credits.remotion">Video production rules</span>
+                </a>
+                <a href="https://github.com/sickn33/antigravity-awesome-skills" target="_blank" class="credit-item">
+                    <span class="credit-icon">🌌</span>
+                    <span class="credit-name">Awesome Skills</span>
+                    <span class="credit-desc" data-i18n="credits.awesome">250+ community skills</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/icon.png" alt="Logo" class="footer-logo-img">
+                    <span class="logo-text">Antigravity Marketing Kit</span>
+                </div>
+                <p data-i18n="footer.desc">Marketing-focused AI agent skills for Gemini CLI</p>
+                <div class="footer-links">
+                    <a href="https://ag-mkt.site" target="_blank">Official Website</a>
+                    <a href="https://github.com/nguyenphp/antigravity-marketing" target="_blank">GitHub</a>
+                    <a href="https://github.com/nguyenphp/antigravity-marketing/issues" target="_blank"
+                        data-i18n="footer.issues">Issues</a>
+                    <a href="https://github.com/nguyenphp/antigravity-marketing/blob/main/LICENSE" target="_blank"
+                        data-i18n="footer.license">License</a>
+                </div>
+                <p class="footer-copyright">© 2025 NguyenPHP. MIT License.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="i18n.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

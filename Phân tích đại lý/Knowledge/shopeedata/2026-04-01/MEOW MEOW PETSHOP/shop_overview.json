@@ -1,0 +1,36 @@
+{
+    "success": true,
+    "data": {
+        "MaDaiLy": "E0086",
+        "shopUrl": "https://shopee.vn/meowmeow.petshop",
+        "id": "420411935",
+        "name": "MEOW MEOW PETSHOP",
+        "shopAvatar": "https://down-ws-cn.img.susercontent.com/vn-11134216-7ras8-m3al1fuxw4q40b_tn.webp",
+        "shopType": "Preferred",
+        "shipMethod": "Local",
+        "shopOpenTime": "2021-04-10",
+        "rating": 4.95,
+        "products": "285",
+        "brandProducts": "243",
+        "followers": "100,62k",
+        "newProducts": "0",
+        "coreMetrics": [
+            {
+                "label": "Revenue",
+                "value": "₫4,73tỉ"
+            },
+            {
+                "label": "Units Sold",
+                "value": "68,73k"
+            },
+            {
+                "label": "Average Selling Price",
+                "value": "₫68,84k"
+            }
+        ],
+        "shop_id": "420411935"
+    },
+    "message": null,
+    "cached": null,
+    "code": null
+}

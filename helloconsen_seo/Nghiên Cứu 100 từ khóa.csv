@@ -1,0 +1,101 @@
+STT,Từ Khóa Trọng Tâm (Keyword),Khối Lượng Ước Tính/Tháng,Ý Định Tìm Kiếm (Search Intent),Mức Độ Cạnh Tranh,Phân Nhóm Nội Dung Chiến Lược
+1,phòng khám thú y gần đây,"2,740,000",Local / Transactional,Rất Cao,Dịch vụ địa phương / Cấp cứu
+2,pet store near me / pet shop,"1,830,000",Local / Navigational,Rất Cao,Thương mại điện tử / Bán lẻ
+3,cắt tỉa lông chó,"1,000,000",Commercial / Local,Cao,Dịch vụ Spa / Grooming
+4,cấp cứu thú y,823,Local / Emergency,Rất Cao,Dịch vụ địa phương / Y tế
+5,khách sạn chó mèo,450,Commercial / Local,Cao,Dịch vụ lưu trú thú cưng
+6,spa thú cưng,450,Commercial / Local,Cao,Dịch vụ Spa / Grooming
+7,chó cảnh,368,Commercial Investigation,Cao,Cửa hàng thú cưng
+8,nệm cho chó (dog bed),368,Transactional,Cao,Phụ kiện cơ bản
+9,thức ăn cho chó (dog food),368,Transactional,Rất Cao,Dinh dưỡng thú cưng
+10,bệnh viện thú y,368,Local / Transactional,Rất Cao,Dịch vụ địa phương / Y tế
+11,huấn luyện chó,301,Informational / Local,Trung bình,Dịch vụ hành vi
+12,chuồng chó (dog crate),301,Transactional,Cao,Phụ kiện nhà ở
+13,thức ăn cho mèo (cat food),301,Transactional,Rất Cao,Dinh dưỡng thú cưng
+14,nhà cây cho mèo (cat trees),301,Transactional,Cao,Phụ kiện giải trí
+15,chó poodle,246,Informational / Commercial,Cao,Giống loài cụ thể
+16,cát vệ sinh cho mèo,201,Transactional,Rất Cao,Vật dụng vệ sinh
+17,vòng cổ chó (dog collars),201,Transactional,Trung bình,Phụ kiện thời trang
+18,dây dắt chó (dog harness),201,Transactional,Trung bình,Phụ kiện vận động
+19,đồ chơi cho mèo,201,Transactional,Cao,Phụ kiện giải trí
+20,trạm cứu hộ chó mèo,201,Informational,Trung bình,Trách nhiệm xã hội (CSR)
+21,nhận nuôi chó mèo,201,Informational / Transactional,Trung bình,Trách nhiệm xã hội (CSR)
+22,mèo anh lông ngắn,201,Informational / Commercial,Rất Cao,Giống loài cụ thể
+23,mua chó cảnh,201,Transactional,Cao,Cửa hàng thú cưng
+24,royal canin,135,Navigational / Transactional,Cao,Thương hiệu thức ăn
+25,thuốc trị ve rận cho chó,135,Transactional / Medical,Cao,Dược phẩm y tế
+26,đồ chơi cho chó,135,Transactional,Cao,Phụ kiện giải trí
+27,nệm cho mèo,135,Transactional,Trung bình,Phụ kiện cơ bản
+28,sữa tắm cho mèo,165,Transactional,Cao,Chăm sóc sắc đẹp
+29,sữa tắm cho chó,165,Transactional,Cao,Chăm sóc sắc đẹp
+30,thức ăn hạt cho mèo,165,Transactional,Cao,Dinh dưỡng thú cưng
+31,chó corgi,135,Informational / Commercial,Cao,Giống loài cụ thể
+32,chó alaska,110,Informational / Commercial,Cao,Giống loài cụ thể
+33,canxi cho chó,110,Transactional / Medical,Trung bình,Thực phẩm bổ sung
+34,canxi cho mèo,110,Transactional / Medical,Trung bình,Thực phẩm bổ sung
+35,trị nấm cho mèo,110,Informational / Transactional,Cao,Dược phẩm y tế
+36,chó bị nôn,"90,5",Informational / Emergency,Trung bình,Tra cứu bệnh lý
+37,chó rụng lông,"90,5",Informational,Trung bình,Tra cứu bệnh lý
+38,pate ciao,"90,5",Navigational / Transactional,Cao,Thương hiệu thức ăn
+39,pate cho mèo,165,Transactional,Rất Cao,Dinh dưỡng thú cưng
+40,xương gặm sạch răng,74,Transactional,Trung bình,Phụ kiện nha khoa
+41,cách trị rận chó,74,Informational,Trung bình,Hướng dẫn chăm sóc
+42,dầu cá hồi cho chó mèo,74,Transactional,Trung bình,Thực phẩm bổ sung
+43,lồng ấp chó mèo,"61,8",Transactional,Trung bình,Thiết bị chuyên dụng
+44,bánh thưởng cho mèo,"57,4",Transactional,Trung bình,Dinh dưỡng phụ
+45,phụ kiện thú cưng,"55,2",Commercial Investigation,Cao,Tổng quan thương mại
+46,balo đựng mèo,"51,3",Transactional,Cao,Phụ kiện di chuyển
+47,rào chắn thú cưng,"47,8",Transactional,Trung bình,Phụ kiện nhà ở
+48,quây chó,"47,4",Transactional,Trung bình,Phụ kiện nhà ở
+49,áo mưa cho chó,"46,6",Transactional,Trung bình,Phụ kiện thời trang
+50,xe đẩy thú cưng,"45,7",Transactional,Trung bình,Phụ kiện di chuyển
+51,bàn chải đánh răng cho chó,"42,8",Transactional,Thấp,Vệ sinh nha khoa
+52,thức ăn hữu cơ cho chó,"40,5",Commercial / Transactional,Thấp,Ngách: Sản phẩm hữu cơ
+53,thức ăn chay cho chó,"40,5",Commercial,Thấp,Ngách: Thuần chay
+54,súp thưởng shiba,"40,5",Transactional,Trung bình,Thương hiệu dinh dưỡng
+55,thức ăn ướt cho mèo,"49,5",Commercial Investigation,Trung bình,Dinh dưỡng thú cưng
+56,thức ăn cho chó con,"49,5",Commercial / Transactional,Cao,Dinh dưỡng theo độ tuổi
+57,pate royal canin,"49,5",Transactional,Cao,Thương hiệu dinh dưỡng
+58,thức ăn hạt không ngũ cốc,"40,5",Commercial Investigation,Trung bình,Ngách: Không ngũ cốc
+59,đồ ăn dặm cho chó mèo,"33,1",Transactional,Trung bình,Dinh dưỡng thú cưng
+60,tăng đề kháng cho chó,30,Informational / Transactional,Thấp,Thực phẩm chức năng
+61,tăng đề kháng cho mèo,30,Informational / Transactional,Thấp,Thực phẩm chức năng
+62,sữa bột cho chó mèo con,50,Transactional,Trung bình,Sữa công thức
+63,xịt khử mùi thú cưng,45,Transactional,Trung bình,Vệ sinh môi trường
+64,nước rửa tai cho mèo,35,Transactional,Trung bình,Vệ sinh cá nhân
+65,chó bỏ ăn,80,Informational / Emergency,Trung bình,Tra cứu bệnh lý
+66,mèo bị tiêu chảy,75,Informational / Emergency,Trung bình,Tra cứu bệnh lý
+67,tiêm vắc xin cho chó mèo,70,Local / Informational,Cao,Dịch vụ y tế dự phòng
+68,tẩy giun cho mèo,90,Informational / Transactional,Cao,Chăm sóc y tế
+69,lịch tiêm phòng cho chó,65,Informational,Trung bình,Kiến thức y tế
+70,men tiêu hóa cho chó,60,Transactional,Trung bình,Thực phẩm bổ sung
+71,tã cho chó,60,Transactional,Trung bình,Vật dụng vệ sinh
+72,cách khử mùi hôi chó mèo,55,Informational,Trung bình,Hướng dẫn chăm sóc
+73,thức ăn sấy lạnh,55,Transactional,Cao,Dinh dưỡng cao cấp
+74,lược chải lông chó mèo,50,Transactional,Thấp,Dụng cụ chăm sóc
+75,máy dọn phân mèo,50,Transactional,Cao,Thiết bị thông minh
+76,kìm cắt móng cho chó mèo,45,Transactional,Thấp,Dụng cụ chăm sóc
+77,cách tắm cho chó,45,Informational,Thấp,Hướng dẫn chăm sóc
+78,bát ăn tự động cho chó mèo,40,Transactional,Trung bình,Thiết bị thông minh
+79,vitamin tổng hợp cho chó,40,Transactional,Trung bình,Thực phẩm bổ sung
+80,nước hoa cho thú cưng,35,Transactional,Trung bình,Chăm sóc sắc đẹp
+81,dịch vụ hỏa táng thú cưng,30,Local / Transactional,Trung bình,Dịch vụ hậu sự
+82,lysine cho mèo,25,Transactional,Thấp,Ngách: Vi chất dinh dưỡng
+83,gội đầu khô cho chó mèo,20,Transactional,Thấp,Sản phẩm làm sạch nhanh
+84,bổ sung canxi hữu cơ,20,Transactional,Thấp,Ngách: Canxi hữu cơ
+85,chó bị hạ bàn,20,Informational / Medical,Thấp,Bệnh lý xương khớp
+86,bổ máu cho chó mèo,15,Transactional / Medical,Thấp,Thực phẩm chức năng
+87,giải độc gan cho chó mèo,15,Transactional / Medical,Thấp,Thực phẩm chức năng
+88,sữa tắm an toàn cho da nhạy cảm,15,Transactional,Thấp,Ngách: Chăm sóc da liễu
+89,trị ký sinh trùng máu,10,Informational / Medical,Thấp,Hỗ trợ điều trị bệnh lý
+90,sữa tắm nano bạc cho thú cưng,10,Commercial / Niche,Rất Thấp,Ngách: Công nghệ diệt khuẩn
+91,beta glucan cho chó mèo,8,Informational / Transactional,Thấp,Ngách: Vi chất miễn dịch
+92,phục hồi chức năng chó mèo,5,Informational,Thấp,Dịch vụ vật lý trị liệu
+93,pet shop hà nội,150,Local Navigational,Rất Cao,Truy vấn địa lý địa phương
+94,pet shop tphcm,180,Local Navigational,Rất Cao,Truy vấn địa lý địa phương
+95,pet shop hải phòng,50,Local Navigational,Trung bình,Truy vấn địa lý địa phương
+96,pet shop đà nẵng,60,Local Navigational,Trung bình,Truy vấn địa lý địa phương
+97,cửa hàng bán chó mèo uy tín,75,Commercial Investigation,Cao,Đánh giá thương hiệu
+98,cỏ mèo,85,Transactional,Trung bình,Sản phẩm thiên nhiên
+99,thức ăn cho mèo con,90,Transactional,Cao,Dinh dưỡng theo độ tuổi
+100,súp thưởng,100,Transactional,Cao,Dinh dưỡng phụ

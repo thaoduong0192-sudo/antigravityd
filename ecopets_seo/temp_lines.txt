@@ -1,0 +1,10 @@
+                            break
+                    if image_url: break
+                await page.wait_for_timeout(3000)
+                
+            if not image_url or not img_locator:
+                  # CHIẾN LƯỢC MỚI KHẮC PHỤC LỖI CLICK: Tải ảnh nguyên bản trực tiếp từ URL gốc
+            # Đảm bảo ảnh infographic giữ nguyên toàn bộ, không bị cắt chữ
+            print("⏳ Đang tải ảnh NGUYÊN BẢN từ URL gốc (chất lượng cao nhất)...")
+            try:
+                import requests as req_lib

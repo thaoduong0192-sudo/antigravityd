@@ -1,0 +1,356 @@
+{
+    "campaign_name": "Beta Amin Content Campaign",
+    "total_target": 596,
+    "keywords": [
+        {
+            "keyword": "súp thưởng cho mèo",
+            "search_volume": 22000,
+            "target_articles": 35,
+            "articles_written": 35,
+            "core_insight": "Cảnh báo súp nước chứa 90% nước, ít đạm. Mua gói Beta Amin 10gr giá 25k pha ra được hàng chục chén súp."
+        },
+        {
+            "keyword": "chó bị tiêu chảy",
+            "search_volume": 18500,
+            "target_articles": 30,
+            "articles_written": 30,
+            "core_insight": "Bù nước và ngưng đồ ăn cứng. Pha loãng Beta Amin bơm xilanh để cấp năng lượng sống."
+        },
+        {
+            "keyword": "hạt cho mèo giá rẻ",
+            "search_volume": 18000,
+            "target_articles": 29,
+            "articles_written": 29,
+            "core_insight": "Khuyên dùng hạt rẻ (như Me-O, Catsrang), nhưng mix thêm gia vị Beta Amin để đảm bảo mèo vẫn đủ chất, mượt lông."
+        },
+        {
+            "keyword": "bột tăng nọng cho mèo",
+            "search_volume": 15200,
+            "target_articles": 24,
+            "articles_written": 24,
+            "core_insight": "Khẳng định cơ mặt chỉ to ra nhờ Protein. Sốt đạm Beta Amin chứa protein đậm đặc giúp tạo nọng chắc khỏe."
+        },
+        {
+            "keyword": "súp thưởng wanpy",
+            "search_volume": 14500,
+            "target_articles": 23,
+            "articles_written": 23,
+            "core_insight": "So sánh vật chất khô (Dry Matter). Beta Amin sấy khô không cần tủ lạnh, đạm \\>40%, an toàn hơn súp nước."
+        },
+        {
+            "keyword": "mèo kén ăn",
+            "search_volume": 14200,
+            "target_articles": 23,
+            "articles_written": 23,
+            "core_insight": "Mèo kén ăn do hạt bay mùi. Hướng dẫn pha sốt Beta Amin phủ lên hạt."
+        },
+        {
+            "keyword": "chó kén ăn",
+            "search_volume": 12500,
+            "target_articles": 20,
+            "articles_written": 17,
+            "core_insight": "Giải thích sai lầm khi đổi hạt liên tục làm chó stress. Chốt sale lọ rắc hạt 25k."
+        },
+        {
+            "keyword": "pate cho mèo nekko",
+            "search_volume": 12400,
+            "target_articles": 20,
+            "articles_written": 0,
+            "core_insight": "Pate Nekko tốt nhưng nhiều nước. Trộn thêm 1g Beta Amin để biến pate bình dân thành bữa ăn y tế cao cấp."
+        },
+        {
+            "keyword": "bột dinh dưỡng cho mèo",
+            "search_volume": 12000,
+            "target_articles": 19,
+            "articles_written": 0,
+            "core_insight": "Phân biệt bột tinh bột và bột đạm thủy phân. Nhấn mạnh hàm lượng Arginine 20mg/g phục hồi thể lực."
+        },
+        {
+            "keyword": "cách chữa mèo con bị tiêu chảy",
+            "search_volume": 11200,
+            "target_articles": 18,
+            "articles_written": 0,
+            "core_insight": "Cảnh báo ruột mèo con yếu. Đạm đậu Hà Lan và nấm men trong Beta Amin cực êm dịu dạ dày."
+        },
+        {
+            "keyword": "súp thưởng ciao",
+            "search_volume": 11200,
+            "target_articles": 18,
+            "articles_written": 0,
+            "core_insight": "Nhấn mạnh tính kháng dị ứng, không dùng phụ phẩm thịt như các loại súp thông thường."
+        },
+        {
+            "keyword": "cách làm mèo mập",
+            "search_volume": 9800,
+            "target_articles": 16,
+            "articles_written": 0,
+            "core_insight": "Chỉ cách mập cơ chứ không mập mỡ. Giới thiệu chất béo từ phô mai và trứng trong Beta Amin."
+        },
+        {
+            "keyword": "chó nôn bỏ ăn",
+            "search_volume": 9400,
+            "target_articles": 15,
+            "articles_written": 0,
+            "core_insight": "Giải thích nôn do không tiêu hóa được thịt. Đạm thủy phân siêu nhỏ không làm nặng bụng."
+        },
+        {
+            "keyword": "cách chọn hạt cho mèo",
+            "search_volume": 9200,
+            "target_articles": 15,
+            "articles_written": 0,
+            "core_insight": "Mẹo chọn hạt rẻ, mix với Topper sấy khô Beta Amin. Chèn banner \"Mua 5 lọ giá sốc\" tăng AOV."
+        },
+        {
+            "keyword": "men tiêu hóa cho mèo",
+            "search_volume": 8900,
+            "target_articles": 14,
+            "articles_written": 0,
+            "core_insight": "Bán Combo Men vi sinh \\+ Beta Amin đẩy mạnh khả năng phục hồi toàn diện."
+        },
+        {
+            "keyword": "pate snappy tom",
+            "search_volume": 8600,
+            "target_articles": 14,
+            "articles_written": 0,
+            "core_insight": "Tương tự Nekko. Đẩy mạnh nút Mua Combo 3 gói Beta Amin để trộn cùng."
+        },
+        {
+            "keyword": "thức ăn tăng cân cho chó",
+            "search_volume": 8500,
+            "target_articles": 14,
+            "articles_written": 0,
+            "core_insight": "Đừng mua thức ăn đắt, chỉ cần rắc thêm gia vị Beta Amin vào suất ăn bình thường để x2 dinh dưỡng."
+        },
+        {
+            "keyword": "chó biếng ăn phải làm sao",
+            "search_volume": 8100,
+            "target_articles": 13,
+            "articles_written": 0,
+            "core_insight": "Đưa giải pháp mồi vị giác umami từ đạm nấm men thay vì ép ăn."
+        },
+        {
+            "keyword": "cách làm mượt lông mèo",
+            "search_volume": 8100,
+            "target_articles": 13,
+            "articles_written": 0,
+            "core_insight": "Mèo rụng lông do thiếu chất. Beta Amin vừa tăng nọng vừa cấp vitamin A, E nuôi dưỡng màng da."
+        },
+        {
+            "keyword": "pate cho mèo con",
+            "search_volume": 7900,
+            "target_articles": 13,
+            "articles_written": 0,
+            "core_insight": "Mèo con dạ dày nhỏ. Dùng Beta Amin cấp đạm tinh khiết để mèo con hấp thu mà không no hơi, chướng bụng."
+        },
+        {
+            "keyword": "hạt cho mèo kén ăn",
+            "search_volume": 7800,
+            "target_articles": 13,
+            "articles_written": 0,
+            "core_insight": "Phân tích top hạt, nhưng khuyên dùng gia vị rắc Beta Amin để tiết kiệm chi phí mua hạt đắt."
+        },
+        {
+            "keyword": "chó bị rối loạn tiêu hóa",
+            "search_volume": 7600,
+            "target_articles": 12,
+            "articles_written": 0,
+            "core_insight": "Cảnh báo bệnh viêm ruột. Beta Amin có khoai tây, tảo biển giúp phân vào khuôn đẹp."
+        },
+        {
+            "keyword": "dưỡng lông cho poodle",
+            "search_volume": 7400,
+            "target_articles": 12,
+            "articles_written": 0,
+            "core_insight": "Giải thích vai trò của Vitamin A, E và chất béo \\>10% trong Beta Amin giúp lông Poodle bung xốp."
+        },
+        {
+            "keyword": "mèo nôn ra bọt trắng",
+            "search_volume": 6800,
+            "target_articles": 11,
+            "articles_written": 0,
+            "core_insight": "Hướng dẫn xử lý nôn do búi lông. Tảo biển và xơ thô \\<10% trong Beta Amin giúp cuốn trôi búi lông."
+        },
+        {
+            "keyword": "cách nuôi mèo anh lông ngắn mập",
+            "search_volume": 6700,
+            "target_articles": 11,
+            "articles_written": 0,
+            "core_insight": "Mèo ALN cần nhiều đạm. Rắc 1 muỗng Beta Amin tương đương sức mạnh 1 chén thịt hầm."
+        },
+        {
+            "keyword": "cách làm chó thèm ăn",
+            "search_volume": 6400,
+            "target_articles": 11,
+            "articles_written": 0,
+            "core_insight": "Phân tích cơ chế khứu giác, dùng Beta Amin pha nước ấm làm \"nước hầm\" rắc hạt."
+        },
+        {
+            "keyword": "thức ăn cho chó biếng ăn",
+            "search_volume": 6200,
+            "target_articles": 9,
+            "articles_written": 0,
+            "core_insight": "Gợi ý không cần đổi thức ăn, chỉ cần thêm 1 muỗng Beta Amin là chó quét sạch bát."
+        },
+        {
+            "keyword": "thức ăn cho chó già",
+            "search_volume": 6200,
+            "target_articles": 9,
+            "articles_written": 0,
+            "core_insight": "Chó già móm, suy tụy. Rắc Beta Amin để cung cấp Taurine chống teo cơ mà không cần nhai."
+        },
+        {
+            "keyword": "chó bỏ ăn mệt mỏi",
+            "search_volume": 5600,
+            "target_articles": 8,
+            "articles_written": 0,
+            "core_insight": "Hướng dẫn cấp cứu dinh dưỡng ngay lập tức bằng xilanh pha đạm thủy phân."
+        },
+        {
+            "keyword": "chó poodle kén ăn",
+            "search_volume": 5500,
+            "target_articles": 8,
+            "articles_written": 0,
+            "core_insight": "Poodle rất thông minh, hay đòi ăn đồ ngon. Rắc Beta Amin để trị tính kén chọn."
+        },
+        {
+            "keyword": "chó bị giảm bạch cầu nên ăn gì",
+            "search_volume": 5500,
+            "target_articles": 8,
+            "articles_written": 0,
+            "core_insight": "Phác đồ dùng Beta Amin bơm xilanh để hồi phục tế bào niêm mạc ruột thần tốc."
+        },
+        {
+            "keyword": "sữa tăng cân cho mèo",
+            "search_volume": 5200,
+            "target_articles": 8,
+            "articles_written": 0,
+            "core_insight": "Cảnh báo sữa bò gây tiêu chảy. Hướng dẫn pha Beta Amin thành súp sữa an toàn tuyệt đối."
+        },
+        {
+            "keyword": "cách bù nước cho mèo",
+            "search_volume": 5100,
+            "target_articles": 7,
+            "articles_written": 0,
+            "core_insight": "Mèo lười uống nước. Pha 1 muỗng Beta Amin làm súp lỏng bảo vệ thận khỏi sỏi tiết niệu."
+        },
+        {
+            "keyword": "làm sao để mèo ăn hạt",
+            "search_volume": 4700,
+            "target_articles": 7,
+            "articles_written": 0,
+            "core_insight": "Tạo thói quen ăn uống kết hợp \"Topper\" siêu cấp ẩm."
+        },
+        {
+            "keyword": "thuốc bổ cho chó gầy",
+            "search_volume": 4600,
+            "target_articles": 7,
+            "articles_written": 0,
+            "core_insight": "Thay vì uống thuốc ép ăn, hãy dùng gia vị rắc ngon miệng, hấp thu 95% trực tiếp vào máu."
+        },
+        {
+            "keyword": "dinh dưỡng cho chó mẹ mang thai",
+            "search_volume": 4500,
+            "target_articles": 7,
+            "articles_written": 0,
+            "core_insight": "Chó mẹ cần siêu dinh dưỡng nhưng dạ dày bị chèn ép. Sốt đạm Beta Amin ít thể tích nhưng đậm đặc đạm."
+        },
+        {
+            "keyword": "có nên cho mèo ăn súp thưởng",
+            "search_volume": 4500,
+            "target_articles": 7,
+            "articles_written": 0,
+            "core_insight": "Bài phân tích chuyên sâu. Kết luận: Nên ăn súp tự pha từ bột Sốt đạm thủy phân Beta Amin để không bị kén hạt."
+        },
+        {
+            "keyword": "thuốc kích ăn cho chó",
+            "search_volume": 4300,
+            "target_articles": 6,
+            "articles_written": 0,
+            "core_insight": "Cảnh báo thuốc tây hại gan. Chuyển hướng sang dinh dưỡng kích ăn tự nhiên từ trứng, phô mai."
+        },
+        {
+            "keyword": "chó bị parvo uống nước gì",
+            "search_volume": 4300,
+            "target_articles": 6,
+            "articles_written": 0,
+            "core_insight": "Tư vấn pha tinh chất sốt sấy Ecopets siêu loãng, cấp nước và Arginine giải độc."
+        },
+        {
+            "keyword": "thức ăn cho chó bụng yếu",
+            "search_volume": 3800,
+            "target_articles": 5,
+            "articles_written": 0,
+            "core_insight": "Đẩy mạnh khái niệm đạm Hypoallergenic (kháng dị ứng), loại bỏ thịt bò/gà truyền thống."
+        },
+        {
+            "keyword": "mẹo trị mèo kén hạt",
+            "search_volume": 3500,
+            "target_articles": 5,
+            "articles_written": 0,
+            "core_insight": "Hướng dẫn 3 bước: trộn hạt với bột sấy Beta Amin, làm ấm để dậy mùi."
+        },
+        {
+            "keyword": "viên phô mai cho chó",
+            "search_volume": 3400,
+            "target_articles": 5,
+            "articles_written": 0,
+            "core_insight": "Chốt sale Beta Amin với hương vị phô mai, trứng cực kỳ quyến rũ."
+        },
+        {
+            "keyword": "chó chê hạt",
+            "search_volume": 3200,
+            "target_articles": 5,
+            "articles_written": 0,
+            "core_insight": "Nhấn mạnh độ ẩm của hạt thấp. Pha Beta Amin thành sốt lỏng trộn vào hạt."
+        },
+        {
+            "keyword": "làm sốt trộn hạt",
+            "search_volume": 3100,
+            "target_articles": 4,
+            "articles_written": 0,
+            "core_insight": "Hướng dẫn DIY pha sốt tại nhà từ gói Beta Amin 25k chỉ mất 3 giây, rẻ và tiện lợi."
+        },
+        {
+            "keyword": "thức ăn cho thú cưng suy dinh dưỡng",
+            "search_volume": 2900,
+            "target_articles": 4,
+            "articles_written": 0,
+            "core_insight": "Đưa ra công thức: Pate rẻ tiền \\+ 2g Beta Amin \\= Bữa ăn trị liệu siêu phục hồi thể lực."
+        },
+        {
+            "keyword": "gia vị rắc hạt cho chó mèo",
+            "search_volume": 2800,
+            "target_articles": 4,
+            "articles_written": 0,
+            "core_insight": "So sánh gia vị thông thường với gia vị y tế (Sốt đạm thủy phân) hấp thu 95%."
+        },
+        {
+            "keyword": "đạm thủy phân cho chó mèo",
+            "search_volume": 2500,
+            "target_articles": 3,
+            "articles_written": 0,
+            "core_insight": "Giải thích thuật ngữ y khoa bằng ngôn ngữ bình dân. Định vị Beta Amin là siêu tinh chất."
+        },
+        {
+            "keyword": "chó nhai rồi nhổ ra",
+            "search_volume": 2100,
+            "target_articles": 3,
+            "articles_written": 0,
+            "core_insight": "Giải mã hành vi phản đối thức ăn. Khắc phục bằng nước sốt kích mùi."
+        },
+        {
+            "keyword": "hạt siêu topping",
+            "search_volume": 2100,
+            "target_articles": 3,
+            "articles_written": 0,
+            "core_insight": "Hướng dẫn tự tạo hạt siêu topping tại nhà bằng cách rắc Sốt sấy Beta Amin, an toàn và rẻ hơn."
+        },
+        {
+            "keyword": "topper cho chó mèo kén ăn",
+            "search_volume": 1500,
+            "target_articles": 2,
+            "articles_written": 0,
+            "core_insight": "Định vị Beta Amin là Topper số 1 vì đạm \\>40%, không gây béo phì."
+        }
+    ]
+}

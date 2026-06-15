@@ -1,0 +1,36 @@
+{
+    "success": true,
+    "data": {
+        "MaDaiLy": "E0686",
+        "shopUrl": "https://shopee.vn/daupetshopne",
+        "id": "16610432",
+        "name": "Dậu Pet Shop",
+        "shopAvatar": "https://down-ws-cn.img.susercontent.com/2e55c2e72c216db5fbabc5753d12ebd5_tn.webp",
+        "shopType": "Preferred",
+        "shipMethod": "Local",
+        "shopOpenTime": "2017-02-15",
+        "rating": 4.97,
+        "products": "232",
+        "brandProducts": "41",
+        "followers": "22,95k",
+        "newProducts": "0",
+        "coreMetrics": [
+            {
+                "label": "Revenue",
+                "value": "₫908,23tr"
+            },
+            {
+                "label": "Units Sold",
+                "value": "25,24k"
+            },
+            {
+                "label": "Average Selling Price",
+                "value": "₫35,99k"
+            }
+        ],
+        "shop_id": "16610432"
+    },
+    "message": null,
+    "cached": null,
+    "code": null
+}

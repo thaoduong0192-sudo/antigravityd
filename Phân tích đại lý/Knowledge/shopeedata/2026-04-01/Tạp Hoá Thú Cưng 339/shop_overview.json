@@ -1,0 +1,36 @@
+{
+    "success": true,
+    "data": {
+        "MaDaiLy": "E0013",
+        "shopUrl": "https://shopee.vn/t.a.c_petshop",
+        "id": "131270587",
+        "name": "Tạp Hoá Thú Cưng 339",
+        "shopAvatar": "https://down-ws-cn.img.susercontent.com/f2e308d02cd9b7ff2751c667958cf836_tn.webp",
+        "shopType": "Standard",
+        "shipMethod": "Local",
+        "shopOpenTime": "2019-03-05",
+        "rating": 4.92,
+        "products": "45",
+        "brandProducts": "29",
+        "followers": "2,52k",
+        "newProducts": "0",
+        "coreMetrics": [
+            {
+                "label": "Revenue",
+                "value": "₫49,92tr"
+            },
+            {
+                "label": "Units Sold",
+                "value": "462"
+            },
+            {
+                "label": "Average Selling Price",
+                "value": "₫108,05k"
+            }
+        ],
+        "shop_id": "131270587"
+    },
+    "message": null,
+    "cached": null,
+    "code": null
+}

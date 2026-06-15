@@ -1,0 +1,36 @@
+{
+    "success": true,
+    "data": {
+        "MaDaiLy": "E0484",
+        "shopUrl": "https://shopee.vn/conmeoten.bo",
+        "id": "16868301",
+        "name": "Con mèo tên Bơ Pet Shop",
+        "shopAvatar": "https://down-ws-cn.img.susercontent.com/2a87e184e800a8bcf057b2149267953d_tn.webp",
+        "shopType": "Standard",
+        "shipMethod": "Local",
+        "shopOpenTime": "2017-02-20",
+        "rating": 4.98,
+        "products": "72",
+        "brandProducts": "21",
+        "followers": "11,58k",
+        "newProducts": "0",
+        "coreMetrics": [
+            {
+                "label": "Revenue",
+                "value": "₫6,84tr"
+            },
+            {
+                "label": "Units Sold",
+                "value": "180"
+            },
+            {
+                "label": "Average Selling Price",
+                "value": "₫38,01k"
+            }
+        ],
+        "shop_id": "16868301"
+    },
+    "message": null,
+    "cached": null,
+    "code": null
+}

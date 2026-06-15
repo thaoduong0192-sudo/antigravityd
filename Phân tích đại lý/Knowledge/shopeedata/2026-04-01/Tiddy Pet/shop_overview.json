@@ -1,0 +1,36 @@
+{
+    "success": true,
+    "data": {
+        "shopUrl": "https://shopee.vn/tiddypetshop",
+        "id": "398354027",
+        "name": "Tiddy Pet",
+        "shopAvatar": "https://down-ws-cn.img.susercontent.com/vn-11134216-820l4-mhtxwm1d14w818_tn.webp",
+        "shopType": "Preferred",
+        "shipMethod": "Local",
+        "shopOpenTime": "2021-03-06",
+        "rating": 4.96,
+        "products": "62",
+        "brandProducts": "53",
+        "followers": "8,42k",
+        "newProducts": "0",
+        "coreMetrics": [
+            {
+                "label": "Revenue",
+                "value": "₫904,64tr"
+            },
+            {
+                "label": "Units Sold",
+                "value": "14,14k"
+            },
+            {
+                "label": "Average Selling Price",
+                "value": "₫63,98k"
+            }
+        ],
+        "MaDaiLy": "E0075",
+        "shop_id": "398354027"
+    },
+    "message": null,
+    "cached": null,
+    "code": null
+}

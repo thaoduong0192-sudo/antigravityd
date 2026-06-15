@@ -1,0 +1,17 @@
+{
+  "name": "autism-assistant",
+  "version": "1.0.0",
+  "description": "Trợ lý Giáo dục Tự kỷ tại Nhà — Serverless MVP",
+  "private": true,
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": ["**/tests/**/*.test.js"],
+    "collectCoverageFrom": ["tests/**/*.js", "!tests/__mocks__/**"]
+  }
+}

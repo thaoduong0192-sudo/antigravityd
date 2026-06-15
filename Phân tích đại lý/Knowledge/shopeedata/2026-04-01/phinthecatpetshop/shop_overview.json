@@ -1,0 +1,36 @@
+{
+    "success": true,
+    "data": {
+        "MaDaiLy": "E0024",
+        "shopUrl": "https://shopee.vn/phinthecat.petshop",
+        "id": "573238486",
+        "name": "phinthecat.petshop",
+        "shopAvatar": "https://down-ws-cn.img.susercontent.com/2de833e69ddcd96263c466aea7d2d219_tn.webp",
+        "shopType": "Preferred",
+        "shipMethod": "Local",
+        "shopOpenTime": "2021-10-26",
+        "rating": 4.97,
+        "products": "102",
+        "brandProducts": "53",
+        "followers": "15,46k",
+        "newProducts": "0",
+        "coreMetrics": [
+            {
+                "label": "Revenue",
+                "value": "₫250,04tr"
+            },
+            {
+                "label": "Units Sold",
+                "value": "4,77k"
+            },
+            {
+                "label": "Average Selling Price",
+                "value": "₫52,39k"
+            }
+        ],
+        "shop_id": "573238486"
+    },
+    "message": null,
+    "cached": null,
+    "code": null
+}

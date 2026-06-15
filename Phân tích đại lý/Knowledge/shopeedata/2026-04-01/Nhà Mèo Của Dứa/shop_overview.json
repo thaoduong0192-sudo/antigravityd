@@ -1,0 +1,36 @@
+{
+    "success": true,
+    "data": {
+        "MaDaiLy": "E0269",
+        "shopUrl": "https://shopee.vn/nhameocuadua",
+        "id": "931220372",
+        "name": "Nhà Mèo Của Dứa",
+        "shopAvatar": "https://down-ws-cn.img.susercontent.com/9d42c6ec8d7d0e7dad3d30549ec11c6a_tn.webp",
+        "shopType": "Preferred",
+        "shipMethod": "Local",
+        "shopOpenTime": "2023-01-03",
+        "rating": 4.95,
+        "products": "88",
+        "brandProducts": "11",
+        "followers": "25,21k",
+        "newProducts": "0",
+        "coreMetrics": [
+            {
+                "label": "Revenue",
+                "value": "₫998,95tr"
+            },
+            {
+                "label": "Units Sold",
+                "value": "13,49k"
+            },
+            {
+                "label": "Average Selling Price",
+                "value": "₫74,07k"
+            }
+        ],
+        "shop_id": "931220372"
+    },
+    "message": null,
+    "cached": null,
+    "code": null
+}

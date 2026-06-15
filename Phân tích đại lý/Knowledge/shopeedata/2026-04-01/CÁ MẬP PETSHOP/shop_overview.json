@@ -1,0 +1,36 @@
+{
+    "success": true,
+    "data": {
+        "MaDaiLy": "E0114",
+        "shopUrl": "https://shopee.vn/camappetshop",
+        "id": "55169825",
+        "name": "CÁ MẬP PETSHOP",
+        "shopAvatar": "https://down-ws-cn.img.susercontent.com/vn-11134216-7r98o-lz5tcgicmdnldc_tn.webp",
+        "shopType": "Preferred",
+        "shipMethod": "Local",
+        "shopOpenTime": "2018-02-03",
+        "rating": 4.96,
+        "products": "492",
+        "brandProducts": "347",
+        "followers": "66,29k",
+        "newProducts": "0",
+        "coreMetrics": [
+            {
+                "label": "Revenue",
+                "value": "₫562,83tr"
+            },
+            {
+                "label": "Units Sold",
+                "value": "10,56k"
+            },
+            {
+                "label": "Average Selling Price",
+                "value": "₫53,29k"
+            }
+        ],
+        "shop_id": "55169825"
+    },
+    "message": null,
+    "cached": null,
+    "code": null
+}

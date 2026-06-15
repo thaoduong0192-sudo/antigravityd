@@ -1,0 +1,36 @@
+{
+    "success": true,
+    "data": {
+        "MaDaiLy": "E0480",
+        "shopUrl": "https://shopee.vn/cauvongpetshop",
+        "id": "794546814",
+        "name": "Tiệm Đồ Thú Cưng Cầu Vồng",
+        "shopAvatar": "https://down-ws-cn.img.susercontent.com/1235dd3b6337ccc07625fa5d620f3b9f_tn.webp",
+        "shopType": "Preferred",
+        "shipMethod": "Local",
+        "shopOpenTime": "2022-06-14",
+        "rating": 4.98,
+        "products": "236",
+        "brandProducts": "182",
+        "followers": "11,53k",
+        "newProducts": "0",
+        "coreMetrics": [
+            {
+                "label": "Revenue",
+                "value": "₫3,87tỉ"
+            },
+            {
+                "label": "Units Sold",
+                "value": "18,72k"
+            },
+            {
+                "label": "Average Selling Price",
+                "value": "₫206,62k"
+            }
+        ],
+        "shop_id": "794546814"
+    },
+    "message": null,
+    "cached": null,
+    "code": null
+}

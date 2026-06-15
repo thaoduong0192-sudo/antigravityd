@@ -1,0 +1,797 @@
+
+    <!DOCTYPE html>
+    <html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Báo Cáo SEO Tổng Quan - 19-05-2026</title>
+        <style>
+            :root {
+                --bg-main: #0f172a;
+                --bg-card: #1e293b;
+                --text-main: #f8fafc;
+                --text-muted: #94a3b8;
+                --accent-1: #3b82f6;
+                --accent-2: #10b981;
+                --border-color: #334155;
+            }
+            body {
+                font-family: 'Inter', system-ui, -apple-system, sans-serif;
+                background-color: var(--bg-main);
+                color: var(--text-main);
+                margin: 0;
+                padding: 40px 20px;
+                line-height: 1.6;
+            }
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+            .header {
+                text-align: center;
+                margin-bottom: 50px;
+            }
+            .header h1 {
+                font-size: 2.5rem;
+                background: linear-gradient(135deg, #60a5fa, #34d399);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                margin-bottom: 10px;
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+                gap: 30px;
+            }
+            .card {
+                background-color: var(--bg-card);
+                border-radius: 16px;
+                padding: 30px;
+                border: 1px solid var(--border-color);
+                box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+                transition: transform 0.3s ease;
+            }
+            .card:hover {
+                transform: translateY(-5px);
+            }
+            .card-header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 20px;
+                padding-bottom: 15px;
+                border-bottom: 1px solid var(--border-color);
+            }
+            .site-name {
+                font-size: 1.5rem;
+                font-weight: 700;
+                color: var(--accent-1);
+            }
+            .stats-pill {
+                background-color: rgba(59, 130, 246, 0.1);
+                color: #60a5fa;
+                padding: 6px 12px;
+                border-radius: 999px;
+                font-size: 0.875rem;
+                font-weight: 600;
+            }
+            .metrics {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 15px;
+                margin-bottom: 25px;
+            }
+            .metric-box {
+                background-color: rgba(15, 23, 42, 0.5);
+                padding: 15px;
+                border-radius: 10px;
+                text-align: center;
+            }
+            .metric-value {
+                font-size: 1.5rem;
+                font-weight: 700;
+                color: var(--accent-2);
+            }
+            .metric-label {
+                font-size: 0.8rem;
+                color: var(--text-muted);
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+                margin-top: 5px;
+            }
+            .post-list {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                max-height: 250px;
+                overflow-y: auto;
+            }
+            .post-list::-webkit-scrollbar {
+                width: 6px;
+            }
+            .post-list::-webkit-scrollbar-thumb {
+                background-color: var(--border-color);
+                border-radius: 3px;
+            }
+            .post-item {
+                margin-bottom: 12px;
+                padding-bottom: 12px;
+                border-bottom: 1px dashed var(--border-color);
+            }
+            .post-item:last-child {
+                border-bottom: none;
+                margin-bottom: 0;
+                padding-bottom: 0;
+            }
+            .post-item a {
+                color: var(--text-main);
+                text-decoration: none;
+                font-size: 0.95rem;
+                transition: color 0.2s ease;
+            }
+            .post-item a:hover {
+                color: var(--accent-1);
+            }
+            .no-posts {
+                color: var(--text-muted);
+                font-style: italic;
+                text-align: center;
+                padding: 20px 0;
+            }
+            .note {
+                margin-top: 50px;
+                text-align: center;
+                color: var(--text-muted);
+                font-size: 0.9rem;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>Báo Cáo SEO & Content Hàng Tuần</h1>
+                <p>Tổng hợp dữ liệu 7 ngày qua - Cập nhật ngày 19-05-2026</p>
+            </div>
+            <div class="grid">
+    
+                <div class="card">
+                    <div class="card-header">
+                        <div class="site-name">HelloConsen</div>
+                        <div class="stats-pill">100 Bài Viết</div>
+                    </div>
+                    
+                    <div class="metrics">
+                        <div class="metric-box">
+                            <div class="metric-value">N/A</div>
+                            <div class="metric-label">Lượt View</div>
+                        </div>
+                        <div class="metric-box">
+                            <div class="metric-value">N/A</div>
+                            <div class="metric-label">Top SEO</div>
+                        </div>
+                        <div class="metric-box">
+                            <div class="metric-value">N/A</div>
+                            <div class="metric-label">GEO Keywords</div>
+                        </div>
+                    </div>
+                    
+                    <h4>Bài viết mới nhất (7 ngày qua):</h4>
+                    <ul class="post-list">
+        
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/nhap-si-sua-tam-cho-meo-my-pham-thu-cung-tai-viet-nam-bai-hoc-xuong-mau-cho-nguoi-moi-mo-shop" target="_blank">Nhập sỉ sữa tắm chó mèo, mỹ phẩm thú cưng tại Việt Nam – Bài học xương máu cho người mới mở shop</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/nhap-si-sua-tam-cho-meo-my-pham-thu-cung-tai-viet-nam-khi-khieu-nai-khach-hang-la-co-hoi-xay-dung-thuong-hieu-ben-vung" target="_blank">Nhập sỉ sữa tắm chó mèo, mỹ phẩm thú cưng tại Việt Nam – Khi khiếu nại khách hàng là cơ hội xây dựng thương hiệu bền vững</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/nhap-si-sua-tam-cho-meo-my-pham-thu-cung-chien-luoc-mua-vu-tang-bien-loi-nhuan-cho-petshop" target="_blank">Nhập sỉ sữa tắm chó mèo &#038; mỹ phẩm thú cưng – Chiến lược mùa vụ tăng biên lợi nhuận cho petshop</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/nhap-si-sua-tam-cho-meo-my-pham-thu-cung-tai-viet-nam-bai-toan-dong-tien-khong-ai-noi-thang" target="_blank">Nhập sỉ sữa tắm chó mèo, mỹ phẩm thú cưng tại Việt Nam – Bài toán dòng tiền không ai nói thẳng</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/nhap-si-sua-tam-cho-meo-my-pham-thu-cung-tai-viet-nam-goc-nhin-marketing-0-dong" target="_blank">Nhập sỉ sữa tắm chó mèo, mỹ phẩm thú cưng tại Việt Nam – Góc nhìn Marketing 0 Đồng</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/nhap-si-sua-tam-cho-meo-my-pham-thu-cung-chien-luoc-song-sot-cho-petshop-nho-giua-bao-chuoi-lon" target="_blank">Nhập sỉ sữa tắm chó mèo &#038; mỹ phẩm thú cưng – Chiến lược sống sót cho petshop nhỏ giữa “bão” chuỗi lớn</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/nhap-si-sua-tam-cho-meo-my-pham-thu-cung-tai-tp-hcm-toi-uu-khong-gian-trung-bay-de-tang-doanh-thu-37" target="_blank">Nhập sỉ sữa tắm chó mèo, mỹ phẩm thú cưng tại TP.HCM – Tối ưu không gian trưng bày để tăng doanh thu 37%</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/nhap-si-sua-tam-cho-meo-my-pham-thu-cung-tai-viet-nam-goc-nhin-cong-nghe-cho-chu-shop-thong-minh" target="_blank">Nhập sỉ sữa tắm chó mèo, mỹ phẩm thú cưng tại Việt Nam – Góc nhìn Công Nghệ cho chủ shop thông minh</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/nhap-si-sua-tam-cho-meo-my-pham-thu-cung-tai-tp-hcm-goc-nhin-nhan-su-van-hanh-thuc-chien" target="_blank">Nhập sỉ sữa tắm chó mèo, mỹ phẩm thú cưng tại TP.HCM – Góc nhìn nhân sự &#038; vận hành thực chiến</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/nhap-si-sua-tam-cho-meo-my-pham-thu-cung-tai-tp-hcm-co-hoi-tang-bien-loi-nhuan-40-cho-petshop" target="_blank">Nhập sỉ sữa tắm chó mèo &#038; mỹ phẩm thú cưng tại TP.HCM: Cơ hội tăng biên lợi nhuận 40% cho petshop</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cho-mua-long-chuong-cho-meo-inox-tai-tp-hcm-bai-hoc-xuong-mau-cho-nguoi-moi-mo-shop" target="_blank">Chỗ mua lồng/chuồng chó mèo inox tại TP.HCM – Bài học xương máu cho người mới mở shop</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cho-mua-long-chuong-cho-meo-inox-tai-tp-hcm-goc-nhin-dich-vu-khach-hang-khi-khieu-nai-khong-phai-rui-ro-ma-la-co-hoi-bien-khach-thanh-fan-trung-thanh" target="_blank">Chỗ mua lồng/chuồng chó mèo inox tại TP.HCM: Góc nhìn dịch vụ khách hàng – Khi khiếu nại không phải rủi ro, mà là cơ hội biến khách thành fan trung thành</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cho-mua-long-chuong-cho-meo-inox-tai-tp-hcm-goc-nhin-mua-vu-de-tang-bien-loi-nhuan-37" target="_blank">Chỗ mua lồng/chuồng chó mèo inox tại TP.HCM – Góc nhìn mùa vụ để tăng biên lợi nhuận 37%</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cho-mua-long-chuong-cho-meo-inox-tai-tp-hcm-bai-toan-dong-tien-an-sau-moi-chiec-chuong" target="_blank">Chỗ mua lồng/chuồng chó mèo inox tại TP.HCM: Bài toán dòng tiền ẩn sau mỗi chiếc chuồng</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cho-mua-long-chuong-cho-meo-inox-tai-tp-hcm-goc-nhin-marketing-0-dong-tu-cong-dong-nuoi-thu" target="_blank">Chỗ mua lồng/chuồng chó mèo inox tại TP.HCM – Góc nhìn Marketing 0 Đồng từ cộng đồng nuôi thú</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cho-mua-long-chuong-cho-meo-inox-tai-tp-hcm-bai-toan-song-sot-cua-petshop-nho-truoc-dai-bang-chuoi" target="_blank">Chỗ mua lồng/chuồng chó mèo inox tại TP.HCM – Bài toán sống sót của petshop nhỏ trước “đại bàng” chuỗi</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cho-mua-long-chuong-cho-meo-inox-tai-tp-hcm-goc-nhin-ux-trung-bay-dong-luc-tang-doanh-thu-khong-ngo" target="_blank">Chỗ mua lồng/chuồng chó mèo inox tại TP.HCM: Góc nhìn UX trưng bày – Động lực tăng doanh thu không ngờ</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cho-mua-long-chuong-cho-meo-inox-tai-tp-hcm-goc-nhin-cong-nghe-quan-ly-cham-soc-khach-hang" target="_blank">Chỗ mua lồng/chuồng chó mèo inox tại TP.HCM – Góc nhìn công nghệ quản lý &#038; chăm sóc khách hàng</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cho-mua-long-chuong-cho-meo-inox-tai-tp-hcm-goc-nhin-nhan-su-van-hanh-khi-thiet-bi-don-gian-lai-la-diem-nghen-dao-tao-va-quy-trinh" target="_blank">Chỗ mua lồng/chuồng chó mèo inox tại TP.HCM – Góc nhìn Nhân Sự &#038; Vận Hành: Khi thiết bị đơn giản lại là “điểm nghẽn” đào tạo và quy trình</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cho-mua-long-chuong-cho-meo-inox-tai-tp-hcm-phan-tich-co-hoi-thi-truong-rao-can-tai-chinh-cho-chu-petshop" target="_blank">Chỗ mua lồng/chuồng chó mèo inox tại TP.HCM – Phân tích cơ hội thị trường &#038; rào cản tài chính cho chủ petshop</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-ban-do-cho-meo-duong-tai-tp-hcm-10-goc-nhin-khoi-nghiep-bai-hoc-xuong-mau-cho-nguoi-moi-mo-shop" target="_blank">Cửa hàng bán đồ chó mèo đường tại TP.HCM – 10 Góc nhìn Khởi Nghiệp: Bài học xương máu cho người mới mở shop</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-ban-do-cho-meo-duong-tai-tp-hcm-goc-nhin-dich-vu-khach-hang-bien-khieu-nai-thanh-fan-trung-thanh" target="_blank">Cửa hàng bán đồ chó mèo đường tại TP.HCM – Góc nhìn dịch vụ khách hàng: Biến khiếu nại thành fan trung thành</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-ban-do-cho-meo-duong-tai-tp-hcm-8-goc-nhin-mua-vu-day-doanh-thu-thuc-te" target="_blank">Cửa hàng bán đồ chó mèo đường tại TP.HCM: 8 Góc nhìn Mùa Vụ Đẩy Doanh Thu Thực Tế</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-ban-do-cho-meo-duong-tai-tp-hcm-bai-toan-dong-tien-dang-siet-chat-chu-shop" target="_blank">Cửa hàng bán đồ chó mèo đường tại TP.HCM: Bài toán dòng tiền đang &#8220;siết chặt&#8221; chủ shop</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-ban-do-cho-meo-duong-tai-tp-hcm-goc-nhin-marketing-0-dong" target="_blank">Cửa hàng bán đồ chó mèo đường tại TP.HCM – Góc nhìn Marketing 0 Đồng</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-ban-do-cho-meo-duong-tai-tp-hcm-song-sot-giua-bao-chuoi-lon-nhu-the-nao" target="_blank">Cửa hàng bán đồ chó mèo đường tại TP.HCM: Sống sót giữa bão chuỗi lớn như thế nào?</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-ban-do-cho-meo-duong-tai-tp-hcm-goc-nhin-ux-thiet-ke-khong-gian-de-bien-khach-qua-duong-thanh-khach-trung-thanh" target="_blank">Cửa hàng bán đồ chó mèo đường tại TP.HCM – Góc nhìn UX: Thiết kế không gian để biến khách qua đường thành khách trung thành</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-ban-do-cho-meo-duong-tai-quan-7-goc-nhin-cong-nghe-quan-ly-cham-soc-khach-hang" target="_blank">Cửa hàng bán đồ chó mèo đường tại Quận 7 – Góc nhìn công nghệ quản lý &#038; chăm sóc khách hàng</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-ban-do-cho-meo-duong-tai-tp-hcm-goc-nhin-nhan-su-van-hanh-thuc-chien" target="_blank">Cửa hàng bán đồ chó mèo đường tại TP.HCM: Góc nhìn nhân sự &#038; vận hành thực chiến</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-ban-do-cho-meo-duong-tai-da-nang-co-hoi-thi-truong-bai-toan-tai-chinh-cho-chu-shop" target="_blank">Cửa hàng bán đồ chó mèo đường tại Đà Nẵng: Cơ hội thị trường &#038; bài toán tài chính cho chủ shop</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/pet-shop-mo-cua-muon-tai-quan-ngu-hanh-son-bai-hoc-xuong-mau-cho-nguoi-moi-khoi-nghiep" target="_blank">Pet shop mở cửa muộn tại Quận Ngũ Hành Sơn – Bài học xương máu cho người mới khởi nghiệp</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/pet-shop-mo-cua-muon-tai-quan-thanh-khe-da-nang-goc-nhin-dich-vu-khach-hang-thuc-chien" target="_blank">Pet shop mở cửa muộn tại Quận Thanh Khê Đà Nẵng – Góc nhìn dịch vụ khách hàng thực chiến</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/pet-shop-mo-cua-muon-24h-tai-vinh-phuc-toi-uu-doanh-thu-theo-mua-mua-rung-long" target="_blank">Pet shop mở cửa muộn/24h tại Vĩnh Phúc – Tối ưu doanh thu theo mùa mưa &#038; rụng lông</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/pet-shop-mo-cua-muon-24h-tai-quang-ninh-goc-nhin-dong-tien-ton-kho-cong-no-va-vong-quay-von-thuc-te" target="_blank">Pet shop mở cửa muộn/24h tại Quảng Ninh – Góc nhìn dòng tiền: Tồn kho, công nợ và vòng quay vốn thực tế</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/pet-shop-mo-cua-muon-tai-hai-phong-goc-nhin-marketing-0-dong-de-xay-dung-cong-dong-that" target="_blank">Pet shop mở cửa muộn tại Hải Phòng – Góc nhìn Marketing 0 Đồng để xây dựng cộng đồng thật</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/pet-shop-mo-cua-muon-24h-tai-hai-phong-5-goc-nhin-canh-tranh-gian-tiep-cho-chu-shop-nho" target="_blank">Pet shop mở cửa muộn/24h tại Hải Phòng – 5 góc nhìn cạnh tranh gián tiếp cho chủ shop nhỏ</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/pet-shop-mo-cua-muon-tai-thai-nguyen-thiet-ke-khong-gian-ban-le-quyet-dinh-68-doanh-thu-phu-tro" target="_blank">Pet shop mở cửa muộn tại Thái Nguyên: Thiết kế không gian bán lẻ quyết định 68% doanh thu phụ trợ</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/pet-shop-mo-cua-muon-tai-thai-nguyen-goc-nhin-cong-nghe-quan-ly-cham-soc-khach-hang-24-7" target="_blank">Pet shop mở cửa muộn tại Thái Nguyên – Góc nhìn công nghệ quản lý &#038; chăm sóc khách hàng 24/7</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/pet-shop-mo-cua-muon-tai-thai-nguyen-goc-nhin-nhan-su-van-hanh-thuc-chien" target="_blank">Pet shop mở cửa muộn tại Thái Nguyên – Góc nhìn nhân sự &#038; vận hành thực chiến</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/pet-shop-mo-cua-muon-24h-tai-thai-nguyen-co-hoi-thi-truong-bai-toan-tai-chinh-thuc-te-cho-chu-shop" target="_blank">Pet shop mở cửa muộn/24h tại Thái Nguyên – Cơ hội thị trường &#038; bài toán tài chính thực tế cho chủ shop</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-ban-cho-canh-thuan-chung-tai-viet-nam-bai-hoc-xuong-mau-cho-nguoi-moi-mo-shop" target="_blank">Cửa hàng bán chó cảnh thuần chủng tại Việt Nam – Bài học xương máu cho người mới mở shop</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-ban-cho-canh-thuan-chung-tai-viet-nam-khi-khieu-nai-khong-phai-rui-ro-ma-la-co-hoi-bien-khach-thanh-fan-trung-thanh" target="_blank">Cửa hàng bán chó cảnh thuần chủng tại Việt Nam: Khi khiếu nại không phải rủi ro — mà là cơ hội biến khách thành fan trung thành</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-ban-cho-canh-thuan-chung-tai-viet-nam-chien-luoc-doanh-thu-theo-mua-mua-rung-long" target="_blank">Cửa hàng bán chó cảnh thuần chủng tại Việt Nam: Chiến lược doanh thu theo mùa mưa – rụng lông</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-ban-cho-canh-thuan-chung-tai-viet-nam-bai-toan-dong-tien-dang-sau-ve-ngoai-hao-nhoang" target="_blank">Cửa hàng bán chó cảnh thuần chủng tại Việt Nam: Bài toán dòng tiền đằng sau vẻ ngoài hào nhoáng</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-ban-cho-canh-thuan-chung-tai-viet-nam-6-goc-nhin-marketing-0-dong" target="_blank">Cửa hàng bán chó cảnh thuần chủng tại Việt Nam: 6 Góc nhìn Marketing 0 Đồng</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-ban-cho-canh-thuan-chung-tai-viet-nam-song-sot-giua-bao-chuoi-lon-nhu-the-nao" target="_blank">Cửa hàng bán chó cảnh thuần chủng tại Việt Nam: Sống sót giữa bão chuỗi lớn như thế nào?</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-ban-cho-canh-thuan-chung-tai-viet-nam-ux-trung-bay-quyet-dinh-68-quyet-dinh-mua" target="_blank">Cửa hàng bán chó cảnh thuần chủng tại Việt Nam: UX trưng bày quyết định 68% quyết định mua</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-ban-cho-canh-thuan-chung-tai-viet-nam-goc-nhin-cong-nghe-quan-ly-cham-soc-khach-hang" target="_blank">Cửa hàng bán chó cảnh thuần chủng tại Việt Nam: Góc nhìn công nghệ quản lý &#038; chăm sóc khách hàng</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-ban-cho-canh-thuan-chung-tai-viet-nam-noi-dau-nhan-su-van-hanh-thuc-te" target="_blank">Cửa hàng bán chó cảnh thuần chủng tại Việt Nam – Nỗi đau nhân sự &#038; vận hành thực tế</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-ban-cho-canh-thuan-chung-tai-viet-nam-co-hoi-thi-truong-rao-can-tai-chinh-thuc-te" target="_blank">Cửa hàng bán chó cảnh thuần chủng tại Việt Nam: Cơ hội thị trường &#038; rào cản tài chính thực tế</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/khach-san-cho-meo-sach-se-tai-viet-nam-10-bai-hoc-xuong-mau-cho-nguoi-moi-mo-shop" target="_blank">Khách sạn chó mèo sạch sẽ tại Việt Nam: 10 bài học xương máu cho người mới mở shop</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/khach-san-cho-meo-sach-se-tai-tp-hcm-khi-khieu-nai-khong-phai-rui-ro-ma-la-co-hoi-xay-fan-trung-thanh" target="_blank">Khách sạn chó mèo sạch sẽ tại TP.HCM: Khi khiếu nại không phải rủi ro — mà là cơ hội xây fan trung thành</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/khach-san-cho-meo-sach-se-tai-tp-hcm-chien-luoc-mua-vu-tang-doanh-thu-37-cho-petshop" target="_blank">Khách sạn chó mèo sạch sẽ tại TP.HCM: Chiến lược mùa vụ tăng doanh thu 37% cho petshop</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/khach-san-cho-meo-sach-se-tai-tp-hcm-bai-toan-dong-tien-bi-ro-ri-o-6-diem-ban-le" target="_blank">Khách sạn chó mèo sạch sẽ tại TP.HCM: Bài toán dòng tiền bị “rò rỉ” ở 6 điểm bán lẻ</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/khach-san-cho-meo-sach-se-tai-tp-hcm-goc-nhin-marketing-0-dong-tu-cong-dong-that" target="_blank">Khách sạn chó mèo sạch sẽ tại TP.HCM – Góc nhìn Marketing 0 Đồng từ cộng đồng thật</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/khach-san-cho-meo-sach-se-tai-tp-hcm-cuoc-chien-khong-can-suc-cua-shop-nho-truoc-dan-voi-chuoi-lon" target="_blank">Khách sạn chó mèo sạch sẽ tại TP.HCM: Cuộc chiến không cân sức của shop nhỏ trước “đàn voi” chuỗi lớn</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/khach-san-cho-meo-sach-se-tai-tp-hcm-goc-nhin-ux-thiet-ke-khong-gian-ban-le-nang-bien-loi-nhuan" target="_blank">Khách sạn chó mèo sạch sẽ tại TP.HCM: Góc nhìn UX thiết kế không gian bán lẻ nâng biên lợi nhuận</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/khach-san-cho-meo-sach-se-tai-tp-hcm-khi-cong-nghe-quan-ly-quyet-dinh-73-ty-le-giu-chan-khach" target="_blank">Khách sạn chó mèo sạch sẽ tại TP.HCM: Khi công nghệ quản lý quyết định 73% tỷ lệ giữ chân khách</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/khach-san-cho-meo-sach-se-tai-tp-hcm-goc-nhin-nhan-su-van-hanh-bi-bo-quen" target="_blank">Khách sạn chó mèo sạch sẽ tại TP.HCM: Góc nhìn nhân sự &#038; vận hành bị bỏ quên</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/khach-san-cho-meo-pet-hotel-sach-se" target="_blank">Khách sạn chó mèo (Pet Hotel) sạch sẽ</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-thu-cung-mo-cua-xuyen-le-tet-tai-viet-nam-bai-hoc-xuong-mau-cho-nguoi-moi-mo-shop" target="_blank">Cửa hàng thú cưng mở cửa xuyên lễ tết tại Việt Nam – Bài học xương máu cho người mới mở shop</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-thu-cung-mo-cua-xuyen-le-tet-tai-viet-nam-9-goc-nhin-dich-vu-khach-hang-khi-khieu-nai-khong-phai-rui-ro-ma-la-co-hoi-bien-khach-kho-tinh-thanh-fan-trung-thanh" target="_blank">Cửa hàng thú cưng mở cửa xuyên lễ tết tại Việt Nam: 9. Góc nhìn Dịch Vụ Khách Hàng — Khi khiếu nại không phải rủi ro, mà là cơ hội biến khách khó tính thành fan trung thành</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-thu-cung-mo-cua-xuyen-le-tet-tai-dong-thap-8-goc-nhin-mua-vu-de-tang-doanh-thu-ben-vung" target="_blank">Cửa hàng thú cưng mở cửa xuyên lễ tết tại Đồng Tháp – 8 Góc nhìn Mùa Vụ để tăng doanh thu bền vững</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-thu-cung-mo-cua-xuyen-le-tet-tai-tp-can-tho-bai-toan-dong-tien-thuc-te-cua-6-diem-ban" target="_blank">Cửa hàng thú cưng mở cửa xuyên lễ tết tại TP. Cần Thơ – Bài toán dòng tiền thực tế của 6 điểm bán</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-thu-cung-mo-cua-xuyen-le-tet-tai-viet-nam-6-goc-nhin-marketing-0-dong" target="_blank">Cửa hàng thú cưng mở cửa xuyên lễ tết tại Việt Nam: 6 Góc nhìn Marketing 0 Đồng</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-thu-cung-mo-cua-xuyen-le-tet-tai-viet-nam-chien-luoc-song-sot-cho-shop-nho-truoc-bao-chuoi-lon" target="_blank">Cửa hàng thú cưng mở cửa xuyên lễ tết tại Việt Nam – Chiến lược sống sót cho shop nhỏ trước “bão” chuỗi lớn</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-thu-cung-mo-cua-xuyen-le-tet-tai-tp-hcm-dong-nai-ux-trung-bay-quyet-dinh-doanh-thu-ky-cao-diem" target="_blank">Cửa hàng thú cưng mở cửa xuyên lễ tết tại TP.HCM &#038; Đồng Nai: UX trưng bày quyết định doanh thu kỳ cao điểm</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-thu-cung-mo-cua-xuyen-le-tet-tai-tp-hcm-goc-nhin-cong-nghe-quan-ly-cham-soc-khach-hang" target="_blank">Cửa hàng thú cưng mở cửa xuyên lễ tết tại TP.HCM: Góc nhìn công nghệ quản lý &#038; chăm sóc khách hàng</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-thu-cung-mo-cua-xuyen-le-tet-tai-tp-hcm-goc-nhin-nhan-su-van-hanh-thuc-chien" target="_blank">Cửa hàng thú cưng mở cửa xuyên lễ tết tại TP.HCM: Góc nhìn nhân sự &#038; vận hành thực chiến</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-thu-cung-mo-cua-xuyen-le-tet-tai-tp-hcm-co-hoi-tang-doanh-thu-rao-can-tai-chinh-can-vuot-qua" target="_blank">Cửa hàng thú cưng mở cửa xuyên lễ tết tại TP.HCM: Cơ hội tăng doanh thu &#038; rào cản tài chính cần vượt qua</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/pet-shop-co-tich-diem-the-thanh-vien-o-tp-hcm-bai-hoc-xuong-mau-cho-nguoi-moi-mo-shop" target="_blank">Pet shop có tích điểm/thẻ thành viên ở TP.HCM – Bài học xương máu cho người mới mở shop</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/pet-shop-co-tich-diem-the-thanh-vien-o-tp-hcm-khi-khach-phan-nan-lai-la-co-hoi-vang-de-xay-fan-trung-thanh" target="_blank">Pet shop có tích điểm/thẻ thành viên ở TP.HCM: Khi khách phàn nàn lại là cơ hội vàng để xây fan trung thành</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/pet-shop-co-tich-diem-the-thanh-vien-o-tp-hcm-chien-luoc-mua-vu-tang-doanh-thu-37-cho-chu-shop" target="_blank">Pet shop có tích điểm/thẻ thành viên ở TP.HCM: Chiến lược mùa vụ tăng doanh thu 37% cho chủ shop</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/pet-shop-co-tich-diem-the-thanh-vien-o-viet-nam-goc-nhin-dong-tien-thuc-te" target="_blank">Pet shop có tích điểm/thẻ thành viên ở Việt Nam – Góc nhìn dòng tiền thực tế</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/pet-shop-co-tich-diem-the-thanh-vien-o-tp-hcm-6-goc-nhin-marketing-0-dong" target="_blank">Pet shop có tích điểm/thẻ thành viên ở TP.HCM – 6 Góc nhìn Marketing 0 Đồng</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/pet-shop-co-tich-diem-the-thanh-vien-o-tp-hcm-bai-hoc-song-sot-cho-chu-shop-nho-giua-bao-chuoi-lon" target="_blank">Pet shop có tích điểm/thẻ thành viên ở TP.HCM – Bài học sống sót cho chủ shop nhỏ giữa “bão” chuỗi lớn</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/pet-shop-tich-diem-o-tp-hcm-toi-uu-khong-gian-trung-bay-de-kich-thich-mua-sam" target="_blank">Pet shop tích điểm ở TP.HCM: Tối ưu không gian trưng bày để kích thích mua sắm</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/pet-shop-tich-diem-o-tp-hcm-khi-cong-nghe-quan-ly-quyet-dinh-song-con" target="_blank">Pet shop tích điểm ở TP.HCM: Khi công nghệ quản lý quyết định sống còn</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/pet-shop-co-tich-diem-the-thanh-vien-o-tp-hcm-goc-nhin-nhan-su-van-hanh-thuc-chien" target="_blank">Pet shop có tích điểm/thẻ thành viên ở TP.HCM: Góc nhìn nhân sự &#038; vận hành thực chiến</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/pet-shop-co-tich-diem-the-thanh-vien-o-viet-nam-co-hoi-vang-rao-can-tai-chinh-can-pha-vo" target="_blank">Pet shop có tích điểm/thẻ thành viên ở Việt Nam: Cơ hội vàng &#038; rào cản tài chính cần phá vỡ</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/co-so-grooming-phong-cach-han-nhat-tai-tp-hcm-bai-hoc-xuong-mau-cho-nguoi-moi-mo-shop" target="_blank">Cơ sở grooming phong cách Hàn/Nhật tại TP.HCM – Bài học xương máu cho người mới mở shop</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/co-so-grooming-phong-cach-han-nhat-tai-tp-hcm-9-goc-nhin-dich-vu-khach-hang-dang-hoc" target="_blank">Cơ sở grooming phong cách Hàn/Nhật tại TP.HCM: 9 Góc nhìn Dịch Vụ Khách Hàng Đáng Học</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/co-so-grooming-phong-cach-han-nhat-tai-tp-hcm-toi-uu-doanh-thu-theo-mua-mua-rung-long" target="_blank">Cơ sở grooming phong cách Hàn/Nhật tại TP.HCM: Tối ưu doanh thu theo mùa mưa &#038; rụng lông</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/co-so-grooming-phong-cach-han-nhat-tai-tp-hcm-bai-toan-dong-tien-an-sau-ve-ngoai-sang-chanh" target="_blank">Cơ sở grooming phong cách Hàn/Nhật tại TP.HCM: Bài toán dòng tiền ẩn sau vẻ ngoài sang chảnh</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/co-so-grooming-phong-cach-han-nhat-tai-tp-hcm-goc-nhin-marketing-0-dong" target="_blank">Cơ sở grooming phong cách Hàn/Nhật tại TP.HCM – Góc nhìn Marketing 0 Đồng</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/co-so-grooming-phong-cach-han-nhat-tai-tp-hcm-bai-hoc-canh-tranh-cho-shop-nho" target="_blank">Cơ sở grooming phong cách Hàn/Nhật tại TP.HCM – Bài học cạnh tranh cho shop nhỏ</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/co-so-grooming-phong-cach-han-nhat-tai-tp-hcm-thiet-ke-khong-gian-ban-le-nhu-mot-cong-cu-tang-doanh-thu" target="_blank">Cơ sở grooming phong cách Hàn/Nhật tại TP.HCM: Thiết kế không gian bán lẻ như một công cụ tăng doanh thu</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/co-so-grooming-phong-cach-han-nhat-tai-tp-hcm-goc-nhin-cong-nghe-quan-ly-khach-hang-qua-zalo-oa-phan-mem-chuyen-sau" target="_blank">Cơ sở grooming phong cách Hàn/Nhật tại TP.HCM: Góc nhìn công nghệ quản lý khách hàng qua Zalo OA &#038; phần mềm chuyên sâu</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/co-so-grooming-phong-cach-han-nhat-tai-tp-hcm-goc-nhin-nhan-su-van-hanh-thuc-chien" target="_blank">Cơ sở grooming phong cách Hàn/Nhật tại TP.HCM – Góc nhìn nhân sự &#038; vận hành thực chiến</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/co-so-grooming-phong-cach-han-nhat-tai-tp-hcm-co-hoi-thi-truong-rao-can-tai-chinh-cho-chu-shop" target="_blank">Cơ sở grooming phong cách Hàn/Nhật tại TP.HCM: Cơ hội thị trường &#038; rào cản tài chính cho chủ shop</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/pet-store-near-me-khi-gan-la-he-thong-thanh-toan-qr-code-khong-lam-chu-nuoi-tren-65-tuoi-phai-goi-con-chau-moi-lan-mua-thuc-an-cho-meo" target="_blank">pet store near me: Khi “gần” là hệ thống thanh toán QR code không làm chủ nuôi trên 65 tuổi phải gọi con cháu mỗi lần mua thức ăn cho mèo</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/pet-store-near-me-khi-gan-la-noi-ban-phan-huu-co-da-xu-ly-tu-phan-thu-cung-cho-chu-nuoi-vua-lam-vuon-vua-yeu-meo-cho" target="_blank">pet store near me: Khi “gần” là nơi bán phân hữu cơ đã xử lý từ phân thú cưng — cho chủ nuôi vừa làm vườn, vừa yêu mèo chó</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/pet-store-near-me-danh-rieng-cho-nguoi-nuoi-thu-cung-tren-70-tuoi-ghe-nghi-co-dinh-kinh-lup-kiem-tra-han-dung-tai-quay" target="_blank">pet store near me: Dành riêng cho người nuôi thú cưng trên 70 tuổi — ghế nghỉ cố định &#038; kính lúp kiểm tra hạn dùng tại quầy</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/pet-store-near-me-khi-gan-la-bien-led-hien-thi-gia-thuc-thoi-giam-73-bo-gio-do-cham-cap-nhat-gia-trong-gio-cao-diem" target="_blank">pet store near me: Khi “gần” là biển LED hiển thị giá thực thời — giảm 73% bỏ giỏ do chậm cập nhật giá trong giờ cao điểm</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/pet-store-near-me-khong-gian-tu-van-khong-phan-biet-gioi-noi-nguoi-chuyen-gioi-nuoi-thu-cung-duoc-goi-dung-ten-khong-bi-hoi-anh-hay-chi-khi-mua-sua-tam-cho-meo" target="_blank">pet store near me: Không gian tư vấn không phân biệt giới — nơi người chuyển giới nuôi thú cưng được gọi đúng tên, không bị hỏi “anh hay chị” khi mua sữa tắm cho mèo</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/pet-store-near-me-danh-rieng-cho-chu-chung-cu-chi-nhan-san-pham-co-giay-xac-nhan-khong-gay-mui" target="_blank">pet store near me: Dành riêng cho chủ chung cư — chỉ nhận sản phẩm có giấy xác nhận KHÔNG GÂY MÙI</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/pet-store-near-me-tiktok-danh-gia-gan-google-business-xac-minh-tin" target="_blank">pet store near me: TikTok đánh giá “gần” — Google Business xác minh “tin”</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/pet-store-near-me-khi-gan-la-diem-noi-referral-tu-phong-kham-thu-y-khong-ban-le-ma-dong-hanh-dieu-tri" target="_blank">pet store near me: Khi “gần” là điểm nối referral từ phòng khám thú y — không bán lẻ, mà đồng hành điều trị</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/pet-store-near-me-danh-rieng-cho-nguoi-nuoi-raw-food-tu-dong-chuyen-dung-chung-nhan-an-toan-la-dieu-kien-bat-buoc" target="_blank">pet store near me: Dành riêng cho người nuôi raw food — tủ đông chuyên dụng &#038; chứng nhận an toàn là điều kiện bắt buộc</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/pet-store-near-me-khi-gan-la-khong-gian-trung-bay-phan-biet-gioi-nam-mua-nhanh-nu-chon-sau" target="_blank">pet store near me: Khi “gần” là không gian trưng bày phân biệt giới — nam mua nhanh, nữ chọn sâu</a>
+                        </li>
+                
+                    </ul>
+                </div>
+        
+                <div class="card">
+                    <div class="card-header">
+                        <div class="site-name">Ecopets</div>
+                        <div class="stats-pill">0 Bài Viết</div>
+                    </div>
+                    
+                    <div class="metrics">
+                        <div class="metric-box">
+                            <div class="metric-value">N/A</div>
+                            <div class="metric-label">Lượt View</div>
+                        </div>
+                        <div class="metric-box">
+                            <div class="metric-value">N/A</div>
+                            <div class="metric-label">Top SEO</div>
+                        </div>
+                        <div class="metric-box">
+                            <div class="metric-value">N/A</div>
+                            <div class="metric-label">GEO Keywords</div>
+                        </div>
+                    </div>
+                    
+                    <h4>Bài viết mới nhất (7 ngày qua):</h4>
+                    <ul class="post-list">
+        
+                        <li class="no-posts">Không có bài viết nào được xuất bản trong tuần qua.</li>
+            
+                    </ul>
+                </div>
+        
+                <div class="card">
+                    <div class="card-header">
+                        <div class="site-name">Hồi Ký</div>
+                        <div class="stats-pill">0 Bài Viết</div>
+                    </div>
+                    
+                    <div class="metrics">
+                        <div class="metric-box">
+                            <div class="metric-value">N/A</div>
+                            <div class="metric-label">Lượt View</div>
+                        </div>
+                        <div class="metric-box">
+                            <div class="metric-value">N/A</div>
+                            <div class="metric-label">Top SEO</div>
+                        </div>
+                        <div class="metric-box">
+                            <div class="metric-value">N/A</div>
+                            <div class="metric-label">GEO Keywords</div>
+                        </div>
+                    </div>
+                    
+                    <h4>Bài viết mới nhất (7 ngày qua):</h4>
+                    <ul class="post-list">
+        
+                        <li class="no-posts">Không có bài viết nào được xuất bản trong tuần qua.</li>
+            
+                    </ul>
+                </div>
+        
+                <div class="card">
+                    <div class="card-header">
+                        <div class="site-name">Giải Pháp QRCode</div>
+                        <div class="stats-pill">30 Bài Viết</div>
+                    </div>
+                    
+                    <div class="metrics">
+                        <div class="metric-box">
+                            <div class="metric-value">N/A</div>
+                            <div class="metric-label">Lượt View</div>
+                        </div>
+                        <div class="metric-box">
+                            <div class="metric-value">N/A</div>
+                            <div class="metric-label">Top SEO</div>
+                        </div>
+                        <div class="metric-box">
+                            <div class="metric-value">N/A</div>
+                            <div class="metric-label">GEO Keywords</div>
+                        </div>
+                    </div>
+                    
+                    <h4>Bài viết mới nhất (7 ngày qua):</h4>
+                    <ul class="post-list">
+        
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/dich-vu-lam-tem-bao-hanh-dien-tu-qr-code-cach-thuc-theo-doi-bao-hanh-may-choi-game-hieu-qua" target="_blank">Dịch vụ làm tem bảo hành điện tử QR code: Cách thức theo dõi bảo hành máy chơi game hiệu quả</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/dich-vu-lam-tem-bao-hanh-dien-tu-qr-code-cach-thuc-theo-doi-bao-hanh-smartwatch-hieu-qua" target="_blank">Dịch vụ làm tem bảo hành điện tử QR code: Cách thức theo dõi bảo hành smartwatch hiệu quả</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/dich-vu-lam-tem-bao-hanh-dien-tu-qr-code-cach-thuc-theo-doi-bao-hanh-tai-nghe-hieu-qua" target="_blank">Dịch vụ làm tem bảo hành điện tử QR code: Cách thức theo dõi bảo hành tai nghe hiệu quả</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/dich-vu-lam-tem-bao-hanh-dien-tu-qr-code-cach-thuc-theo-doi-bao-hanh-loa-hieu-qua" target="_blank">Dịch vụ làm tem bảo hành điện tử QR code: Cách thức theo dõi bảo hành loa hiệu quả</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/dich-vu-lam-tem-bao-hanh-dien-tu-qr-code-toi-uu-hoa-theo-doi-bao-hanh-camera-an-ninh" target="_blank">Dịch vụ làm tem bảo hành điện tử QR code: Tối ưu hóa theo dõi bảo hành camera an ninh</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/dich-vu-lam-tem-bao-hanh-dien-tu-qr-code-cach-thuc-theo-doi-bao-hanh-may-scan-hieu-qua" target="_blank">Dịch vụ làm tem bảo hành điện tử QR code: Cách thức theo dõi bảo hành máy scan hiệu quả</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/dich-vu-lam-tem-bao-hanh-dien-tu-qr-code-cach-thuc-theo-doi-bao-hanh-may-tinh-de-ban-hieu-qua" target="_blank">Dịch vụ làm tem bảo hành điện tử QR code: Cách thức theo dõi bảo hành máy tính để bàn hiệu quả</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/dich-vu-lam-tem-bao-hanh-dien-tu-qr-code-cach-thuc-theo-doi-bao-hanh-may-chieu-hieu-qua" target="_blank">Dịch vụ làm tem bảo hành điện tử QR code: Cách thức theo dõi bảo hành máy chiếu hiệu quả</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/dich-vu-lam-tem-bao-hanh-dien-tu-qr-code-cach-thuc-su-dung-de-theo-doi-bao-hanh-may-fax" target="_blank">Dịch vụ làm tem bảo hành điện tử QR code: Cách thức sử dụng để theo dõi bảo hành máy fax</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/dich-vu-lam-tem-bao-hanh-dien-tu-qr-code-toi-uu-hoa-theo-doi-bao-hanh-may-in" target="_blank">Dịch vụ làm tem bảo hành điện tử QR code: Tối ưu hóa theo dõi bảo hành máy in</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/dich-vu-lam-tem-bao-hanh-dien-tu-qr-code-cach-thuc-theo-doi-bao-hanh-may-photocopy-hieu-qua" target="_blank">Dịch vụ làm tem bảo hành điện tử QR code: Cách thức theo dõi bảo hành máy photocopy hiệu quả</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/dich-vu-lam-tem-bao-hanh-dien-tu-qr-code-cach-thuc-theo-doi-bao-hanh-may-loc-nuoc-hieu-qua" target="_blank">Dịch vụ làm tem bảo hành điện tử QR code: Cách thức theo dõi bảo hành máy lọc nước hiệu quả</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/dich-vu-lam-tem-bao-hanh-dien-tu-qr-code-toi-uu-hoa-theo-doi-bao-hanh-dieu-hoa-khong-khi" target="_blank">Dịch vụ làm tem bảo hành điện tử QR code: Tối ưu hóa theo dõi bảo hành điều hòa không khí</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/dich-vu-lam-tem-bao-hanh-dien-tu-qr-code-cach-thuc-theo-doi-bao-hanh-may-giat-hieu-qua" target="_blank">Dịch vụ làm tem bảo hành điện tử QR code: Cách thức theo dõi bảo hành máy giặt hiệu quả</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/dich-vu-lam-tem-bao-hanh-dien-tu-qr-code-cach-thuc-theo-doi-bao-hanh-tu-lanh-hieu-qua" target="_blank">Dịch vụ làm tem bảo hành điện tử QR code: Cách thức theo dõi bảo hành tủ lạnh hiệu quả</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/dich-vu-lam-tem-bao-hanh-dien-tu-qr-code-cach-thuc-theo-doi-bao-hanh-tv-hieu-qua" target="_blank">Dịch vụ làm tem bảo hành điện tử QR code: Cách thức theo dõi bảo hành TV hiệu quả</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/dich-vu-lam-tem-bao-hanh-dien-tu-qr-code-cach-thuc-theo-doi-bao-hanh-may-tinh-bang-hieu-qua" target="_blank">Dịch vụ làm tem bảo hành điện tử QR code: Cách thức theo dõi bảo hành máy tính bảng hiệu quả</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/dich-vu-lam-tem-bao-hanh-dien-tu-qr-code-cach-thuc-theo-doi-bao-hanh-thiet-bi-hieu-qua" target="_blank">Dịch vụ làm tem bảo hành điện tử QR code: Cách thức theo dõi bảo hành thiết bị hiệu quả</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/dich-vu-lam-tem-bao-hanh-dien-tu-qr-code-cach-thuc-theo-doi-bao-hanh-dich-vu-hieu-qua" target="_blank">Dịch vụ làm tem bảo hành điện tử QR code: Cách thức theo dõi bảo hành dịch vụ hiệu quả</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/dich-vu-lam-tem-bao-hanh-dien-tu-qr-code-cach-thuc-theo-doi-bao-hanh-san-pham-hieu-qua" target="_blank">Dịch vụ làm tem bảo hành điện tử QR code: Cách thức theo dõi bảo hành sản phẩm hiệu quả</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/dich-vu-lam-tem-bao-hanh-dien-tu-qr-code-toi-uu-hoa-theo-doi-bao-duong-dinh-ky" target="_blank">Dịch vụ làm tem bảo hành điện tử QR code: Tối ưu hóa theo dõi bảo dưỡng định kỳ</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/dich-vu-lam-tem-bao-hanh-dien-tu-qr-code-toi-uu-quan-ly-tai-san" target="_blank">Dịch vụ làm tem bảo hành điện tử QR code: Tối ưu quản lý tài sản</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/dich-vu-lam-tem-bao-hanh-dien-tu-qr-code-theo-doi-lich-su-bao-hanh-hieu-qua" target="_blank">Dịch vụ làm tem bảo hành điện tử QR code: Theo dõi lịch sử bảo hành hiệu quả</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/dich-vu-lam-tem-bao-hanh-dien-tu-qr-code-cach-thuc-su-dung-trong-quan-ly-kho-bai" target="_blank">Dịch vụ làm tem bảo hành điện tử QR code: Cách thức sử dụng trong quản lý kho bãi</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/dich-vu-lam-tem-bao-hanh-dien-tu-qr-code-xu-ly-hieu-qua-cac-van-de-ky-thuat" target="_blank">Dịch vụ làm tem bảo hành điện tử QR code: Xử lý hiệu quả các vấn đề kỹ thuật</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/dich-vu-lam-tem-bao-hanh-dien-tu-qr-code-cach-thuc-tao-ma-qr-code-doc-dao-cho-tung-san-pham" target="_blank">Dịch vụ làm tem bảo hành điện tử QR code: Cách thức tạo mã QR code độc đáo cho từng sản phẩm</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/dich-vu-lam-tem-bao-hanh-dien-tu-qr-code-toi-uu-hoa-qua-trinh-in-an" target="_blank">Dịch vụ làm tem bảo hành điện tử QR code: Tối ưu hóa quá trình in ấn</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/dich-vu-lam-tem-bao-hanh-dien-tu-qr-code-danh-gia-hieu-qua-thong-qua-du-lieu-va-phan-hoi" target="_blank">Dịch vụ làm tem bảo hành điện tử QR code: Đánh giá hiệu quả thông qua dữ liệu và phản hồi</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/dich-vu-lam-tem-bao-hanh-dien-tu-qr-code-2" target="_blank">Dịch vụ làm tem bảo hành điện tử qr code</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/dich-vu-lam-tem-bao-hanh-dien-tu-qr-code-cach-thuc-phan-phoi-hieu-qua-toi-khach-hang" target="_blank">Dịch vụ làm tem bảo hành điện tử QR code: Cách thức phân phối hiệu quả tới khách hàng</a>
+                        </li>
+                
+                    </ul>
+                </div>
+        
+            </div>
+            <div class="note">
+                * Lưu ý: Dữ liệu View, Top SEO và GEO đang ở trạng thái N/A do chưa cấu hình kết nối Google Search Console / Analytics API.<br>
+                Hệ thống tạm thời chỉ thống kê lượng bài viết được tự động sản xuất.
+            </div>
+        </div>
+    </body>
+    </html>
+    

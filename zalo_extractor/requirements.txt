@@ -1,0 +1,4 @@
+uiautomation==2.0.18
+pandas==2.2.1
+pyperclip==1.8.2
+keyboard==0.13.5

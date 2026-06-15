@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meta Ads Dashboard — Antigravity</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0d0f14;
+      --surface: #161922;
+      --border: #252836;
+      --accent: #6c63ff;
+      --accent2: #f7c59f;
+      --green: #4ade80;
+      --yellow: #facc15;
+      --red: #f87171;
+      --text: #e2e8f0;
+      --text-muted: #94a3b8;
+      --radius: 12px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+    /* ── HEADER ── */
+    header {
+      background: linear-gradient(135deg, #1a1f2e 0%, #0d0f14 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 20px 32px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    header h1 { font-size: 1.4rem; font-weight: 700; color: var(--text); }
+    header h1 span { color: var(--accent); }
+    .header-meta { font-size: 0.8rem; color: var(--text-muted); }
+    .refresh-btn {
+      background: var(--accent); color: white; border: none;
+      padding: 8px 18px; border-radius: 8px; cursor: pointer;
+      font-family: inherit; font-size: 0.85rem; font-weight: 500;
+      transition: opacity 0.2s;
+    }
+    .refresh-btn:hover { opacity: 0.85; }
+
+    /* ── LAYOUT ── */
+    main { padding: 28px 32px; max-width: 1280px; margin: 0 auto; }
+
+    /* ── KPIS ── */
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      margin-bottom: 28px;
+    }
+    .kpi-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .kpi-card:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.3); }
+    .kpi-label { font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 8px; }
+    .kpi-value { font-size: 1.8rem; font-weight: 700; }
+    .kpi-value.green { color: var(--green); }
+    .kpi-value.yellow { color: var(--yellow); }
+    .kpi-value.red { color: var(--red); }
+    .kpi-value.purple { color: var(--accent); }
+    .kpi-sub { font-size: 0.75rem; color: var(--text-muted); margin-top: 4px; }
+
+    /* ── SECTION ── */
+    .section-title {
+      font-size: 1rem; font-weight: 600; color: var(--text);
+      margin-bottom: 14px; padding-bottom: 10px;
+      border-bottom: 1px solid var(--border);
+      display: flex; align-items: center; gap: 8px;
+    }
+    .section-wrap { margin-bottom: 32px; }
+
+    /* ── ALERTS ── */
+    .alerts-grid { display: flex; flex-direction: column; gap: 10px; }
+    .alert-item {
+      padding: 14px 18px; border-radius: 10px;
+      display: flex; align-items: flex-start; gap: 12px;
+      border: 1px solid transparent;
+    }
+    .alert-item.critical { background: rgba(248,113,113,0.08); border-color: rgba(248,113,113,0.3); }
+    .alert-item.warning  { background: rgba(250,204,21,0.07); border-color: rgba(250,204,21,0.25); }
+    .alert-item.info     { background: rgba(108,99,255,0.07); border-color: rgba(108,99,255,0.2); }
+    .alert-icon { font-size: 1.1rem; flex-shrink: 0; margin-top: 1px; }
+    .alert-body { flex: 1; }
+    .alert-entity { font-size: 0.75rem; color: var(--text-muted); margin-bottom: 3px; }
+    .alert-msg { font-size: 0.88rem; line-height: 1.5; }
+
+    /* ── CAMPAIGN TABLE ── */
+    .table-wrap { overflow-x: auto; border-radius: var(--radius); border: 1px solid var(--border); }
+    table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+    thead th {
+      background: #1a1f2e; padding: 12px 16px; text-align: left;
+      font-weight: 600; color: var(--text-muted); font-size: 0.75rem;
+      text-transform: uppercase; letter-spacing: 0.04em;
+      position: sticky; top: 0;
+    }
+    tbody tr { border-top: 1px solid var(--border); transition: background 0.15s; }
+    tbody tr:hover { background: rgba(255,255,255,0.03); }
+    tbody td { padding: 12px 16px; color: var(--text); }
+    .health-badge {
+      display: inline-flex; align-items: center; gap: 5px;
+      padding: 3px 10px; border-radius: 100px; font-size: 0.75rem; font-weight: 500;
+    }
+    .health-badge.healthy  { background: rgba(74,222,128,0.15); color: var(--green); }
+    .health-badge.warn     { background: rgba(250,204,21,0.15); color: var(--yellow); }
+    .health-badge.critical { background: rgba(248,113,113,0.15); color: var(--red); }
+
+    /* ── EMPTY STATE ── */
+    .empty-state {
+      text-align: center; padding: 40px;
+      color: var(--text-muted); font-size: 0.9rem;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      text-align: center; padding: 20px;
+      color: var(--text-muted); font-size: 0.75rem;
+      border-top: 1px solid var(--border);
+      margin-top: 32px;
+    }
+
+    /* ── LOADING ── */
+    #loading {
+      position: fixed; inset: 0; background: var(--bg);
+      display: flex; align-items: center; justify-content: center;
+      z-index: 100; font-size: 1.1rem; color: var(--text-muted);
+    }
+    .spinner {
+      width: 28px; height: 28px; border: 3px solid var(--border);
+      border-top-color: var(--accent); border-radius: 50%;
+      animation: spin 0.7s linear infinite; margin-right: 12px;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+  </style>
+</head>
+<body>
+
+<div id="loading">
+  <div class="spinner"></div>
+  Đang tải dữ liệu...
+</div>
+
+<header>
+  <div>
+    <h1>Meta Ads <span>Optimizer</span></h1>
+    <div class="header-meta" id="header-meta">Loading...</div>
+  </div>
+  <button class="refresh-btn" onclick="loadReport()">🔄 Refresh</button>
+</header>
+
+<main>
+  <!-- KPI Summary -->
+  <div class="kpi-grid" id="kpi-grid"></div>
+
+  <!-- Alerts -->
+  <div class="section-wrap">
+    <div class="section-title">🚨 Cảnh Báo Hôm Nay</div>
+    <div class="alerts-grid" id="alerts-container">
+      <div class="empty-state">Chưa có dữ liệu...</div>
+    </div>
+  </div>
+
+  <!-- Messenger Campaigns -->
+  <div class="section-wrap">
+    <div class="section-title">💬 Messenger Ads</div>
+    <div class="table-wrap">
+      <table id="messenger-table">
+        <thead>
+          <tr>
+            <th>Chiến Dịch/Ad Set</th>
+            <th>Spend</th>
+            <th>Impressions</th>
+            <th>MCS</th>
+            <th>Cost/MCS</th>
+            <th>CTR (all)</th>
+            <th>CPM</th>
+            <th>Freq</th>
+            <th>Health</th>
+          </tr>
+        </thead>
+        <tbody id="messenger-tbody">
+          <tr><td colspan="9" class="empty-state">Chưa có dữ liệu</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Engagement Campaigns -->
+  <div class="section-wrap">
+    <div class="section-title">👍 Engagement Ads</div>
+    <div class="table-wrap">
+      <table id="engagement-table">
+        <thead>
+          <tr>
+            <th>Chiến Dịch/Ad Set</th>
+            <th>Spend</th>
+            <th>Reach</th>
+            <th>Engagement</th>
+            <th>CPE</th>
+            <th>Eng. Rate</th>
+            <th>CTR (all)</th>
+            <th>Freq</th>
+            <th>Health</th>
+          </tr>
+        </thead>
+        <tbody id="engagement-tbody"></tbody>
+      </table>
+    </div>
+  </div>
+</main>
+
+<footer>
+  Meta Ads Optimizer — Antigravity Platform | Dữ liệu từ Meta Ads API
+</footer>
+
+<script>
+const REPORT_FILE = '../reports/report_latest.json';
+const CURRENCY = { 'VND': 'VNĐ', 'USD': 'USD', 'EUR': 'EUR' };
+
+function fmt(n, currency = 'VND') {
+  if (n == null) return 'N/A';
+  const c = CURRENCY[currency] || currency;
+  if (currency === 'VND') return n.toLocaleString('vi-VN') + ' ' + c;
+  return n.toFixed(2) + ' ' + c;
+}
+
+function fmtNum(n, decimals = 0) {
+  if (n == null) return 'N/A';
+  return n.toLocaleString('vi-VN', { maximumFractionDigits: decimals });
+}
+
+function healthBadge(score, label) {
+  if (score == null) return '';
+  let cls = score >= 80 ? 'healthy' : score >= 50 ? 'warn' : 'critical';
+  return `<span class="health-badge ${cls}">${label || score + '/100'}</span>`;
+}
+
+function renderKPIs(data) {
+  const s = data.summary;
+  const currency = data.account?.currency || 'VND';
+  const cards = [
+    { label: 'Tổng Chi Tiêu', value: fmt(s.total_spend, currency), cls: 'purple', sub: 'Hôm qua' },
+    { label: 'Messenger Spend', value: fmt(s.total_spend_messenger, currency), cls: '', sub: `${s.messenger_campaigns_count} chiến dịch` },
+    { label: 'Tổng MCS', value: fmtNum(s.total_mcs), cls: 'green', sub: 'Hội thoại bắt đầu' },
+    { label: 'Cost per MCS', value: s.avg_cost_per_mcs ? fmt(s.avg_cost_per_mcs, currency) : 'N/A', cls: s.avg_cost_per_mcs > 25000 ? 'red' : s.avg_cost_per_mcs > 15000 ? 'yellow' : 'green', sub: 'Trung bình' },
+    { label: 'Tổng Engagement', value: fmtNum(s.total_engagement), cls: 'yellow', sub: 'Lượt tương tác' },
+    { label: 'Health Score', value: fmtNum(s.avg_health_score, 0) + '/100', cls: s.avg_health_score >= 80 ? 'green' : s.avg_health_score >= 50 ? 'yellow' : 'red', sub: 'Trung bình' },
+    { label: 'Critical Alerts', value: s.critical_alerts, cls: s.critical_alerts > 0 ? 'red' : 'green', sub: 'Cần xử lý ngay' },
+    { label: 'Warnings', value: s.warning_alerts, cls: s.warning_alerts > 0 ? 'yellow' : 'green', sub: 'Cần theo dõi' },
+  ];
+
+  document.getElementById('kpi-grid').innerHTML = cards.map(c => `
+    <div class="kpi-card">
+      <div class="kpi-label">${c.label}</div>
+      <div class="kpi-value ${c.cls}">${c.value}</div>
+      <div class="kpi-sub">${c.sub}</div>
+    </div>
+  `).join('');
+}
+
+function renderAlerts(data) {
+  const all = [
+    ...(data.alerts?.critical || []).map(a => ({...a, type: 'critical', icon: '🔴'})),
+    ...(data.alerts?.warning || []).map(a => ({...a, type: 'warning', icon: '🟡'})),
+    ...(data.alerts?.info || []).map(a => ({...a, type: 'info', icon: 'ℹ️'})),
+  ];
+
+  const container = document.getElementById('alerts-container');
+  if (!all.length) {
+    container.innerHTML = '<div class="empty-state">✅ Không có cảnh báo nào hôm nay!</div>';
+    return;
+  }
+
+  container.innerHTML = all.map(a => `
+    <div class="alert-item ${a.type}">
+      <div class="alert-icon">${a.icon}</div>
+      <div class="alert-body">
+        <div class="alert-entity">${a.entity_type || ''} · ${a.entity_name || ''} · ${a.metric || ''}</div>
+        <div class="alert-msg">${a.message || ''}</div>
+      </div>
+    </div>
+  `).join('');
+}
+
+function renderMessengerTable(data) {
+  const currency = data.account?.currency || 'VND';
+  const rows = data.messenger_campaigns || [];
+  const tbody = document.getElementById('messenger-tbody');
+  if (!rows.length) {
+    tbody.innerHTML = '<tr><td colspan="9" class="empty-state">Không có Messenger Ads hôm qua</td></tr>';
+    return;
+  }
+  tbody.innerHTML = rows.map(r => {
+    const name = r.adset_name || r.campaign_name || '—';
+    return `<tr>
+      <td title="${r.campaign_name || ''}">${name}</td>
+      <td>${fmt(r.spend, currency)}</td>
+      <td>${fmtNum(r.impressions)}</td>
+      <td><strong>${fmtNum(r.mcs)}</strong></td>
+      <td>${r.cost_per_mcs ? fmt(r.cost_per_mcs, currency) : 'N/A'}</td>
+      <td>${r.ctr_all != null ? r.ctr_all.toFixed(2) + '%' : 'N/A'}</td>
+      <td>${r.cpm ? fmt(r.cpm, currency) : 'N/A'}</td>
+      <td>${r.frequency != null ? r.frequency.toFixed(2) : 'N/A'}</td>
+      <td>${healthBadge(r.health_score, r.health_label)}</td>
+    </tr>`;
+  }).join('');
+}
+
+function renderEngagementTable(data) {
+  const currency = data.account?.currency || 'VND';
+  const rows = data.engagement_campaigns || [];
+  const tbody = document.getElementById('engagement-tbody');
+  if (!rows.length) {
+    tbody.innerHTML = '<tr><td colspan="9" class="empty-state">Không có Engagement Ads hôm qua</td></tr>';
+    return;
+  }
+  tbody.innerHTML = rows.map(r => {
+    const name = r.adset_name || r.campaign_name || '—';
+    return `<tr>
+      <td title="${r.campaign_name || ''}">${name}</td>
+      <td>${fmt(r.spend, currency)}</td>
+      <td>${fmtNum(r.reach)}</td>
+      <td><strong>${fmtNum(r.post_engagement)}</strong></td>
+      <td>${r.cpe ? fmt(r.cpe, currency) : 'N/A'}</td>
+      <td>${r.engagement_rate != null ? r.engagement_rate.toFixed(2) + '%' : 'N/A'}</td>
+      <td>${r.ctr_all != null ? r.ctr_all.toFixed(2) + '%' : 'N/A'}</td>
+      <td>${r.frequency != null ? r.frequency.toFixed(2) : 'N/A'}</td>
+      <td>${healthBadge(r.health_score, r.health_label)}</td>
+    </tr>`;
+  }).join('');
+}
+
+async function loadReport() {
+  document.getElementById('loading').style.display = 'flex';
+  try {
+    const res = await fetch(REPORT_FILE + '?t=' + Date.now());
+    if (!res.ok) throw new Error('Không tìm thấy file báo cáo.');
+    const data = await res.json();
+
+    document.getElementById('header-meta').textContent =
+      `Báo cáo ngày: ${data.report_date} | Tài khoản: ${data.account?.name || data.account?.id || 'N/A'} | Cập nhật: ${new Date(data.generated_at).toLocaleString('vi-VN')}`;
+
+    renderKPIs(data);
+    renderAlerts(data);
+    renderMessengerTable(data);
+    renderEngagementTable(data);
+  } catch (err) {
+    document.getElementById('alerts-container').innerHTML =
+      `<div class="alert-item critical">
+        <div class="alert-icon">⚠️</div>
+        <div class="alert-body">
+          <div class="alert-msg">Chưa có dữ liệu. Hãy chạy <strong>python run_daily.py</strong> để tạo báo cáo.<br/><small style="color:#94a3b8">Lỗi: ${err.message}</small></div>
+        </div>
+      </div>`;
+    document.getElementById('messenger-tbody').innerHTML = '<tr><td colspan="9" class="empty-state">—</td></tr>';
+    document.getElementById('engagement-tbody').innerHTML = '<tr><td colspan="9" class="empty-state">—</td></tr>';
+    document.getElementById('kpi-grid').innerHTML = '';
+  } finally {
+    document.getElementById('loading').style.display = 'none';
+  }
+}
+
+// Load on start
+loadReport();
+</script>
+</body>
+</html>

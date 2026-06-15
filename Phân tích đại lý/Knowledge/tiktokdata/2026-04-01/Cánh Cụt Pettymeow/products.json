@@ -1,0 +1,62 @@
+{
+    "shop_id": "7495585092496100244",
+    "total_collected": 7,
+    "data": [
+        {
+            "revenue": "₫2,10tr",
+            "sale": "69",
+            "id": "1733965659585677204",
+            "unit_price": "₫31,49k",
+            "collect_day": "2026-01-14",
+            "product_title": "[Lon 400gram] Pate Mr.Vet - Thức Ăn Dinh Dưỡng Cho Mèo Dạng Lon Hỗ Trợ Sáng Mắt, Mượt Lông, Tăng Đề Kháng"
+        },
+        {
+            "revenue": "₫967,53k",
+            "sale": "29",
+            "id": "1732532421394794388",
+            "unit_price": "₫32,64k",
+            "collect_day": "2025-11-11",
+            "product_title": "[LON LẺ] Pate Lon CATCHY - Pate Lon 400Gram Cho Mèo - Dinh Dưỡng Toàn Diện"
+        },
+        {
+            "revenue": "₫430,24k",
+            "sale": "20",
+            "id": "1731957208695999380",
+            "unit_price": "₫21,15k",
+            "collect_day": "2025-03-29",
+            "product_title": "Pate Nekko Gravy Cho Mèo Lớn  - 8 Vị Đa Dạng Cho Mèo"
+        },
+        {
+            "revenue": "₫196,19k",
+            "sale": "9",
+            "id": "1731967015684115348",
+            "unit_price": "₫22,86k",
+            "collect_day": "2025-03-24",
+            "product_title": "Pate Nekko Kitten - Pate Nekko Cho Mèo Con - 12 Vị Đa Dạng"
+        },
+        {
+            "revenue": "₫39,06k",
+            "sale": "2",
+            "id": "1731829538301840276",
+            "unit_price": "₫22,27k",
+            "collect_day": "2025-03-24",
+            "product_title": "[Gói 70gram] Pate Sữa Dê PET Q cho mèo - Pate Sữa Dê Bổ Dưỡng"
+        },
+        {
+            "revenue": "₫0,00",
+            "sale": "0",
+            "id": "1731867347179441044",
+            "unit_price": "₫123,11k",
+            "collect_day": "2025-03-24",
+            "product_title": "[COMBO 12-24 LON] Pate NEEKA Mousse - Pate Lon Dạng Mịn Đa Dạng Hương Vị"
+        },
+        {
+            "revenue": "₫0,00",
+            "sale": "0",
+            "id": "1731859737765645204",
+            "unit_price": "₫57,45k",
+            "collect_day": "2025-03-28",
+            "product_title": "[Bao Lẻ] Cát Vệ Sinh IRIS Cho Mèo - Cát Vệ Sinh Cho Mèo - Than Hoạt Tính, Khử Mùi, Vón Cứng"
+        }
+    ]
+}

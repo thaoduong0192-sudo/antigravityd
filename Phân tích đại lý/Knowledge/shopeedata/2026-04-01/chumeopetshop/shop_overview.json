@@ -1,0 +1,36 @@
+{
+    "success": true,
+    "data": {
+        "MaDaiLy": "E0952",
+        "shopUrl": "https://shopee.vn/chumeopetshop",
+        "id": "252488881",
+        "name": "chumeopetshop",
+        "shopAvatar": "https://down-ws-cn.img.susercontent.com/76a5ff463d92441b10f36c699fa1e933_tn.webp",
+        "shopType": "Preferred",
+        "shipMethod": "Local",
+        "shopOpenTime": "2020-04-21",
+        "rating": 4.95,
+        "products": "183",
+        "brandProducts": "52",
+        "followers": "5,5k",
+        "newProducts": "0",
+        "coreMetrics": [
+            {
+                "label": "Revenue",
+                "value": "₫4,70tỉ"
+            },
+            {
+                "label": "Units Sold",
+                "value": "27,7k"
+            },
+            {
+                "label": "Average Selling Price",
+                "value": "₫169,52k"
+            }
+        ],
+        "shop_id": "252488881"
+    },
+    "message": null,
+    "cached": null,
+    "code": null
+}

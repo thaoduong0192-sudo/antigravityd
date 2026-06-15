@@ -1,0 +1,36 @@
+{
+    "success": true,
+    "data": {
+        "shopUrl": "https://shopee.vn/khopetshop",
+        "id": "21985947",
+        "name": "khopetshop",
+        "shopAvatar": "https://down-ws-cn.img.susercontent.com/43e4e6c84cfa4029e585dd02266b3034_tn.webp",
+        "shopType": "Preferred",
+        "shipMethod": "Local",
+        "shopOpenTime": "2017-05-08",
+        "rating": 4.97,
+        "products": "243",
+        "brandProducts": "157",
+        "followers": "16,56k",
+        "newProducts": "0",
+        "coreMetrics": [
+            {
+                "label": "Revenue",
+                "value": "₫101,89tr"
+            },
+            {
+                "label": "Units Sold",
+                "value": "1,31k"
+            },
+            {
+                "label": "Average Selling Price",
+                "value": "₫77,84k"
+            }
+        ],
+        "MaDaiLy": "E0162",
+        "shop_id": "21985947"
+    },
+    "message": null,
+    "cached": null,
+    "code": null
+}

@@ -1,0 +1,36 @@
+{
+    "success": true,
+    "data": {
+        "shopUrl": "https://shopee.vn/opaws",
+        "id": "121880416",
+        "name": "Opaws Petshop",
+        "shopAvatar": "https://down-ws-cn.img.susercontent.com/vn-11134216-820l4-mecbkctbqdxj41_tn.webp",
+        "shopType": "Standard",
+        "shipMethod": "Local",
+        "shopOpenTime": "2019-01-21",
+        "rating": 4.82,
+        "products": "60",
+        "brandProducts": "46",
+        "followers": "8,11k",
+        "newProducts": "0",
+        "coreMetrics": [
+            {
+                "label": "Revenue",
+                "value": "₫910,00k"
+            },
+            {
+                "label": "Units Sold",
+                "value": "7"
+            },
+            {
+                "label": "Average Selling Price",
+                "value": "₫130,00k"
+            }
+        ],
+        "MaDaiLy": "E0796",
+        "shop_id": "121880416"
+    },
+    "message": null,
+    "cached": null,
+    "code": null
+}

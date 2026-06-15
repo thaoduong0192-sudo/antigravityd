@@ -1,0 +1,43 @@
+{
+  "_comment": "Chỉnh ngưỡng cảnh báo phù hợp với tài khoản của bạn (đơn vị VNĐ)",
+  "currency": "VND",
+  "date_preset": "yesterday",
+  "report_output_dir": "reports",
+
+  "messenger_ads": {
+    "cost_per_mcs_warning": 15000,
+    "cost_per_mcs_critical": 25000,
+    "ctr_all_warning": 1.0,
+    "ctr_all_critical": 0.5,
+    "cpm_warning": 80000,
+    "cpm_critical": 120000,
+    "frequency_warning": 3.0
+  },
+
+  "engagement_ads": {
+    "cpe_warning": 500,
+    "cpe_critical": 1000,
+    "ctr_all_warning": 0.5,
+    "frequency_warning": 3.5,
+    "engagement_rate_warning": 1.0
+  },
+
+  "zalo_alert": {
+    "enabled": false,
+    "phone_number": "",
+    "_comment": "Bật enabled=true và điền số Zalo để nhận cảnh báo tự động"
+  },
+
+  "auto_actions": {
+    "enabled": false,
+    "messenger_rules": {
+      "auto_pause_mcs_cost_greater_than": 30000,
+      "auto_scale_mcs_cost_less_than": 5000,
+      "scale_budget_percentage": 20
+    },
+    "engagement_rules": {
+      "auto_pause_cpe_greater_than": 1500
+    },
+    "_comment": "Đặt enabled=true để hệ thống tự động tắt campaign hoặc tự động scale budget. Cần quyền token 'ads_management'."
+  }
+}

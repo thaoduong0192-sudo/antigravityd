@@ -1,0 +1,36 @@
+{
+    "success": true,
+    "data": {
+        "MaDaiLy": "E0409",
+        "shopUrl": "https://shopee.vn/pikapetshop",
+        "id": "529528188",
+        "name": "Pika Petshop",
+        "shopAvatar": "https://down-ws-cn.img.susercontent.com/245ec64597e8b85a36671a024b9bcd0f_tn.webp",
+        "shopType": "Preferred",
+        "shipMethod": "Local",
+        "shopOpenTime": "2021-09-05",
+        "rating": 4.93,
+        "products": "68",
+        "brandProducts": "41",
+        "followers": "2,88k",
+        "newProducts": "1",
+        "coreMetrics": [
+            {
+                "label": "Revenue",
+                "value": "₫1,23tỉ"
+            },
+            {
+                "label": "Units Sold",
+                "value": "5,27k"
+            },
+            {
+                "label": "Average Selling Price",
+                "value": "₫233,71k"
+            }
+        ],
+        "shop_id": "529528188"
+    },
+    "message": null,
+    "cached": null,
+    "code": null
+}

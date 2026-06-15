@@ -1,0 +1,4 @@
+{
+    "error": "Connection error: Failed to perform, curl: (7) Failed to connect to www.kalodata.com port 443 after 4849 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",
+    "shop_id": "25612893"
+}

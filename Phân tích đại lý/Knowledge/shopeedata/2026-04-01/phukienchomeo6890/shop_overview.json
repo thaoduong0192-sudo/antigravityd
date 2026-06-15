@@ -1,0 +1,36 @@
+{
+    "success": true,
+    "data": {
+        "MaDaiLy": "E0153",
+        "shopUrl": "https://shopee.vn/phukienchomeo6890",
+        "id": "160672596",
+        "name": "phukienchomeo6890",
+        "shopAvatar": "https://down-ws-cn.img.susercontent.com/0a59ea0691ee629d04403c4fe34bf9ff_tn.webp",
+        "shopType": "Preferred",
+        "shipMethod": "Local",
+        "shopOpenTime": "2019-07-06",
+        "rating": 4.93,
+        "products": "521",
+        "brandProducts": "262",
+        "followers": "75,97k",
+        "newProducts": "0",
+        "coreMetrics": [
+            {
+                "label": "Revenue",
+                "value": "₫8,67tỉ"
+            },
+            {
+                "label": "Units Sold",
+                "value": "78,91k"
+            },
+            {
+                "label": "Average Selling Price",
+                "value": "₫109,82k"
+            }
+        ],
+        "shop_id": "160672596"
+    },
+    "message": null,
+    "cached": null,
+    "code": null
+}

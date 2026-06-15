@@ -1,0 +1,36 @@
+{
+    "success": true,
+    "data": {
+        "MaDaiLy": "E0048",
+        "shopUrl": "https://shopee.vn/petfoodnmore92",
+        "id": "871029815",
+        "name": "Pet Food&More",
+        "shopAvatar": "https://down-ws-cn.img.susercontent.com/vn-11134216-7r98o-lsb7icim65s410_tn.webp",
+        "shopType": "Preferred",
+        "shipMethod": "Local",
+        "shopOpenTime": "2022-09-25",
+        "rating": 4.95,
+        "products": "120",
+        "brandProducts": "119",
+        "followers": "20,31k",
+        "newProducts": "0",
+        "coreMetrics": [
+            {
+                "label": "Revenue",
+                "value": "₫817,45tr"
+            },
+            {
+                "label": "Units Sold",
+                "value": "31,36k"
+            },
+            {
+                "label": "Average Selling Price",
+                "value": "₫26,06k"
+            }
+        ],
+        "shop_id": "871029815"
+    },
+    "message": null,
+    "cached": null,
+    "code": null
+}

@@ -1,0 +1,1522 @@
+{
+    "shop_id": "931220372",
+    "total_collected": 50,
+    "data": [
+        {
+            "serialNumber": 1,
+            "shopId": "931220372",
+            "pid": "15099007289",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-7qukw-li73ghmk36rw9b",
+            "productName": "[500G] thịt sấy không trứng, Thức ăn sấy khô cho chó mèo, Giảm rụng lông cho chó mèo, Thức ăn cho chó mèo",
+            "brandName": "-",
+            "price": "₫173,90k",
+            "minPrice": "₫173,90k",
+            "maxPrice": "₫173,90k",
+            "revenue": "₫556,14tr",
+            "rating": 4.97,
+            "ratingCount": "192",
+            "cateId": "100631",
+            "cateIdPath": "100631:100667:100908",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "1k",
+            "genTime": "2023-06-19",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.15099007289"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Thức ăn cho thú cưng",
+                "Thức ăn cho mèo"
+            ],
+            "unitsSold": "3,04k"
+        },
+        {
+            "serialNumber": 2,
+            "shopId": "931220372",
+            "pid": "20278644040",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-meu26s7yp5vo0a",
+            "productName": "Cá sấy cho chó mèo, giảm rụng lông chó mèo, thức ăn cho chó mèo Cá trứng sấy đông khô bổ sung Canxi cho chó mèo",
+            "brandName": "-",
+            "price": "₫49,00k",
+            "minPrice": "₫49,00k",
+            "maxPrice": "₫49,00k",
+            "revenue": "₫93,00tr",
+            "rating": 4.95,
+            "ratingCount": "1,26k",
+            "cateId": "100631",
+            "cateIdPath": "100631:100667:100908",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "6k",
+            "genTime": "2023-04-16",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.20278644040"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Thức ăn cho thú cưng",
+                "Thức ăn cho mèo"
+            ],
+            "unitsSold": "2k"
+        },
+        {
+            "serialNumber": 3,
+            "shopId": "931220372",
+            "pid": "23755204758",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-meu2ghf2xurpfa",
+            "productName": "[Combo thịt sấy] Cá hồi mix Gan dành cho thú cưng - Salmon mixed with Liver for pets",
+            "brandName": "-",
+            "price": "₫35,20k",
+            "minPrice": "₫35,20k",
+            "maxPrice": "₫35,20k",
+            "revenue": "₫82,58tr",
+            "rating": 4.97,
+            "ratingCount": "133",
+            "cateId": "100631",
+            "cateIdPath": "100631:100667:100906",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "783",
+            "genTime": "2023-09-19",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.23755204758"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Thức ăn cho thú cưng",
+                "Thức ăn cho chó"
+            ],
+            "unitsSold": "2,23k"
+        },
+        {
+            "serialNumber": 4,
+            "shopId": "931220372",
+            "pid": "23950592159",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-meu2ejnedrsw4a",
+            "productName": "[Combo tăng Protein] Vịt mix Gan giúp giảm búi lông, giàu dinh dưỡng hỗ trợ tiêu hoá cho thú cưng",
+            "brandName": "-",
+            "price": "₫45,00k",
+            "minPrice": "₫45,00k",
+            "maxPrice": "₫45,00k",
+            "revenue": "₫82,35tr",
+            "rating": 4.95,
+            "ratingCount": "222",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100944",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "2k",
+            "genTime": "2023-08-07",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.23950592159"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "1,83k"
+        },
+        {
+            "serialNumber": 5,
+            "shopId": "931220372",
+            "pid": "19882659980",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-meu27hh7dxxd3b",
+            "productName": "Tôm sấy cho chó mèo, tiện lợi, giảm mùi phân, hỗ trợ tiêu hoá, giảm rụng lông cho Boss",
+            "brandName": "-",
+            "price": "₫79,00k",
+            "minPrice": "₫79,00k",
+            "maxPrice": "₫79,00k",
+            "revenue": "₫42,00tr",
+            "rating": 4.97,
+            "ratingCount": "818",
+            "cateId": "100631",
+            "cateIdPath": "100631:100667:100908",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "3k",
+            "genTime": "2023-08-07",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.19882659980"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Thức ăn cho thú cưng",
+                "Thức ăn cho mèo"
+            ],
+            "unitsSold": "1k"
+        },
+        {
+            "serialNumber": 6,
+            "shopId": "931220372",
+            "pid": "23050573842",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-meu25j0mnjepf3",
+            "productName": "Thịt vịt sấy cho chó, thịt sấy cho thú cưng, thịt sấy cho chó",
+            "brandName": "-",
+            "price": "₫47,00k",
+            "minPrice": "₫47,00k",
+            "maxPrice": "₫47,00k",
+            "revenue": "₫40,04tr",
+            "rating": 4.98,
+            "ratingCount": "114",
+            "cateId": "100631",
+            "cateIdPath": "100631:100667:100906",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "136",
+            "genTime": "2023-08-07",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.23050573842"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Thức ăn cho thú cưng",
+                "Thức ăn cho chó"
+            ],
+            "unitsSold": "852"
+        },
+        {
+            "serialNumber": 7,
+            "shopId": "931220372",
+            "pid": "24746220646",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-7ras8-md41x6c50s4cba",
+            "productName": "[Bổ sung lợi khuẩn] GÀ VIÊN PRO+, GIẢM NGAY ĐI NGOÀI, TÁO BÓN, HỖ TRỢ TIÊU HOÁ CHO CHÓ MÈO",
+            "brandName": "-",
+            "price": "₫79,00k",
+            "minPrice": "₫79,00k",
+            "maxPrice": "₫79,00k",
+            "revenue": "₫37,37tr",
+            "rating": 4.97,
+            "ratingCount": "64",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100944",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "572",
+            "genTime": "2025-08-01",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.24746220646"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "473"
+        },
+        {
+            "serialNumber": 8,
+            "shopId": "931220372",
+            "pid": "29655115428",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-meu2drnj7ll0cb",
+            "productName": "[BỊCH LỚN] Bánh catnip tiêu búi lông, sạch răng, thơm miệng, bánh thưởng cho mèo",
+            "brandName": "-",
+            "price": "₫128,30k",
+            "minPrice": "₫128,30k",
+            "maxPrice": "₫128,30k",
+            "revenue": "₫30,00tr",
+            "rating": 4.94,
+            "ratingCount": "1,28k",
+            "cateId": "100631",
+            "cateIdPath": "100631:100667:100909",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "6k",
+            "genTime": "2024-07-12",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.29655115428"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Thức ăn cho thú cưng",
+                "Snack cho mèo"
+            ],
+            "unitsSold": "1k"
+        },
+        {
+            "serialNumber": 9,
+            "shopId": "931220372",
+            "pid": "19681818364",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-meu4cokouby999",
+            "productName": "Gan mix trứng sấy khô, Thịt sấy khô cho chó mèo, giúp tiêu búi lông, hỗ trợ tiêu hoá, giảm rụng lông",
+            "brandName": "-",
+            "price": "₫30,40k",
+            "minPrice": "₫30,40k",
+            "maxPrice": "₫30,40k",
+            "revenue": "₫14,30tr",
+            "rating": 4.92,
+            "ratingCount": "124",
+            "cateId": "100631",
+            "cateIdPath": "100631:100667:100908",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "746",
+            "genTime": "2023-07-14",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.19681818364"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Thức ăn cho thú cưng",
+                "Thức ăn cho mèo"
+            ],
+            "unitsSold": "447"
+        },
+        {
+            "serialNumber": 10,
+            "shopId": "931220372",
+            "pid": "52005461372",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-mk0qzo9pbncxc9",
+            "productName": "Móc Khoá Mèo - Ngựa thần tài may mắn, tài lộc 2026",
+            "brandName": "-",
+            "price": "₫19,00k",
+            "minPrice": "₫19,00k",
+            "maxPrice": "₫19,00k",
+            "revenue": "₫2,13tr",
+            "rating": 5.0,
+            "ratingCount": "31",
+            "cateId": "100639",
+            "cateIdPath": "100639:100738:101396",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "160",
+            "genTime": "2026-01-28",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.52005461372"
+            ],
+            "cateNames": [
+                "Sở thích & Sưu tầm",
+                "Quà Lưu Niệm",
+                "Móc khóa"
+            ],
+            "unitsSold": "112"
+        },
+        {
+            "serialNumber": 11,
+            "shopId": "931220372",
+            "pid": "29790943800",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-meu22iw0rymdc1",
+            "productName": "[GIẢM NẤM NGỨA] THẢO DƯỢC TẮM NẤM, GHẺ,VIÊM DA ,BỆNH NGOÀI DA CHÓ MÈO",
+            "brandName": "-",
+            "price": "₫25,00k",
+            "minPrice": "₫25,00k",
+            "maxPrice": "₫25,00k",
+            "revenue": "₫2,05tr",
+            "rating": 4.97,
+            "ratingCount": "87",
+            "cateId": "100631",
+            "cateIdPath": "100631:100670:100929",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "433",
+            "genTime": "2025-09-01",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.29790943800"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Làm đẹp cho thú cưng",
+                "Chăm sóc lông"
+            ],
+            "unitsSold": "82"
+        },
+        {
+            "serialNumber": 12,
+            "shopId": "931220372",
+            "pid": "41572879337",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-mffqeo2urxfsdd",
+            "productName": "Thức ăn xay nhuyễn RUỐC GÀ dùng trộn hạt, pate, cơm TĂNG CÂN cho chó mèo",
+            "brandName": "-",
+            "price": "₫49,00k",
+            "minPrice": "₫49,00k",
+            "maxPrice": "₫49,00k",
+            "revenue": "₫1,72tr",
+            "rating": 4.95,
+            "ratingCount": "21",
+            "cateId": "100631",
+            "cateIdPath": "100631:100667:100908",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "131",
+            "genTime": "2025-10-05",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.41572879337"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Thức ăn cho thú cưng",
+                "Thức ăn cho mèo"
+            ],
+            "unitsSold": "35"
+        },
+        {
+            "serialNumber": 13,
+            "shopId": "931220372",
+            "pid": "22676057585",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-7qukw-lk4z9xd7w9f872",
+            "productName": "Chim cút sấy khô cho chó, hỗ trợ giảm rụng lông, mượt lông, hỗ trợ tiêu hoá",
+            "brandName": "-",
+            "price": "₫52,00k",
+            "minPrice": "₫52,00k",
+            "maxPrice": "₫52,00k",
+            "revenue": "₫1,56tr",
+            "rating": 4.94,
+            "ratingCount": "190",
+            "cateId": "100631",
+            "cateIdPath": "100631:100667:100906",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "5k",
+            "genTime": "2023-08-07",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.22676057585"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Thức ăn cho thú cưng",
+                "Thức ăn cho chó"
+            ],
+            "unitsSold": "30"
+        },
+        {
+            "serialNumber": 14,
+            "shopId": "931220372",
+            "pid": "21086150137",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-7r98o-lnvqbvnhur9650",
+            "productName": "[Gói 500G] Chim cút sấy khô cho chó mèo, hỗ trợ giảm rụng lông, mượt lông",
+            "brandName": "-",
+            "price": "₫380,00k",
+            "minPrice": "₫380,00k",
+            "maxPrice": "₫380,00k",
+            "revenue": "₫1,52tr",
+            "rating": 5.0,
+            "ratingCount": "29",
+            "cateId": "100631",
+            "cateIdPath": "100631:100667:100908",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "113",
+            "genTime": "2023-11-10",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.21086150137"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Thức ăn cho thú cưng",
+                "Thức ăn cho mèo"
+            ],
+            "unitsSold": "4"
+        },
+        {
+            "serialNumber": 15,
+            "shopId": "931220372",
+            "pid": "26325930238",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-7ra0g-m66q4qf7emd4e7",
+            "productName": "[Dọn siêu nhanh] Xẻng Xúc Cát Mèo Size Lớn Bằng Thép Không Gỉ",
+            "brandName": "-",
+            "price": "₫75,00k",
+            "minPrice": "₫75,00k",
+            "maxPrice": "₫75,00k",
+            "revenue": "₫1,35tr",
+            "rating": 5.0,
+            "ratingCount": "26",
+            "cateId": "100631",
+            "cateIdPath": "100631:100669:100927",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "259",
+            "genTime": "2025-02-12",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.26325930238"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Vệ sinh cho thú cưng",
+                "Túi & Xẻng dọn vệ sinh"
+            ],
+            "unitsSold": "18"
+        },
+        {
+            "serialNumber": 16,
+            "shopId": "931220372",
+            "pid": "19494962222",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-meu2udy6xxxcb9",
+            "productName": "ỨC VỊT MIẾNG SẤY KHÔ LOẠI 1 THƠM NGON BỔ DƯỠNG CHO Chó Mèo",
+            "brandName": "-",
+            "price": "₫47,00k",
+            "minPrice": "₫47,00k",
+            "maxPrice": "₫47,00k",
+            "revenue": "₫893,00k",
+            "rating": 4.98,
+            "ratingCount": "185",
+            "cateId": "100631",
+            "cateIdPath": "100631:100667:100908",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "777",
+            "genTime": "2023-11-03",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.19494962222"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Thức ăn cho thú cưng",
+                "Thức ăn cho mèo"
+            ],
+            "unitsSold": "19"
+        },
+        {
+            "serialNumber": 17,
+            "shopId": "931220372",
+            "pid": "24603238315",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-meu2rp2b3htve7",
+            "productName": "Cá tuyết sấy dành cho thú cưng",
+            "brandName": "-",
+            "price": "₫52,00k",
+            "minPrice": "₫52,00k",
+            "maxPrice": "₫52,00k",
+            "revenue": "₫884,00k",
+            "rating": 4.93,
+            "ratingCount": "205",
+            "cateId": "100631",
+            "cateIdPath": "100631:100667:100908",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "1k",
+            "genTime": "2023-12-12",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.24603238315"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Thức ăn cho thú cưng",
+                "Thức ăn cho mèo"
+            ],
+            "unitsSold": "17"
+        },
+        {
+            "serialNumber": 18,
+            "shopId": "931220372",
+            "pid": "25030152222",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-7r98o-lv7v2f5u248p67",
+            "productName": "Men vi sinh BiO line G1 dành cho chó mèo mọi lứa tuổi",
+            "brandName": "Ecopets",
+            "price": "₫75,00k",
+            "minPrice": "₫75,00k",
+            "maxPrice": "₫75,00k",
+            "revenue": "₫825,00k",
+            "rating": 4.97,
+            "ratingCount": "31",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100944",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "172",
+            "genTime": "2024-05-13",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.25030152222"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "11"
+        },
+        {
+            "serialNumber": 19,
+            "shopId": "931220372",
+            "pid": "27311975509",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-7ras8-m0er4ajcm0en5e",
+            "productName": "Viên Dưỡng Lông Cho Chó Mèo tảo biển Spirulina - Giải Pháp Hoàn Hảo Cho Bộ Lông Thú Cưng",
+            "brandName": "-",
+            "price": "₫18,50k",
+            "minPrice": "₫18,50k",
+            "maxPrice": "₫18,50k",
+            "revenue": "₫814,00k",
+            "rating": 5.0,
+            "ratingCount": "79",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100944",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "563",
+            "genTime": "2024-09-21",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.27311975509"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "44"
+        },
+        {
+            "serialNumber": 20,
+            "shopId": "931220372",
+            "pid": "23050592424",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-meu2jr8yxtz77f",
+            "productName": "Gà mix tôm ( combo chắc xương + giàu đạm) dành cho thú cưng, thịt sấy khô cho chó, mèo",
+            "brandName": "-",
+            "price": "₫44,00k",
+            "minPrice": "₫44,00k",
+            "maxPrice": "₫44,00k",
+            "revenue": "₫704,00k",
+            "rating": 4.98,
+            "ratingCount": "93",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100944",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "397",
+            "genTime": "2023-08-07",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.23050592424"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "16"
+        },
+        {
+            "serialNumber": 21,
+            "shopId": "931220372",
+            "pid": "28593748569",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-mi02x9vt064le8",
+            "productName": "[170Gr] PATE CAN CAT SIÊU ĐẶC THỊT, TĂNG CÂN CHO MÈO",
+            "brandName": "-",
+            "price": "₫39,00k",
+            "minPrice": "₫39,00k",
+            "maxPrice": "₫39,00k",
+            "revenue": "₫702,00k",
+            "rating": 5.0,
+            "ratingCount": "11",
+            "cateId": "100631",
+            "cateIdPath": "100631:100667:100908",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "45",
+            "genTime": "2025-12-06",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.28593748569"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Thức ăn cho thú cưng",
+                "Thức ăn cho mèo"
+            ],
+            "unitsSold": "18"
+        },
+        {
+            "serialNumber": 22,
+            "shopId": "931220372",
+            "pid": "25720319830",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-7r98o-lt67bu0yl28p6e",
+            "productName": "Dầu cá hồi giảm rụng lông, kích thích tiêu hoá, bổ sung Omega và dinh dưỡng cần thiết cho tim, da và lông",
+            "brandName": "-",
+            "price": "₫31,00k",
+            "minPrice": "₫31,00k",
+            "maxPrice": "₫31,00k",
+            "revenue": "₫682,00k",
+            "rating": 4.97,
+            "ratingCount": "177",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100944",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "863",
+            "genTime": "2024-03-22",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.25720319830"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "22"
+        },
+        {
+            "serialNumber": 23,
+            "shopId": "931220372",
+            "pid": "23080704054",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-meu3i0yan2tf39",
+            "productName": "[Combo thịt sấy] Gà + Gan + Trứng dành cho chó mèo - Chicken + Liver + Eggs for dogs and cats",
+            "brandName": "-",
+            "price": "₫33,40k",
+            "minPrice": "₫33,40k",
+            "maxPrice": "₫33,40k",
+            "revenue": "₫630,00k",
+            "rating": 4.97,
+            "ratingCount": "186",
+            "cateId": "100631",
+            "cateIdPath": "100631:100667:100908",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "767",
+            "genTime": "2023-09-19",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.23080704054"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Thức ăn cho thú cưng",
+                "Thức ăn cho mèo"
+            ],
+            "unitsSold": "18"
+        },
+        {
+            "serialNumber": 24,
+            "shopId": "931220372",
+            "pid": "25629802941",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-7r98o-lv4zgmnc64fte3",
+            "productName": "Men vi sinh BiO line G1 dành cho chó mèo mọi lứa tuổi",
+            "brandName": "Ecopets",
+            "price": "₫16,00k",
+            "minPrice": "₫16,00k",
+            "maxPrice": "₫16,00k",
+            "revenue": "₫464,00k",
+            "rating": 4.95,
+            "ratingCount": "60",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100944",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "485",
+            "genTime": "2024-05-11",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.25629802941"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "29"
+        },
+        {
+            "serialNumber": 25,
+            "shopId": "931220372",
+            "pid": "24802999390",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-7r98o-lp10v5cbiq8r49",
+            "productName": "[Hoả Tốc] Cát vệ siêu siêu khử mùi, thấm hút cho mèo, Cát đất sét, cát đậu nành chống vón, khử mùi, thấm hút cho mèo",
+            "brandName": "-",
+            "price": "₫60,00k",
+            "minPrice": "₫60,00k",
+            "maxPrice": "₫60,00k",
+            "revenue": "₫420,00k",
+            "rating": 4.95,
+            "ratingCount": "22",
+            "cateId": "100631",
+            "cateIdPath": "100631:100669:100923",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "211",
+            "genTime": "2023-12-08",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.24802999390"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Vệ sinh cho thú cưng",
+                "Khay & Bồn vệ sinh cho mèo"
+            ],
+            "unitsSold": "7"
+        },
+        {
+            "serialNumber": 26,
+            "shopId": "931220372",
+            "pid": "41100415639",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-7ra0g-m9r85x6f4upua7",
+            "productName": "[SẴN ĐẤT]  SET CỎ MÈO TỰ TRỒNG CHO MÈO TIÊU BÚI LÔNG",
+            "brandName": "-",
+            "price": "₫13,00k",
+            "minPrice": "₫13,00k",
+            "maxPrice": "₫13,00k",
+            "revenue": "₫416,00k",
+            "rating": 4.72,
+            "ratingCount": "43",
+            "cateId": "100631",
+            "cateIdPath": "100631:100667:100909",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "400",
+            "genTime": "2025-05-10",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.41100415639"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Thức ăn cho thú cưng",
+                "Snack cho mèo"
+            ],
+            "unitsSold": "32"
+        },
+        {
+            "serialNumber": 27,
+            "shopId": "931220372",
+            "pid": "49003850367",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-mirc2udsc8w781",
+            "productName": "Bột tăng nọng, tăng cân, kích thích thèm ăn cho thú cưng",
+            "brandName": "-",
+            "price": "₫58,00k",
+            "minPrice": "₫58,00k",
+            "maxPrice": "₫58,00k",
+            "revenue": "₫406,00k",
+            "rating": 5.0,
+            "ratingCount": "4",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100944",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "11",
+            "genTime": "2025-12-27",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.49003850367"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "7"
+        },
+        {
+            "serialNumber": 28,
+            "shopId": "931220372",
+            "pid": "20893616993",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-meu2id5qwjd01f",
+            "productName": "Gà viên mix phô mai tăng nọng, tăng cân nặng cho thú cưng - không gia vị - không chất bảo quản",
+            "brandName": "-",
+            "price": "₫44,00k",
+            "minPrice": "₫44,00k",
+            "maxPrice": "₫44,00k",
+            "revenue": "₫368,00k",
+            "rating": 4.97,
+            "ratingCount": "141",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100944",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "484",
+            "genTime": "2023-09-28",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.20893616993"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "9"
+        },
+        {
+            "serialNumber": 29,
+            "shopId": "931220372",
+            "pid": "47353142499",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-miaefg5tds08b8",
+            "productName": "Pate Cherman ⚡NỘI ĐỊA THÁI ⚡ pate cao cấp cho mèo ⚡nhập trực tiếp Thái Lan không qua trung gian ⚡",
+            "brandName": "-",
+            "price": "₫42,00k",
+            "minPrice": "₫42,00k",
+            "maxPrice": "₫42,00k",
+            "revenue": "₫336,00k",
+            "rating": 5.0,
+            "ratingCount": "2",
+            "cateId": "100631",
+            "cateIdPath": "100631:100667:100908",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "18",
+            "genTime": "2025-12-16",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.47353142499"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Thức ăn cho thú cưng",
+                "Thức ăn cho mèo"
+            ],
+            "unitsSold": "8"
+        },
+        {
+            "serialNumber": 30,
+            "shopId": "931220372",
+            "pid": "22376076304",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-meu2h5h8lu6e4e",
+            "productName": "[Combo tăng Protein] Gà mix vịt hỗ trợ tiêu búi lông, giàu dinh dưỡng hỗ trợ tiêu hoá cho thú cưng",
+            "brandName": "-",
+            "price": "₫50,00k",
+            "minPrice": "₫50,00k",
+            "maxPrice": "₫50,00k",
+            "revenue": "₫300,00k",
+            "rating": 5.0,
+            "ratingCount": "33",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100944",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "120",
+            "genTime": "2023-08-07",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.22376076304"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "6"
+        },
+        {
+            "serialNumber": 31,
+            "shopId": "931220372",
+            "pid": "19086195935",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-meu2fa1lxfyfcb",
+            "productName": "[Gói 500G] Mix gà gan sấy lạnh, hỗ trợ tiêu hoá, giảm mùi phân, nước tiểu",
+            "brandName": "-",
+            "price": "₫244,00k",
+            "minPrice": "₫244,00k",
+            "maxPrice": "₫244,00k",
+            "revenue": "₫259,00k",
+            "rating": 5.0,
+            "ratingCount": "3",
+            "cateId": "100631",
+            "cateIdPath": "100631:100667:100908",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "12",
+            "genTime": "2023-11-10",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.19086195935"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Thức ăn cho thú cưng",
+                "Thức ăn cho mèo"
+            ],
+            "unitsSold": "1"
+        },
+        {
+            "serialNumber": 32,
+            "shopId": "931220372",
+            "pid": "13399889978",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-meu2tv1fxdzae3",
+            "productName": "Gan vịt sấy dành cho thú cưng, không gia vị, chất bảo quản",
+            "brandName": "-",
+            "price": "₫33,00k",
+            "minPrice": "₫33,00k",
+            "maxPrice": "₫33,00k",
+            "revenue": "₫231,00k",
+            "rating": 4.96,
+            "ratingCount": "106",
+            "cateId": "100631",
+            "cateIdPath": "100631:100667:100908",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "455",
+            "genTime": "2023-10-24",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.13399889978"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Thức ăn cho thú cưng",
+                "Thức ăn cho mèo"
+            ],
+            "unitsSold": "7"
+        },
+        {
+            "serialNumber": 33,
+            "shopId": "931220372",
+            "pid": "17999371770",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-meu2v97xai9y51",
+            "productName": "[Combo thịt sấy] Gà mix Cá hồi viên",
+            "brandName": "-",
+            "price": "₫45,00k",
+            "minPrice": "₫45,00k",
+            "maxPrice": "₫45,00k",
+            "revenue": "₫225,00k",
+            "rating": 4.97,
+            "ratingCount": "135",
+            "cateId": "100631",
+            "cateIdPath": "100631:100667:100908",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "546",
+            "genTime": "2023-10-29",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.17999371770"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Thức ăn cho thú cưng",
+                "Thức ăn cho mèo"
+            ],
+            "unitsSold": "5"
+        },
+        {
+            "serialNumber": 34,
+            "shopId": "931220372",
+            "pid": "42110605827",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-7ras8-mcpxe1s0ermk87",
+            "productName": "[Hũ 50g] Giải độc gan thận chó mèo ECO DETOX ECOPETS thanh lọc tăng cường sức khoẻ",
+            "brandName": "-",
+            "price": "₫73,00k",
+            "minPrice": "₫73,00k",
+            "maxPrice": "₫73,00k",
+            "revenue": "₫219,00k",
+            "rating": 5.0,
+            "ratingCount": "3",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100944",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "15",
+            "genTime": "2025-07-28",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.42110605827"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "3"
+        },
+        {
+            "serialNumber": 35,
+            "shopId": "931220372",
+            "pid": "24929803483",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-7r98o-lv4zgmncslgaa0",
+            "productName": "Bổ máu, phục hồi sức khoẻ cho chó mèo",
+            "brandName": "Ecopets",
+            "price": "₫12,00k",
+            "minPrice": "₫12,00k",
+            "maxPrice": "₫12,00k",
+            "revenue": "₫192,00k",
+            "rating": 4.95,
+            "ratingCount": "64",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100944",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "636",
+            "genTime": "2024-05-11",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.24929803483"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "16"
+        },
+        {
+            "serialNumber": 36,
+            "shopId": "931220372",
+            "pid": "22573619612",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-meu2fa1lxfyfcb",
+            "productName": "Gói Mix gà gan sấy lạnh, hỗ trợ tiêu hoá, giảm mùi phân, nước tiểu",
+            "brandName": "-",
+            "price": "₫35,00k",
+            "minPrice": "₫35,00k",
+            "maxPrice": "₫35,00k",
+            "revenue": "₫175,00k",
+            "rating": 4.94,
+            "ratingCount": "145",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100944",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "628",
+            "genTime": "2023-07-14",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.22573619612"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "5"
+        },
+        {
+            "serialNumber": 37,
+            "shopId": "931220372",
+            "pid": "18682686982",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-meu23o9viznq13",
+            "productName": "Gan gà sấy khô cho chó. Thức ăn sấy khô cho chó hỗ trợ tiêu hoá, giảm rụng lông, mượt lông",
+            "brandName": "-",
+            "price": "₫41,00k",
+            "minPrice": "₫41,00k",
+            "maxPrice": "₫41,00k",
+            "revenue": "₫164,00k",
+            "rating": 4.98,
+            "ratingCount": "100",
+            "cateId": "100631",
+            "cateIdPath": "100631:100667:100906",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "488",
+            "genTime": "2023-08-07",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.18682686982"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Thức ăn cho thú cưng",
+                "Thức ăn cho chó"
+            ],
+            "unitsSold": "4"
+        },
+        {
+            "serialNumber": 38,
+            "shopId": "931220372",
+            "pid": "24379809318",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-7r98o-lv4zgmnbs2rdc1",
+            "productName": "Canxi hữu cơ, chắc khoẻ xương cho chó mèo",
+            "brandName": "Ecopets",
+            "price": "₫20,00k",
+            "minPrice": "₫20,00k",
+            "maxPrice": "₫20,00k",
+            "revenue": "₫140,00k",
+            "rating": 4.98,
+            "ratingCount": "49",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100944",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "566",
+            "genTime": "2024-05-11",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.24379809318"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "7"
+        },
+        {
+            "serialNumber": 39,
+            "shopId": "931220372",
+            "pid": "25229804486",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-7r98o-lv4zgmnbxp15e1",
+            "productName": "Beta Amin bột dinh dưỡng tăng đề kháng chó mèo",
+            "brandName": "Ecopets",
+            "price": "₫20,00k",
+            "minPrice": "₫20,00k",
+            "maxPrice": "₫20,00k",
+            "revenue": "₫120,00k",
+            "rating": 4.89,
+            "ratingCount": "53",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100944",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "306",
+            "genTime": "2024-05-11",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.25229804486"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "6"
+        },
+        {
+            "serialNumber": 40,
+            "shopId": "931220372",
+            "pid": "24229803476",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-7r98o-lv4zgmncirh672",
+            "productName": "Bổ gan thận, Giải độc gan thận cho chó mèo",
+            "brandName": "Ecopets",
+            "price": "₫10,00k",
+            "minPrice": "₫10,00k",
+            "maxPrice": "₫10,00k",
+            "revenue": "₫110,00k",
+            "rating": 4.94,
+            "ratingCount": "72",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100944",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "647",
+            "genTime": "2024-05-11",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.24229803476"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "11"
+        },
+        {
+            "serialNumber": 41,
+            "shopId": "931220372",
+            "pid": "23057233690",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-meu4dqmubgufb2",
+            "productName": "[Combo thịt sấy] Phô mai mix Gan dành cho thú cưng",
+            "brandName": "-",
+            "price": "₫37,50k",
+            "minPrice": "₫37,50k",
+            "maxPrice": "₫37,50k",
+            "revenue": "₫75,00k",
+            "rating": 5.0,
+            "ratingCount": "42",
+            "cateId": "100631",
+            "cateIdPath": "100631:100667:100908",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "185",
+            "genTime": "2023-10-09",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.23057233690"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Thức ăn cho thú cưng",
+                "Thức ăn cho mèo"
+            ],
+            "unitsSold": "2"
+        },
+        {
+            "serialNumber": 42,
+            "shopId": "931220372",
+            "pid": "16599403996",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-meu4c3d5d4aq50",
+            "productName": "[Combo thịt sấy] Gà viên mix Chim cút sấy dành cho thú cưng",
+            "brandName": "-",
+            "price": "₫45,00k",
+            "minPrice": "₫45,00k",
+            "maxPrice": "₫45,00k",
+            "revenue": "₫45,00k",
+            "rating": 4.94,
+            "ratingCount": "16",
+            "cateId": "100631",
+            "cateIdPath": "100631:100667:100908",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "103",
+            "genTime": "2023-11-01",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.16599403996"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Thức ăn cho thú cưng",
+                "Thức ăn cho mèo"
+            ],
+            "unitsSold": "1"
+        },
+        {
+            "serialNumber": 43,
+            "shopId": "931220372",
+            "pid": "41717496874",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-meu4y7ejsc8w51",
+            "productName": "[GIẢM VIÊM HÔ HẤP] Xông hô hấp thảo dược cho mèo cún, giảm viêm phổi, các bệnh hô hấp, thông mũi phổi",
+            "brandName": "-",
+            "price": "₫39,00k",
+            "minPrice": "₫39,00k",
+            "maxPrice": "₫39,00k",
+            "revenue": "₫39,00k",
+            "rating": 5.0,
+            "ratingCount": "21",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100943",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "99",
+            "genTime": "2025-09-04",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.41717496874"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "1"
+        },
+        {
+            "serialNumber": 44,
+            "shopId": "931220372",
+            "pid": "42660141727",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-meu7d2pu3w8ydf",
+            "productName": "[Hỗ Trợ Tiêu Hoá] Thanh Rau Củ Vị bò cá hồi thịt gà Giúp bảo vệ răng miệng",
+            "brandName": "-",
+            "price": "₫39,00k",
+            "minPrice": "₫39,00k",
+            "maxPrice": "₫39,00k",
+            "revenue": "₫0,00",
+            "rating": 4.92,
+            "ratingCount": "25",
+            "cateId": "100631",
+            "cateIdPath": "100631:100667:100909",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "174",
+            "genTime": "2025-07-25",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.42660141727"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Thức ăn cho thú cưng",
+                "Snack cho mèo"
+            ],
+            "unitsSold": "0"
+        },
+        {
+            "serialNumber": 45,
+            "shopId": "931220372",
+            "pid": "41560598923",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-7ras8-mcpx7p018ii5e4",
+            "productName": "Sữa tắm khô dưỡng lông thuần chay Ecopets 100ml - trị rận, nấm, giúp lông chó mèo mềm mượt HLCS",
+            "brandName": "-",
+            "price": "₫110,00k",
+            "minPrice": "₫110,00k",
+            "maxPrice": "₫110,00k",
+            "revenue": "₫0,00",
+            "rating": 3.0,
+            "ratingCount": "1",
+            "cateId": "100631",
+            "cateIdPath": "100631:100670:100929",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "14",
+            "genTime": "2025-07-28",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.41560598923"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Làm đẹp cho thú cưng",
+                "Chăm sóc lông"
+            ],
+            "unitsSold": "0"
+        },
+        {
+            "serialNumber": 46,
+            "shopId": "931220372",
+            "pid": "40662021826",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-meu7d2pu3w8ydf",
+            "productName": "THANH RAU CỦ kết hợp thịt gà, bò và cá hồi hỗ trợ TIÊU HOÁ KHOẺ, DƯỠNG LÔNG, SẠCH RĂNG, TIÊU BÚI LÔNG cho mèo cún",
+            "brandName": "-",
+            "price": "₫39,00k",
+            "minPrice": "₫39,00k",
+            "maxPrice": "₫39,00k",
+            "revenue": "₫0,00",
+            "rating": 4.85,
+            "ratingCount": "48",
+            "cateId": "100631",
+            "cateIdPath": "100631:100667:100909",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "242",
+            "genTime": "2025-08-08",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.40662021826"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Thức ăn cho thú cưng",
+                "Snack cho mèo"
+            ],
+            "unitsSold": "0"
+        },
+        {
+            "serialNumber": 47,
+            "shopId": "931220372",
+            "pid": "29811967657",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-7ras8-m0er4ajcnez312",
+            "productName": "Viên Tăng Cân, Tăng Nọng Cho Chó Mèo Vị Phô Mai Béo Ngậy Gói 10 Viên",
+            "brandName": "-",
+            "price": "₫18,00k",
+            "minPrice": "₫18,00k",
+            "maxPrice": "₫18,00k",
+            "revenue": "₫0,00",
+            "rating": 4.99,
+            "ratingCount": "145",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100944",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "1k",
+            "genTime": "2024-09-21",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.29811967657"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "0"
+        },
+        {
+            "serialNumber": 48,
+            "shopId": "931220372",
+            "pid": "28961414174",
+            "imageUrl": "https://s-cf-vn.shopeesz.com/file/vn-11134207-7ras8-m1ekigasg5egca_tn",
+            "productName": "[03] Vòng cổ mix nhiều hình dạng cho mèo, cún",
+            "brandName": "-",
+            "price": "₫19,00k",
+            "minPrice": "₫20,00k",
+            "maxPrice": "₫35,00k",
+            "revenue": "₫0,00",
+            "rating": 5.0,
+            "ratingCount": "15",
+            "cateId": "100631",
+            "cateIdPath": "100631:100671:100936",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "90",
+            "genTime": "2024-09-16",
+            "productUrl": [
+                "https://shopee.vn/[03-Vòng-cổ-mix-nhiều-hình-dạng-cho-mèo,-cún-i.931220372.28961414174"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Quần áo & phụ kiện",
+                "Phụ kiện đeo cổ"
+            ],
+            "unitsSold": "0"
+        },
+        {
+            "serialNumber": 49,
+            "shopId": "931220372",
+            "pid": "28725968757",
+            "imageUrl": "https://s-cf-vn.shopeesz.com/file/vn-11134207-7ra0g-m65npewaz97bf6_tn",
+            "productName": "[100G] PATE SÚP THƯỞNG NEEKA NẮP VẶN TĂNG CÂN CHO MÈO CÚN",
+            "brandName": "neeka",
+            "price": "₫15,00k",
+            "minPrice": "₫15,00k",
+            "maxPrice": "₫15,00k",
+            "revenue": "₫0,00",
+            "rating": 4.94,
+            "ratingCount": "16",
+            "cateId": "100631",
+            "cateIdPath": "100631:100667:100908",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "278",
+            "genTime": "2025-02-13",
+            "productUrl": [
+                "https://shopee.vn/[100G-PATE-SÚP-THƯỞNG-NEEKA-NẮP-VẶN-TĂNG-CÂN-CHO-MÈO-CÚN-i.931220372.28725968757"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Thức ăn cho thú cưng",
+                "Thức ăn cho mèo"
+            ],
+            "unitsSold": "0"
+        },
+        {
+            "serialNumber": 50,
+            "shopId": "931220372",
+            "pid": "28528979655",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-7ra0g-m75ewl8p5e7sff",
+            "productName": "[Đồ chơi thư giãn] Cần câu mèo - dây thép gắn lông vũ cho thú cưng",
+            "brandName": "-",
+            "price": "₫12,00k",
+            "minPrice": "₫12,00k",
+            "maxPrice": "₫12,00k",
+            "revenue": "₫0,00",
+            "rating": 4.98,
+            "ratingCount": "171",
+            "cateId": "100631",
+            "cateIdPath": "100631:100668:100919:101677:101925",
+            "shopName": "Nhà Mèo Của Dứa",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "1k",
+            "genTime": "2025-03-10",
+            "productUrl": [
+                "https://shopee.vn/title-i.931220372.28528979655"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Phụ kiện cho thú cưng",
+                "Đồ chơi",
+                "Đồ chơi cho chó mèo",
+                "Đồ chơi đuổi bắt"
+            ],
+            "unitsSold": "0"
+        }
+    ]
+}

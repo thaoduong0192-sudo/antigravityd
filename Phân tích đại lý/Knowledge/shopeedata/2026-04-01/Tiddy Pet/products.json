@@ -1,0 +1,1488 @@
+{
+    "shop_id": "398354027",
+    "total_collected": 50,
+    "data": [
+        {
+            "serialNumber": 1,
+            "shopId": "398354027",
+            "pid": "48252624387",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-mhvchvbslc0037",
+            "productName": "ETO Modex Viên Nhai Diệt Ve, Rận, Bọ Chét, Viêm Da Do Demodex, Sarcoptes Cho Chó",
+            "brandName": "Vemedim",
+            "price": "₫59,00k",
+            "minPrice": "₫59,00k",
+            "maxPrice": "₫59,00k",
+            "revenue": "₫320,00tr",
+            "rating": 4.94,
+            "ratingCount": "652",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100943",
+            "shopName": "Tiddy Pet",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "6k",
+            "genTime": "2025-12-05",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.48252624387"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "5k"
+        },
+        {
+            "serialNumber": 2,
+            "shopId": "398354027",
+            "pid": "28793752781",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-mhvobbuhughtc8",
+            "productName": "VMD Spreadline Tuýp Nhỏ Gáy Loại Bỏ Ve Rận Bọ Chét Giun Sán Cho Mèo",
+            "brandName": "Vemedim",
+            "price": "₫70,00k",
+            "minPrice": "₫70,00k",
+            "maxPrice": "₫70,00k",
+            "revenue": "₫185,99tr",
+            "rating": 4.98,
+            "ratingCount": "179",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100943",
+            "shopName": "Tiddy Pet",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "1k",
+            "genTime": "2025-12-05",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.28793752781"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "2,66k"
+        },
+        {
+            "serialNumber": 3,
+            "shopId": "398354027",
+            "pid": "53502530888",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-mhswsx9d7288bf",
+            "productName": "VMD RESPICURE 100mg Tri Nhiễm Khuẩn Đường Hô Hấp Cho Chó Mèo - Doxy 100mg",
+            "brandName": "Vemedim",
+            "price": "₫166,00k",
+            "minPrice": "₫166,00k",
+            "maxPrice": "₫166,00k",
+            "revenue": "₫164,34tr",
+            "rating": 4.97,
+            "ratingCount": "123",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100943",
+            "shopName": "Tiddy Pet",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "1k",
+            "genTime": "2025-12-03",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.53502530888"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "990"
+        },
+        {
+            "serialNumber": 4,
+            "shopId": "398354027",
+            "pid": "23736105461",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-mhvsreg6ptl200",
+            "productName": "VMD Sữa Tắm MICONA Ngừa Viêm Da, Nấm Da, Viêm Nang Lông Cho Chó Mèo",
+            "brandName": "Vemedim",
+            "price": "₫70,00k",
+            "minPrice": "₫70,00k",
+            "maxPrice": "₫70,00k",
+            "revenue": "₫112,00tr",
+            "rating": 4.98,
+            "ratingCount": "393",
+            "cateId": "100631",
+            "cateIdPath": "100631:100670:100929",
+            "shopName": "Tiddy Pet",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "3k",
+            "genTime": "2023-03-31",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.23736105461"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Làm đẹp cho thú cưng",
+                "Chăm sóc lông"
+            ],
+            "unitsSold": "1k"
+        },
+        {
+            "serialNumber": 5,
+            "shopId": "398354027",
+            "pid": "20675642296",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-mfdu9uc1x4wcbb",
+            "productName": "VMD Men Tiêu Hóa Chó Mèo PROBISOL - Gói 5g",
+            "brandName": "Vemedim",
+            "price": "₫6,00k",
+            "minPrice": "₫6,00k",
+            "maxPrice": "₫6,00k",
+            "revenue": "₫52,92tr",
+            "rating": 4.94,
+            "ratingCount": "319",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100944",
+            "shopName": "Tiddy Pet",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "3k",
+            "genTime": "2023-03-10",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.20675642296"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "2k"
+        },
+        {
+            "serialNumber": 6,
+            "shopId": "398354027",
+            "pid": "22440276857",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-mhvmjiph3e9vc1",
+            "productName": "VMD IMIDA Plus Tuýp Nhỏ Gáy Loại Bỏ Ve Rận Bọ Chét Cho Mèo",
+            "brandName": "Vemedim",
+            "price": "₫25,00k",
+            "minPrice": "₫25,00k",
+            "maxPrice": "₫25,00k",
+            "revenue": "₫50,00tr",
+            "rating": 4.98,
+            "ratingCount": "383",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100943",
+            "shopName": "Tiddy Pet",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "3k",
+            "genTime": "2023-04-22",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.22440276857"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "2k"
+        },
+        {
+            "serialNumber": 7,
+            "shopId": "398354027",
+            "pid": "55352639206",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-mhvs7fovyby893",
+            "productName": "VMD FRONIL Extra Tuýp Nhỏ Gáy Diệt Ve Rận Bọ Chét Cho Chó",
+            "brandName": "Vemedim",
+            "price": "₫29,00k",
+            "minPrice": "₫29,00k",
+            "maxPrice": "₫29,00k",
+            "revenue": "₫8,73tr",
+            "rating": 4.98,
+            "ratingCount": "109",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100943",
+            "shopName": "Tiddy Pet",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "1k",
+            "genTime": "2025-12-05",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.55352639206"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "301"
+        },
+        {
+            "serialNumber": 8,
+            "shopId": "398354027",
+            "pid": "23943918599",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-mhuaocuq6m86b0",
+            "productName": "VMD Hairball Cure Gel Bổ Sung Dinh Dưỡng Ngừa Búi Lông, Chống Táo Bón Cho Chó Mèo",
+            "brandName": "Vemedim",
+            "price": "₫66,00k",
+            "minPrice": "₫66,00k",
+            "maxPrice": "₫66,00k",
+            "revenue": "₫2,71tr",
+            "rating": 4.85,
+            "ratingCount": "20",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100944",
+            "shopName": "Tiddy Pet",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "115",
+            "genTime": "2023-05-29",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.23943918599"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "41"
+        },
+        {
+            "serialNumber": 9,
+            "shopId": "398354027",
+            "pid": "42171868468",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-mf59tb5u5ngs73",
+            "productName": "VMD VIME DEWORM Viên Tẩy Giun Sán Dành Cho Chó",
+            "brandName": "Vemedim",
+            "price": "₫37,00k",
+            "minPrice": "₫37,00k",
+            "maxPrice": "₫37,00k",
+            "revenue": "₫2,11tr",
+            "rating": 5.0,
+            "ratingCount": "15",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100943",
+            "shopName": "Tiddy Pet",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "63",
+            "genTime": "2025-09-27",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.42171868468"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "57"
+        },
+        {
+            "serialNumber": 10,
+            "shopId": "398354027",
+            "pid": "12298578284",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-7qukw-lj5lsm2fxlua7b",
+            "productName": "ALLCAREQUIL Siro bổ gan - giải độc gan cấp và phục hồ chức năng gan cho Chó Mèo chai 50ml Ascorequil- Tiddy Pet Shop",
+            "brandName": "AllCare",
+            "price": "₫135,00k",
+            "minPrice": "₫135,00k",
+            "maxPrice": "₫135,00k",
+            "revenue": "₫945,00k",
+            "rating": 4.97,
+            "ratingCount": "118",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100944",
+            "shopName": "Tiddy Pet",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "592",
+            "genTime": "2023-03-22",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.12298578284"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "7"
+        },
+        {
+            "serialNumber": 11,
+            "shopId": "398354027",
+            "pid": "49502523174",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-mhsr456azxtxee",
+            "productName": "VMD Pet AMOX Plus Bột Pha Tri Nhiễm Trùng Đường Hô Hấp, Tiêu Hóa, Tiết Niệu Trên Chó Mèo",
+            "brandName": "Vemedim",
+            "price": "₫52,00k",
+            "minPrice": "₫52,00k",
+            "maxPrice": "₫52,00k",
+            "revenue": "₫884,00k",
+            "rating": 5.0,
+            "ratingCount": "7",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100943",
+            "shopName": "Tiddy Pet",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "251",
+            "genTime": "2025-12-03",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.49502523174"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "17"
+        },
+        {
+            "serialNumber": 12,
+            "shopId": "398354027",
+            "pid": "22533837820",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-mhtwck7ip91e8f",
+            "productName": "VMD Nuvita Gel Bổ Sung Dinh Dưỡng, Vitamin, Khoáng Cho Chó Mèo - Tuýp 120g",
+            "brandName": "Vemedim",
+            "price": "₫68,00k",
+            "minPrice": "₫68,00k",
+            "maxPrice": "₫68,00k",
+            "revenue": "₫816,00k",
+            "rating": 4.91,
+            "ratingCount": "11",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100944",
+            "shopName": "Tiddy Pet",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "53",
+            "genTime": "2023-03-22",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.22533837820"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "12"
+        },
+        {
+            "serialNumber": 13,
+            "shopId": "398354027",
+            "pid": "55002514267",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-mhsu90pylkaw26",
+            "productName": "VMD Vime FRONDOG Chai Xịt Ve Rận Bọ Chét Cho Chó Mèo - Chai 250ml",
+            "brandName": "Vemedim",
+            "price": "₫115,00k",
+            "minPrice": "₫115,00k",
+            "maxPrice": "₫115,00k",
+            "revenue": "₫690,00k",
+            "rating": 5.0,
+            "ratingCount": "2",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100943",
+            "shopName": "Tiddy Pet",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "6",
+            "genTime": "2025-12-03",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.55002514267"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "6"
+        },
+        {
+            "serialNumber": 14,
+            "shopId": "398354027",
+            "pid": "22433985434",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-mhstbp0jf4ld4d",
+            "productName": "VMD SEASAL Drop Nước Nhỏ Mũi Chống Nghẹt Mũi, Giảm Hắt Hơi, Sổ Mũi Cho Chó Mèo",
+            "brandName": "Vemedim",
+            "price": "₫56,00k",
+            "minPrice": "₫56,00k",
+            "maxPrice": "₫56,00k",
+            "revenue": "₫560,00k",
+            "rating": 4.9,
+            "ratingCount": "84",
+            "cateId": "100631",
+            "cateIdPath": "100631:100669:100928",
+            "shopName": "Tiddy Pet",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "381",
+            "genTime": "2023-03-22",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.22433985434"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Vệ sinh cho thú cưng",
+                "Khác"
+            ],
+            "unitsSold": "10"
+        },
+        {
+            "serialNumber": 15,
+            "shopId": "398354027",
+            "pid": "19589262428",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-mhuariosxwqwa3",
+            "productName": "VMD Soothing EAR Chai Dung Dịch Vệ Sinh Tai, Khử Mùi Hôi Tai, Loại Bỏ Ráy Tai Cho Chó Mèo",
+            "brandName": "Vemedim",
+            "price": "₫72,00k",
+            "minPrice": "₫72,00k",
+            "maxPrice": "₫72,00k",
+            "revenue": "₫432,00k",
+            "rating": 4.97,
+            "ratingCount": "40",
+            "cateId": "100631",
+            "cateIdPath": "100631:100670:100932",
+            "shopName": "Tiddy Pet",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "204",
+            "genTime": "2023-05-29",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.19589262428"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Làm đẹp cho thú cưng",
+                "Khác"
+            ],
+            "unitsSold": "6"
+        },
+        {
+            "serialNumber": 16,
+            "shopId": "398354027",
+            "pid": "27355639363",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-mhy8s3tmzocl35",
+            "productName": "VMD Sữa Tắm Vime Shampo Phòng Diệt Vẹ Rận Bọ Chét Cho Chó Mèo - Chai 300ml",
+            "brandName": "Vemedim",
+            "price": "₫60,00k",
+            "minPrice": "₫60,00k",
+            "maxPrice": "₫60,00k",
+            "revenue": "₫300,00k",
+            "rating": 5.0,
+            "ratingCount": "1",
+            "cateId": "100631",
+            "cateIdPath": "100631:100670:100929",
+            "shopName": "Tiddy Pet",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "9",
+            "genTime": "2024-07-18",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.27355639363"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Làm đẹp cho thú cưng",
+                "Chăm sóc lông"
+            ],
+            "unitsSold": "5"
+        },
+        {
+            "serialNumber": 17,
+            "shopId": "398354027",
+            "pid": "18579978078",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-mhshzf44lfygd8",
+            "productName": "VMD BROMHEXINE Oral Siro Uống Hỗ Trợ Hô Hấp Cho Chó Mèo Giúp Long Đờm Giảm Ho, Dễ Thở",
+            "brandName": "Vemedim",
+            "price": "₫75,00k",
+            "minPrice": "₫75,00k",
+            "maxPrice": "₫75,00k",
+            "revenue": "₫300,00k",
+            "rating": 5.0,
+            "ratingCount": "59",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100944",
+            "shopName": "Tiddy Pet",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "450",
+            "genTime": "2023-05-20",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.18579978078"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "4"
+        },
+        {
+            "serialNumber": 18,
+            "shopId": "398354027",
+            "pid": "22542937410",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-mhsqis12kv0m7e",
+            "productName": "VMD ELECAMIN Db Siro Bổ Sung Vitamin và Acid Amin Giúp Nâng Cao Đề Kháng, Ăn Ngon Cho Chó Mèo",
+            "brandName": "Vemedim",
+            "price": "₫62,00k",
+            "minPrice": "₫62,00k",
+            "maxPrice": "₫62,00k",
+            "revenue": "₫248,00k",
+            "rating": 5.0,
+            "ratingCount": "9",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100944",
+            "shopName": "Tiddy Pet",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "54",
+            "genTime": "2023-05-20",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.22542937410"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "4"
+        },
+        {
+            "serialNumber": 19,
+            "shopId": "398354027",
+            "pid": "46552504487",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-mhshjh8yq8ldda",
+            "productName": "VMD AZISOL Bột Pha Uống Tri Nhiễm Khuẩn Hô Hấp, Viêm Da, Tiết Niệu Dành Cho Chó Mèo",
+            "brandName": "Vemedim",
+            "price": "₫48,00k",
+            "minPrice": "₫48,00k",
+            "maxPrice": "₫48,00k",
+            "revenue": "₫192,00k",
+            "rating": 5.0,
+            "ratingCount": "4",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100943",
+            "shopName": "Tiddy Pet",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "50",
+            "genTime": "2025-12-03",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.46552504487"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "4"
+        },
+        {
+            "serialNumber": 20,
+            "shopId": "398354027",
+            "pid": "22175889708",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-mhssmt2r7nyg4a",
+            "productName": "VMD VIMEKON Bột Sát Trùng Diệt Khuẩn Gây Bệnh, Chuồng Nuôi Cho Chó Mèo - Gói 20g",
+            "brandName": "Vemedim",
+            "price": "₫32,00k",
+            "minPrice": "₫32,00k",
+            "maxPrice": "₫32,00k",
+            "revenue": "₫192,00k",
+            "rating": 5.0,
+            "ratingCount": "28",
+            "cateId": "100631",
+            "cateIdPath": "100631:100669:100928",
+            "shopName": "Tiddy Pet",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "294",
+            "genTime": "2023-08-05",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.22175889708"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Vệ sinh cho thú cưng",
+                "Khác"
+            ],
+            "unitsSold": "6"
+        },
+        {
+            "serialNumber": 21,
+            "shopId": "398354027",
+            "pid": "22542933196",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-mhsrnxryrg1x87",
+            "productName": "VMD FLUCOZOL Dung Dịch Hỗ Trợ Tri Nấm Ngoài Da, Nấm Hô Hấp Cho Chó Mèo",
+            "brandName": "Vemedim",
+            "price": "₫69,00k",
+            "minPrice": "₫69,00k",
+            "maxPrice": "₫69,00k",
+            "revenue": "₫138,00k",
+            "rating": 5.0,
+            "ratingCount": "2",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100943",
+            "shopName": "Tiddy Pet",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "8",
+            "genTime": "2023-05-20",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.22542933196"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "2"
+        },
+        {
+            "serialNumber": 22,
+            "shopId": "398354027",
+            "pid": "54752707994",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-mhy6webfj7k5fc",
+            "productName": "VMD SMELL MASTER Chai Xịt Khử Mùi, Diệt Khuẩn, Bảo Vệ Da Lông Cho Chó Mèo - Chai 150ml",
+            "brandName": "Vemedim",
+            "price": "₫86,00k",
+            "minPrice": "₫86,00k",
+            "maxPrice": "₫86,00k",
+            "revenue": "₫86,00k",
+            "rating": 0.0,
+            "ratingCount": "0",
+            "cateId": "100631",
+            "cateIdPath": "100631:100669:100928",
+            "shopName": "Tiddy Pet",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "1",
+            "genTime": "2025-12-07",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.54752707994"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Vệ sinh cho thú cưng",
+                "Khác"
+            ],
+            "unitsSold": "1"
+        },
+        {
+            "serialNumber": 23,
+            "shopId": "398354027",
+            "pid": "23575889483",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-mhspzcg0zgu925",
+            "productName": "VMD DocaLyte Bù Nước và Điện Giải Cấp Tốc Cho Chó Mèo",
+            "brandName": "Vemedim",
+            "price": "₫6,50k",
+            "minPrice": "₫6,50k",
+            "maxPrice": "₫6,50k",
+            "revenue": "₫65,00k",
+            "rating": 5.0,
+            "ratingCount": "15",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100944",
+            "shopName": "Tiddy Pet",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "257",
+            "genTime": "2023-08-05",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.23575889483"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "10"
+        },
+        {
+            "serialNumber": 24,
+            "shopId": "398354027",
+            "pid": "58002598237",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-mhumqfwr05qb84",
+            "productName": "VMD Boost IMMU for DOG Gel Dinh Dưỡng Cho Chó Giúp Tăng Sức Đề Kháng, Phục Hồi Thể Chất",
+            "brandName": "Vemedim",
+            "price": "₫115,00k",
+            "minPrice": "₫115,00k",
+            "maxPrice": "₫115,00k",
+            "revenue": "₫0,00",
+            "rating": 0.0,
+            "ratingCount": "0",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100944",
+            "shopName": "Tiddy Pet",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "0",
+            "genTime": "2025-12-04",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.58002598237"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "0"
+        },
+        {
+            "serialNumber": 25,
+            "shopId": "398354027",
+            "pid": "57952505062",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-mhsidfaycoat2e",
+            "productName": "VMD CEFALONG Tri Nhiễm Khuẩn Hô Hấp, Tiết Niệu Cho Chó Mèo - Hộp 10 Viên",
+            "brandName": "Vemedim",
+            "price": "₫92,00k",
+            "minPrice": "₫92,00k",
+            "maxPrice": "₫92,00k",
+            "revenue": "₫0,00",
+            "rating": 0.0,
+            "ratingCount": "0",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100943",
+            "shopName": "Tiddy Pet",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "0",
+            "genTime": "2025-12-03",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.57952505062"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "0"
+        },
+        {
+            "serialNumber": 26,
+            "shopId": "398354027",
+            "pid": "54152558545",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-mhtw5sk2z0n8c1",
+            "productName": "VMD Vimectin Pour On Phòng và Tri Ve, Bọ Chét, Mạt Cho Chó Mèo, Chim Cảnh, Gia Cầm",
+            "brandName": "Vemedim",
+            "price": "₫60,00k",
+            "minPrice": "₫60,00k",
+            "maxPrice": "₫60,00k",
+            "revenue": "₫0,00",
+            "rating": 0.0,
+            "ratingCount": "0",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100943",
+            "shopName": "Tiddy Pet",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "0",
+            "genTime": "2025-12-04",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.54152558545"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "0"
+        },
+        {
+            "serialNumber": 27,
+            "shopId": "398354027",
+            "pid": "53002707937",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-mhy71zg3pxc648",
+            "productName": "VMD Vime YUCCA Men Vi Sinh Khử Mùi Hôi, Khử Khuẩn Cát Cho Mèo - Gói 100g",
+            "brandName": "Vemedim",
+            "price": "₫35,00k",
+            "minPrice": "₫35,00k",
+            "maxPrice": "₫35,00k",
+            "revenue": "₫0,00",
+            "rating": 0.0,
+            "ratingCount": "0",
+            "cateId": "100631",
+            "cateIdPath": "100631:100669:100928",
+            "shopName": "Tiddy Pet",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "0",
+            "genTime": "2025-12-07",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.53002707937"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Vệ sinh cho thú cưng",
+                "Khác"
+            ],
+            "unitsSold": "0"
+        },
+        {
+            "serialNumber": 28,
+            "shopId": "398354027",
+            "pid": "51552514634",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-mhsupugenmkg39",
+            "productName": "VMD Marbovitryl FD Tri Nhiễm Trùng, Đường Hô Hấp, Tiết Niệu Cho Chó Mèo - Hộp 10 viên",
+            "brandName": "Vemedim",
+            "price": "₫20,00k",
+            "minPrice": "₫20,00k",
+            "maxPrice": "₫20,00k",
+            "revenue": "₫0,00",
+            "rating": 5.0,
+            "ratingCount": "1",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100943",
+            "shopName": "Tiddy Pet",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "5",
+            "genTime": "2025-12-03",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.51552514634"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "0"
+        },
+        {
+            "serialNumber": 29,
+            "shopId": "398354027",
+            "pid": "47152537174",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-mhsqq6ktfk00be",
+            "productName": "VMD Vime DEWORM Siro Tẩy Giun Sán Cho Chó Mèo - Chai 20ml",
+            "brandName": "Vemedim",
+            "price": "₫55,00k",
+            "minPrice": "₫55,00k",
+            "maxPrice": "₫55,00k",
+            "revenue": "₫0,00",
+            "rating": 0.0,
+            "ratingCount": "0",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100943",
+            "shopName": "Tiddy Pet",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "9",
+            "genTime": "2025-12-03",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.47152537174"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "0"
+        },
+        {
+            "serialNumber": 30,
+            "shopId": "398354027",
+            "pid": "46052737007",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-mhy7e3k5isy0e7",
+            "productName": "VMD Sữa Tắm DEORANT Giúp Khử Mùi, Ngăn Ngừa Rụng Lông, Mượt Lông Cho Chó Mèo - Chai 390ml",
+            "brandName": "Vemedim",
+            "price": "₫95,00k",
+            "minPrice": "₫95,00k",
+            "maxPrice": "₫95,00k",
+            "revenue": "₫0,00",
+            "rating": 5.0,
+            "ratingCount": "1",
+            "cateId": "100631",
+            "cateIdPath": "100631:100670:100929",
+            "shopName": "Tiddy Pet",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "2",
+            "genTime": "2025-12-07",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.46052737007"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Làm đẹp cho thú cưng",
+                "Chăm sóc lông"
+            ],
+            "unitsSold": "0"
+        },
+        {
+            "serialNumber": 31,
+            "shopId": "398354027",
+            "pid": "45552546137",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-mhswkf6w1jb4f4",
+            "productName": "VMD Fronil Spot Tuýp Nhỏ Gáy Loại Bỏ Ve Rận Bọ Chét Cho Chó - 1 Hộp 5 Tuýp",
+            "brandName": "Vemedim",
+            "price": "₫55,00k",
+            "minPrice": "₫55,00k",
+            "maxPrice": "₫55,00k",
+            "revenue": "₫0,00",
+            "rating": 4.85,
+            "ratingCount": "20",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100943",
+            "shopName": "Tiddy Pet",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "463",
+            "genTime": "2025-12-03",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.45552546137"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "0"
+        },
+        {
+            "serialNumber": 32,
+            "shopId": "398354027",
+            "pid": "45452539093",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-mhsuiqjp8g0047",
+            "productName": "VMD RESPICURE 50mg Tri Nhiễm Khuẩn Đường Hô Hấp cho Chó, Mèo - Doxy 50mg",
+            "brandName": "Vemedim",
+            "price": "₫25,00k",
+            "minPrice": "₫25,00k",
+            "maxPrice": "₫25,00k",
+            "revenue": "₫0,00",
+            "rating": 0.0,
+            "ratingCount": "0",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100943",
+            "shopName": "Tiddy Pet",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "2",
+            "genTime": "2025-12-03",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.45452539093"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "0"
+        },
+        {
+            "serialNumber": 33,
+            "shopId": "398354027",
+            "pid": "44326951673",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-mhsgzdy1uxvo9e",
+            "productName": "VMD ANTI DERM Kem Bôi Viêm Da, Ghẻ, Xà Mâu Cho Chó Mèo",
+            "brandName": "Vemedim",
+            "price": "₫48,00k",
+            "minPrice": "₫48,00k",
+            "maxPrice": "₫48,00k",
+            "revenue": "₫0,00",
+            "rating": 5.0,
+            "ratingCount": "1",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100943",
+            "shopName": "Tiddy Pet",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "7",
+            "genTime": "2025-12-03",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.44326951673"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "0"
+        },
+        {
+            "serialNumber": 34,
+            "shopId": "398354027",
+            "pid": "43276953768",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-mhsqxf7b7n5y72",
+            "productName": "VMD Chai Nhỏ Tai Tri Viêm Tai Ngoài Cho Chó Mèo - Chai 10ml",
+            "brandName": "Vemedim",
+            "price": "₫34,00k",
+            "minPrice": "₫34,00k",
+            "maxPrice": "₫34,00k",
+            "revenue": "₫0,00",
+            "rating": 4.95,
+            "ratingCount": "20",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100943",
+            "shopName": "Tiddy Pet",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "147",
+            "genTime": "2025-12-03",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.43276953768"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "0"
+        },
+        {
+            "serialNumber": 35,
+            "shopId": "398354027",
+            "pid": "41226979828",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-mhtyvy8fc2rq35",
+            "productName": "VMD Effervita Amino Viên Tăng Đề Kháng Và Bổ Sung Vitamin Dành Cho Chó, Mèo, Chim Cảnh",
+            "brandName": "Vemedim",
+            "price": "₫20,00k",
+            "minPrice": "₫20,00k",
+            "maxPrice": "₫20,00k",
+            "revenue": "₫0,00",
+            "rating": 0.0,
+            "ratingCount": "0",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100944",
+            "shopName": "Tiddy Pet",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "0",
+            "genTime": "2025-12-04",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.41226979828"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "0"
+        },
+        {
+            "serialNumber": 36,
+            "shopId": "398354027",
+            "pid": "40226966786",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-mhst3n41x81w80",
+            "productName": "VMD GENAZOL Kem Bôi Viêm Da, Ghẻ Cho Chó Mèo - Tuýp 20gr",
+            "brandName": "Vemedim",
+            "price": "₫52,00k",
+            "minPrice": "₫52,00k",
+            "maxPrice": "₫52,00k",
+            "revenue": "₫0,00",
+            "rating": 0.0,
+            "ratingCount": "0",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100943",
+            "shopName": "Tiddy Pet",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "0",
+            "genTime": "2025-12-03",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.40226966786"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "0"
+        },
+        {
+            "serialNumber": 37,
+            "shopId": "398354027",
+            "pid": "26653882909",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-mhy69rvuy6mee8",
+            "productName": "VMD Hemo Rooster Pet Viên Uống Bổ Máu, Giúp Phục Hồi Nhanh, Tăng Đề Kháng, Tăng Thèm Ăn Cho Chó Mèo",
+            "brandName": "Vemedim",
+            "price": "₫130,00k",
+            "minPrice": "₫130,00k",
+            "maxPrice": "₫130,00k",
+            "revenue": "₫0,00",
+            "rating": 5.0,
+            "ratingCount": "3",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100944",
+            "shopName": "Tiddy Pet",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "21",
+            "genTime": "2024-06-27",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.26653882909"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "0"
+        },
+        {
+            "serialNumber": 38,
+            "shopId": "398354027",
+            "pid": "25833683739",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-820l4-mhy9o3lscc1x6c",
+            "productName": "VMD Vime Shampo Sữa Tắm Phòng và Tri Ve, Rận, Bọ Chét Cho Chó, Mèo - Chai 300ml",
+            "brandName": "Vemedim",
+            "price": "₫76,00k",
+            "minPrice": "₫76,00k",
+            "maxPrice": "₫76,00k",
+            "revenue": "₫0,00",
+            "rating": 0.0,
+            "ratingCount": "0",
+            "cateId": "100631",
+            "cateIdPath": "100631:100670:100929",
+            "shopName": "Tiddy Pet",
+            "shopLocation": "-",
+            "shopType": "Preferred",
+            "cbOption": "Local",
+            "historicalSold": "2",
+            "genTime": "2024-07-19",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.25833683739"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Làm đẹp cho thú cưng",
+                "Chăm sóc lông"
+            ],
+            "unitsSold": "0"
+        },
+        {
+            "serialNumber": 39,
+            "shopId": "398354027",
+            "pid": "25132870474",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-7r98o-lyn9pb3nrnhd65",
+            "productName": "Nước Vệ Sinh Răng Miệng Cho Chó Mèo, Đánh Bay Mảng Bám, Trắng Răng, Thơm Mát Vemedim WHITE TEETH",
+            "brandName": "Vemedim",
+            "price": "₫85,00k",
+            "minPrice": "₫85,00k",
+            "maxPrice": "₫85,00k",
+            "revenue": "₫0,00",
+            "rating": 0.0,
+            "ratingCount": "0",
+            "cateId": "100631",
+            "cateIdPath": "100631:100670:100930",
+            "shopName": "Tiddy Pet Shop",
+            "shopLocation": "-",
+            "shopType": "Standard",
+            "cbOption": "Local",
+            "historicalSold": "8",
+            "genTime": "2024-06-29",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.25132870474"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Làm đẹp cho thú cưng",
+                "Chăm sóc răng miệng"
+            ],
+            "unitsSold": "0"
+        },
+        {
+            "serialNumber": 40,
+            "shopId": "398354027",
+            "pid": "24314784015",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-7r98o-lz0az3umqppd14",
+            "productName": "Pate Moochie Cho Chó Đa Dạng Hương Vị Gói 85gr & 70gr [Thái Lan]",
+            "brandName": "Moochie",
+            "price": "₫16,90k",
+            "minPrice": "₫16,90k",
+            "maxPrice": "₫16,90k",
+            "revenue": "₫0,00",
+            "rating": 4.97,
+            "ratingCount": "93",
+            "cateId": "100631",
+            "cateIdPath": "100631:100667:100906",
+            "shopName": "Tiddy Pet Shop",
+            "shopLocation": "-",
+            "shopType": "Standard",
+            "cbOption": "Local",
+            "historicalSold": "4,82k",
+            "genTime": "2024-02-23",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.24314784015"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Thức ăn cho thú cưng",
+                "Thức ăn cho chó"
+            ],
+            "unitsSold": "0"
+        },
+        {
+            "serialNumber": 41,
+            "shopId": "398354027",
+            "pid": "23987237153",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-7r98o-lom41t0qoq0nca",
+            "productName": "Ống bơm hỗ trợ uống dung dịch và sữa cho CHÓ MÈO",
+            "brandName": "-",
+            "price": "₫8,00k",
+            "minPrice": "₫8,00k",
+            "maxPrice": "₫8,00k",
+            "revenue": "₫0,00",
+            "rating": 5.0,
+            "ratingCount": "43",
+            "cateId": "100631",
+            "cateIdPath": "100631:100668:100916",
+            "shopName": "Tiddy Pet Shop",
+            "shopLocation": "-",
+            "shopType": "Standard",
+            "cbOption": "Local",
+            "historicalSold": "284",
+            "genTime": "2023-11-28",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.23987237153"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Phụ kiện cho thú cưng",
+                "Bát & dụng cụ ăn"
+            ],
+            "unitsSold": "0"
+        },
+        {
+            "serialNumber": 42,
+            "shopId": "398354027",
+            "pid": "23635050304",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-7qukw-lje3i3rqotzmc6",
+            "productName": "VENTRILIV PET Siro Giải Độc Gan, Phục Hồi Chức Năng Gan Chiết Xuất Từ Nhiều Thảo Dược Có Vị Thịt Cừu",
+            "brandName": "-",
+            "price": "₫185,00k",
+            "minPrice": "₫185,00k",
+            "maxPrice": "₫185,00k",
+            "revenue": "₫0,00",
+            "rating": 5.0,
+            "ratingCount": "32",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100944",
+            "shopName": "Tiddy Pet Shop",
+            "shopLocation": "-",
+            "shopType": "Standard",
+            "cbOption": "Local",
+            "historicalSold": "109",
+            "genTime": "2023-03-27",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.23635050304"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "0"
+        },
+        {
+            "serialNumber": 43,
+            "shopId": "398354027",
+            "pid": "23539527450",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-7qukw-lji8c5bn09aa04",
+            "productName": "Pet Ear Cleaner 50ml Dung Dịch Vệ Sinh Tai Chó Mèo, Nước Rửa Tai Chó Mèo, Khử Mùi Hôi - Chai 50ml",
+            "brandName": "-",
+            "price": "₫60,00k",
+            "minPrice": "₫60,00k",
+            "maxPrice": "₫60,00k",
+            "revenue": "₫0,00",
+            "rating": 4.97,
+            "ratingCount": "36",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100943",
+            "shopName": "Tiddy Pet Shop",
+            "shopLocation": "-",
+            "shopType": "Standard",
+            "cbOption": "Local",
+            "historicalSold": "209",
+            "genTime": "2023-04-17",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.23539527450"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "0"
+        },
+        {
+            "serialNumber": 44,
+            "shopId": "398354027",
+            "pid": "23441950496",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-7qukw-lgl0bb0apomva9",
+            "productName": "Sữa Tắm SOS, Sữa Tắm Cho Chó Mèo Phù Hợp Cho Tất Cả Các Bé [Hàng Chính Hãng] - Tiddy Pet Shop",
+            "brandName": "-",
+            "price": "₫84,00k",
+            "minPrice": "₫84,00k",
+            "maxPrice": "₫84,00k",
+            "revenue": "₫0,00",
+            "rating": 5.0,
+            "ratingCount": "12",
+            "cateId": "100631",
+            "cateIdPath": "100631:100670:100929",
+            "shopName": "Tiddy Pet Shop",
+            "shopLocation": "-",
+            "shopType": "Standard",
+            "cbOption": "Local",
+            "historicalSold": "76",
+            "genTime": "2023-05-09",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.23441950496"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Làm đẹp cho thú cưng",
+                "Chăm sóc lông"
+            ],
+            "unitsSold": "0"
+        },
+        {
+            "serialNumber": 45,
+            "shopId": "398354027",
+            "pid": "23436080641",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-7qukw-lf7tnlc60od3ee",
+            "productName": "Combo 10 thanh Súp Thưởng SHIZUKA 15g Súp Dinh Dưỡng Dành Cho Mèo - Tiddy Pet Shop",
+            "brandName": "-",
+            "price": "₫10,00k",
+            "minPrice": "₫10,00k",
+            "maxPrice": "₫10,00k",
+            "revenue": "₫0,00",
+            "rating": 5.0,
+            "ratingCount": "9",
+            "cateId": "100631",
+            "cateIdPath": "100631:100667:100909",
+            "shopName": "Tiddy Pet Shop",
+            "shopLocation": "-",
+            "shopType": "Standard",
+            "cbOption": "Local",
+            "historicalSold": "661",
+            "genTime": "2023-03-31",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.23436080641"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Thức ăn cho thú cưng",
+                "Snack cho mèo"
+            ],
+            "unitsSold": "0"
+        },
+        {
+            "serialNumber": 46,
+            "shopId": "398354027",
+            "pid": "23336169042",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-7qukw-lji8c5bmkt1e9d",
+            "productName": "Sữa Tắm BIO DERMA Giúp Loại Bỏ Viêm Da, Ghẻ, Nấm Da Cho Chó Mèo, Nhiều Size - Tiddy Pet Shop",
+            "brandName": "Bio-Pharmachemie",
+            "price": "₫69,00k",
+            "minPrice": "₫69,00k",
+            "maxPrice": "₫69,00k",
+            "revenue": "₫0,00",
+            "rating": 5.0,
+            "ratingCount": "27",
+            "cateId": "100631",
+            "cateIdPath": "100631:100670:100929",
+            "shopName": "Tiddy Pet Shop",
+            "shopLocation": "-",
+            "shopType": "Standard",
+            "cbOption": "Local",
+            "historicalSold": "97",
+            "genTime": "2023-04-01",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.23336169042"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Làm đẹp cho thú cưng",
+                "Chăm sóc lông"
+            ],
+            "unitsSold": "0"
+        },
+        {
+            "serialNumber": 47,
+            "shopId": "398354027",
+            "pid": "23036174909",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-7qukw-lje3rrhjrq3692",
+            "productName": "Chai Xịt Micona Spray Vemedim 100ml, Chai Xịt Trỵ Nấm Da, Viêm Da Cho Chó Mèo - Tiddy Pet Shop",
+            "brandName": "Vemedim",
+            "price": "₫79,00k",
+            "minPrice": "₫79,00k",
+            "maxPrice": "₫79,00k",
+            "revenue": "₫0,00",
+            "rating": 5.0,
+            "ratingCount": "6",
+            "cateId": "100631",
+            "cateIdPath": "100631:100670:100929",
+            "shopName": "Tiddy Pet Shop",
+            "shopLocation": "-",
+            "shopType": "Standard",
+            "cbOption": "Local",
+            "historicalSold": "58",
+            "genTime": "2023-03-31",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.23036174909"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng",
+                "Làm đẹp cho thú cưng",
+                "Chăm sóc lông"
+            ],
+            "unitsSold": "0"
+        },
+        {
+            "serialNumber": 48,
+            "shopId": "398354027",
+            "pid": "22974881185",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-7qukw-ljml0o6gdho4a2",
+            "productName": "Men vi sinh BIOLINE G1 cho chó mèo - Hủ 50gr/5gr - Tiddy Pet Shop",
+            "brandName": "Ecopets",
+            "price": "₫70,00k",
+            "minPrice": "₫70,00k",
+            "maxPrice": "₫70,00k",
+            "revenue": "₫0,00",
+            "rating": 5.0,
+            "ratingCount": "35",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100944",
+            "shopName": "Tiddy Pet Shop",
+            "shopLocation": "-",
+            "shopType": "Standard",
+            "cbOption": "Local",
+            "historicalSold": "145",
+            "genTime": "2023-07-25",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.22974881185"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "0"
+        },
+        {
+            "serialNumber": 49,
+            "shopId": "398354027",
+            "pid": "22733850546",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-7qukw-lj5lsm2g1tjm28",
+            "productName": "VITA HEMO Dung Dịch Hỗ Trợ Tạo Máu - Kích Thích Thèm Ăn - Phục Hồi Sức khỏe Cho Chó Mèo 100ml - Tiddy Pet Shop",
+            "brandName": "-",
+            "price": "₫185,00k",
+            "minPrice": "₫185,00k",
+            "maxPrice": "₫185,00k",
+            "revenue": "₫0,00",
+            "rating": 5.0,
+            "ratingCount": "55",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100944",
+            "shopName": "Tiddy Pet Shop",
+            "shopLocation": "-",
+            "shopType": "Standard",
+            "cbOption": "Local",
+            "historicalSold": "247",
+            "genTime": "2023-03-22",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.22733850546"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "0"
+        },
+        {
+            "serialNumber": 50,
+            "shopId": "398354027",
+            "pid": "22630773546",
+            "imageUrl": "https://cf.shopee.vn/file/vn-11134207-7qukw-ljcqu9unwonm3c",
+            "productName": "Gel dinh dưỡng Megaderm giúp mượt lông, da và giảm ngứa cho Chó mèo - Gói 4ml - Tiddy Pet Shop",
+            "brandName": "-",
+            "price": "₫10,00k",
+            "minPrice": "₫10,00k",
+            "maxPrice": "₫10,00k",
+            "revenue": "₫0,00",
+            "rating": 4.97,
+            "ratingCount": "32",
+            "cateId": "100631",
+            "cateIdPath": "100631:100672:100944",
+            "shopName": "Tiddy Pet Shop",
+            "shopLocation": "-",
+            "shopType": "Standard",
+            "cbOption": "Local",
+            "historicalSold": "611",
+            "genTime": "2023-03-10",
+            "productUrl": [
+                "https://shopee.vn/title-i.398354027.22630773546"
+            ],
+            "cateNames": [
+                "Chăm Sóc Thú Cưng"
+            ],
+            "unitsSold": "0"
+        }
+    ]
+}

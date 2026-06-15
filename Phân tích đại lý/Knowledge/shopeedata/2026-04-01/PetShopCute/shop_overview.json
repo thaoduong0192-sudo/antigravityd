@@ -1,0 +1,36 @@
+{
+    "success": true,
+    "data": {
+        "shopUrl": "https://shopee.vn/petshopcute",
+        "id": "686154775",
+        "name": "PetShopCute",
+        "shopAvatar": "https://down-ws-cn.img.susercontent.com/71686ed710069a6c7809be94d0bff478_tn.webp",
+        "shopType": "Standard",
+        "shipMethod": "Local",
+        "shopOpenTime": "2022-02-13",
+        "rating": 4.94,
+        "products": "184",
+        "brandProducts": "159",
+        "followers": "18,12k",
+        "newProducts": "1",
+        "coreMetrics": [
+            {
+                "label": "Revenue",
+                "value": "₫6,61tỉ"
+            },
+            {
+                "label": "Units Sold",
+                "value": "24,26k"
+            },
+            {
+                "label": "Average Selling Price",
+                "value": "₫272,59k"
+            }
+        ],
+        "MaDaiLy": "E0582",
+        "shop_id": "686154775"
+    },
+    "message": null,
+    "cached": null,
+    "code": null
+}

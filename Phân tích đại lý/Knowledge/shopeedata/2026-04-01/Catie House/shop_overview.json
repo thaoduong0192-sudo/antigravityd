@@ -1,0 +1,36 @@
+{
+    "success": true,
+    "data": {
+        "MaDaiLy": "E0071",
+        "shopUrl": "https://shopee.vn/catiehouse",
+        "id": "2339302",
+        "name": "Catie House",
+        "shopAvatar": "https://down-ws-cn.img.susercontent.com/403ad2b76250b5389a4baf6d8dcc15c7_tn.webp",
+        "shopType": "Standard",
+        "shipMethod": "Local",
+        "shopOpenTime": "2015-12-18",
+        "rating": 4.98,
+        "products": "102",
+        "brandProducts": "58",
+        "followers": "6,82k",
+        "newProducts": "0",
+        "coreMetrics": [
+            {
+                "label": "Revenue",
+                "value": "₫1,99tỉ"
+            },
+            {
+                "label": "Units Sold",
+                "value": "20,46k"
+            },
+            {
+                "label": "Average Selling Price",
+                "value": "₫97,20k"
+            }
+        ],
+        "shop_id": "2339302"
+    },
+    "message": null,
+    "cached": null,
+    "code": null
+}

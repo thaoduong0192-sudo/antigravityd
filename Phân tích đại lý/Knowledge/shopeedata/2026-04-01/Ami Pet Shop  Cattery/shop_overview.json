@@ -1,0 +1,36 @@
+{
+    "success": true,
+    "data": {
+        "MaDaiLy": "E0021",
+        "shopUrl": "https://shopee.vn/amianimal",
+        "id": "307265971",
+        "name": "Ami Pet Shop & Cattery",
+        "shopAvatar": "https://down-ws-cn.img.susercontent.com/vn-11134216-7ra0g-m87b77asrvcy9b_tn.webp",
+        "shopType": "Preferred",
+        "shipMethod": "Local",
+        "shopOpenTime": "2020-09-09",
+        "rating": 4.95,
+        "products": "124",
+        "brandProducts": "98",
+        "followers": "3,18k",
+        "newProducts": "0",
+        "coreMetrics": [
+            {
+                "label": "Revenue",
+                "value": "₫2,16tỉ"
+            },
+            {
+                "label": "Units Sold",
+                "value": "30,55k"
+            },
+            {
+                "label": "Average Selling Price",
+                "value": "₫70,60k"
+            }
+        ],
+        "shop_id": "307265971"
+    },
+    "message": null,
+    "cached": null,
+    "code": null
+}

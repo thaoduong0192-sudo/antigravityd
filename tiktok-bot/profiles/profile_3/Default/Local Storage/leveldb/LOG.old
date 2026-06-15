@@ -1,0 +1,16 @@
+2026/06/09-13:03:19.672 186c0 Reusing MANIFEST D:\Antigravity\tiktok-bot\profiles\profile_3\Default\Local Storage\leveldb/MANIFEST-000001
+2026/06/09-13:03:19.688 186c0 Recovering log #8
+2026/06/09-13:03:19.689 186c0 Level-0 table #11: started
+2026/06/09-13:03:19.699 186c0 Level-0 table #11: 21841 bytes OK
+2026/06/09-13:03:19.700 186c0 Recovering log #11
+2026/06/09-13:03:19.704 186c0 Reusing old log D:\Antigravity\tiktok-bot\profiles\profile_3\Default\Local Storage\leveldb/000011.log 
+2026/06/09-13:03:19.707 186c0 Delete type=0 #8
+2026/06/09-13:03:19.707 186c0 Delete type=2 #12
+2026/06/09-13:03:19.709 18184 Compacting 4@0 + 0@1 files
+2026/06/09-13:03:19.753 18184 Generated table #12@0: 68 keys, 1194436 bytes
+2026/06/09-13:03:19.753 18184 Compacted 4@0 + 0@1 files => 1194436 bytes
+2026/06/09-13:03:19.755 18184 compacted to: files[ 0 1 0 0 0 0 0 ]
+2026/06/09-13:03:19.757 18184 Delete type=2 #3
+2026/06/09-13:03:19.757 18184 Delete type=2 #6
+2026/06/09-13:03:19.757 18184 Delete type=2 #9
+2026/06/09-13:03:19.757 18184 Delete type=2 #11

@@ -1,0 +1,36 @@
+{
+    "success": true,
+    "data": {
+        "shopUrl": "https://shopee.vn/gogimeowmart2020",
+        "id": "303434079",
+        "name": "Gogi Meow Mart",
+        "shopAvatar": "https://down-ws-cn.img.susercontent.com/vn-11134233-7r98o-lxadpacpm38904_tn.webp",
+        "shopType": "Preferred",
+        "shipMethod": "Local",
+        "shopOpenTime": "2020-08-31",
+        "rating": 4.97,
+        "products": "56",
+        "brandProducts": "41",
+        "followers": "4,18k",
+        "newProducts": "0",
+        "coreMetrics": [
+            {
+                "label": "Revenue",
+                "value": "₫628,64tr"
+            },
+            {
+                "label": "Units Sold",
+                "value": "4,77k"
+            },
+            {
+                "label": "Average Selling Price",
+                "value": "₫131,71k"
+            }
+        ],
+        "MaDaiLy": "E0935",
+        "shop_id": "303434079"
+    },
+    "message": null,
+    "cached": null,
+    "code": null
+}

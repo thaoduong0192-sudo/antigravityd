@@ -1,0 +1,36 @@
+{
+    "success": true,
+    "data": {
+        "MaDaiLy": "E1689",
+        "shopUrl": "https://shopee.vn/pethubshopthucung",
+        "id": "1080598658",
+        "name": "Pet Hub - Nuôi Mèo Tiết Kiệm",
+        "shopAvatar": "https://down-ws-cn.img.susercontent.com/vn-11134216-7ras8-mavf86t7ndzgd1_tn.webp",
+        "shopType": "Preferred",
+        "shipMethod": "Local",
+        "shopOpenTime": "2023-09-24",
+        "rating": 4.94,
+        "products": "223",
+        "brandProducts": "174",
+        "followers": "13,96k",
+        "newProducts": "0",
+        "coreMetrics": [
+            {
+                "label": "Revenue",
+                "value": "₫5,63tỉ"
+            },
+            {
+                "label": "Units Sold",
+                "value": "52,95k"
+            },
+            {
+                "label": "Average Selling Price",
+                "value": "₫106,39k"
+            }
+        ],
+        "shop_id": "1080598658"
+    },
+    "message": null,
+    "cached": null,
+    "code": null
+}

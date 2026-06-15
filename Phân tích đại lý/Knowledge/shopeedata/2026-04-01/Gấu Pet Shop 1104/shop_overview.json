@@ -1,0 +1,36 @@
+{
+    "success": true,
+    "data": {
+        "MaDaiLy": "E0297",
+        "shopUrl": "https://shopee.vn/gaupetshop2512",
+        "id": "27846480",
+        "name": "Gấu Pet Shop 1104",
+        "shopAvatar": "https://down-ws-cn.img.susercontent.com/1cb30ce6c4acabd03d23f75e0887b962_tn.webp",
+        "shopType": "Preferred",
+        "shipMethod": "Local",
+        "shopOpenTime": "2017-07-15",
+        "rating": 4.91,
+        "products": "531",
+        "brandProducts": "242",
+        "followers": "15,17k",
+        "newProducts": "0",
+        "coreMetrics": [
+            {
+                "label": "Revenue",
+                "value": "₫4,06tỉ"
+            },
+            {
+                "label": "Units Sold",
+                "value": "74,24k"
+            },
+            {
+                "label": "Average Selling Price",
+                "value": "₫54,68k"
+            }
+        ],
+        "shop_id": "27846480"
+    },
+    "message": null,
+    "cached": null,
+    "code": null
+}

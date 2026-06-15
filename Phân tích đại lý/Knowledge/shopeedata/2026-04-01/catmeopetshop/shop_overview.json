@@ -1,0 +1,36 @@
+{
+    "success": true,
+    "data": {
+        "MaDaiLy": "E0067",
+        "shopUrl": "https://shopee.vn/catmeopetshop",
+        "id": "27710096",
+        "name": "catmeopetshop",
+        "shopAvatar": "https://down-ws-cn.img.susercontent.com/2f9985bf20f754862cf4de5498f8c5d3_tn.webp",
+        "shopType": "Preferred",
+        "shipMethod": "Local",
+        "shopOpenTime": "2017-07-14",
+        "rating": 4.97,
+        "products": "148",
+        "brandProducts": "115",
+        "followers": "8,19k",
+        "newProducts": "0",
+        "coreMetrics": [
+            {
+                "label": "Revenue",
+                "value": "₫842,17tr"
+            },
+            {
+                "label": "Units Sold",
+                "value": "26,49k"
+            },
+            {
+                "label": "Average Selling Price",
+                "value": "₫31,79k"
+            }
+        ],
+        "shop_id": "27710096"
+    },
+    "message": null,
+    "cached": null,
+    "code": null
+}

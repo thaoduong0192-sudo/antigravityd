@@ -1,0 +1,36 @@
+{
+    "success": true,
+    "data": {
+        "MaDaiLy": "E0042",
+        "shopUrl": "https://shopee.vn/pussoul",
+        "id": "554846809",
+        "name": "PusSoul - Tiệm Meo Cục Súc",
+        "shopAvatar": "https://down-ws-cn.img.susercontent.com/vn-11134216-7ra0g-m84gft38yesu7e_tn.webp",
+        "shopType": "Preferred",
+        "shipMethod": "Local",
+        "shopOpenTime": "2021-10-05",
+        "rating": 4.95,
+        "products": "45",
+        "brandProducts": "19",
+        "followers": "2,3k",
+        "newProducts": "0",
+        "coreMetrics": [
+            {
+                "label": "Revenue",
+                "value": "₫10,58tr"
+            },
+            {
+                "label": "Units Sold",
+                "value": "119"
+            },
+            {
+                "label": "Average Selling Price",
+                "value": "₫88,87k"
+            }
+        ],
+        "shop_id": "554846809"
+    },
+    "message": null,
+    "cached": null,
+    "code": null
+}

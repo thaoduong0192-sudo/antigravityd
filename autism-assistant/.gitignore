@@ -1,0 +1,6 @@
+node_modules/
+scraper/.env
+scraper/credentials/
+gas/.clasp.json
+coverage/
+*.log

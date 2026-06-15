@@ -1,0 +1,11 @@
+Nguyên nhân,Nguồn,Xác thực,Trang
+Trang thay thế có thẻ chính tắc thích hợp,Trang web,Chưa bắt đầu,51171
+Lỗi 404 mềm,Trang web,Chưa bắt đầu,2803
+Không tìm thấy (404),Trang web,Chưa bắt đầu,1824
+Trang có lệnh chuyển hướng,Trang web,Chưa bắt đầu,373
+Bị loại trừ bởi thẻ 'noindex',Trang web,Chưa bắt đầu,284
+Bị chặn do một vấn đề 4xx khác,Trang web,Chưa bắt đầu,33
+Lỗi máy chủ (5xx),Trang web,Chưa bắt đầu,8
+"Trang trùng lặp, người dùng chưa chọn trang chính tắc",Trang web,Chưa bắt đầu,4
+Đã thu thập dữ liệu – hiện chưa được lập chỉ mục,Các hệ thống của Google,Chưa bắt đầu,144725
+"Trang trùng lặp, Google đã chọn một trang chính tắc khác với lựa chọn của người dùng",Các hệ thống của Google,Không áp dụng,0

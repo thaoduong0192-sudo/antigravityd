@@ -1,0 +1,819 @@
+
+    <!DOCTYPE html>
+    <html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Báo Cáo SEO Tổng Quan - 15-06-2026</title>
+        <style>
+            :root {
+                --bg-main: #0f172a;
+                --bg-card: #1e293b;
+                --text-main: #f8fafc;
+                --text-muted: #94a3b8;
+                --accent-1: #3b82f6;
+                --accent-2: #10b981;
+                --border-color: #334155;
+            }
+            body {
+                font-family: 'Inter', system-ui, -apple-system, sans-serif;
+                background-color: var(--bg-main);
+                color: var(--text-main);
+                margin: 0;
+                padding: 40px 20px;
+                line-height: 1.6;
+            }
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+            .header {
+                text-align: center;
+                margin-bottom: 50px;
+            }
+            .header h1 {
+                font-size: 2.5rem;
+                background: linear-gradient(135deg, #60a5fa, #34d399);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                margin-bottom: 10px;
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+                gap: 30px;
+            }
+            .card {
+                background-color: var(--bg-card);
+                border-radius: 16px;
+                padding: 30px;
+                border: 1px solid var(--border-color);
+                box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+                transition: transform 0.3s ease;
+            }
+            .card:hover {
+                transform: translateY(-5px);
+            }
+            .card-header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 20px;
+                padding-bottom: 15px;
+                border-bottom: 1px solid var(--border-color);
+            }
+            .site-name {
+                font-size: 1.5rem;
+                font-weight: 700;
+                color: var(--accent-1);
+            }
+            .stats-pill {
+                background-color: rgba(59, 130, 246, 0.1);
+                color: #60a5fa;
+                padding: 6px 12px;
+                border-radius: 999px;
+                font-size: 0.875rem;
+                font-weight: 600;
+            }
+            .metrics {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 15px;
+                margin-bottom: 25px;
+            }
+            .metric-box {
+                background-color: rgba(15, 23, 42, 0.5);
+                padding: 15px;
+                border-radius: 10px;
+                text-align: center;
+            }
+            .metric-value {
+                font-size: 1.5rem;
+                font-weight: 700;
+                color: var(--accent-2);
+            }
+            .metric-label {
+                font-size: 0.8rem;
+                color: var(--text-muted);
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+                margin-top: 5px;
+            }
+            .keyword-list {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 8px;
+                margin-bottom: 20px;
+            }
+            .keyword-tag {
+                background: rgba(16, 185, 129, 0.1);
+                color: #10b981;
+                padding: 4px 10px;
+                border-radius: 6px;
+                font-size: 0.85rem;
+            }
+            .post-list {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                max-height: 250px;
+                overflow-y: auto;
+            }
+            .post-list::-webkit-scrollbar {
+                width: 6px;
+            }
+            .post-list::-webkit-scrollbar-thumb {
+                background-color: var(--border-color);
+                border-radius: 3px;
+            }
+            .post-item {
+                margin-bottom: 12px;
+                padding-bottom: 12px;
+                border-bottom: 1px dashed var(--border-color);
+            }
+            .post-item:last-child {
+                border-bottom: none;
+                margin-bottom: 0;
+                padding-bottom: 0;
+            }
+            .post-item a {
+                color: var(--text-main);
+                text-decoration: none;
+                font-size: 0.95rem;
+                transition: color 0.2s ease;
+            }
+            .post-item a:hover {
+                color: var(--accent-1);
+            }
+            .no-posts {
+                color: var(--text-muted);
+                font-style: italic;
+                text-align: center;
+                padding: 20px 0;
+            }
+            .note {
+                margin-top: 50px;
+                text-align: center;
+                color: var(--text-muted);
+                font-size: 0.9rem;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>Báo Cáo SEO & Content Hàng Tuần</h1>
+                <p>Tổng hợp dữ liệu 7 ngày qua - Cập nhật ngày 15-06-2026</p>
+            </div>
+            <div class="grid">
+    
+                <div class="card">
+                    <div class="card-header">
+                        <div class="site-name">HelloConsen</div>
+                        <div class="stats-pill">100 Bài Viết Mới</div>
+                    </div>
+                    
+                    <div class="metrics">
+                        <div class="metric-box">
+                            <div class="metric-value">N/A</div>
+                            <div class="metric-label">Click (7 ngày)</div>
+                        </div>
+                        <div class="metric-box">
+                            <div class="metric-value">N/A</div>
+                            <div class="metric-label">Hiển thị (7 ngày)</div>
+                        </div>
+                        <div class="metric-box">
+                            <div class="metric-value">0</div>
+                            <div class="metric-label">Từ khóa lọt Top</div>
+                        </div>
+                    </div>
+        
+                    <h4>Bài viết mới nhất:</h4>
+                    <ul class="post-list">
+        
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/bi-mat-bien-loi-nhuan-thap-tai-spa-cho-meo-chuyen-nghiep-viet-nam" target="_blank">Bí Mật Biên Lợi Nhuận Thấp Tại Spa Chó Mèo Chuyên Nghiệp Việt Nam</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/khi-spa-cho-meo-chuyen-nghiep-bien-khach-phan-nan-thanh-fan-ham-mo" target="_blank">Khi Spa Chó Mèo Chuyên Nghiệp Biến Khách Phàn Nàn Thành Fan Hâm Mộ</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/chien-luoc-mua-vu-toi-uu-doanh-thu-spa-cho-meo-chuyen-nghiep" target="_blank">Chiến Lược Mùa Vụ: Tối Ưu Doanh Thu Spa Chó Mèo Chuyên Nghiệp</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/danh-gia-spa-cho-meo-chuyen-nghiep-bai-toan-dong-tien-cho-chu-shop" target="_blank">Đánh Giá Spa Chó Mèo Chuyên Nghiệp: Bài Toán Dòng Tiền Cho Chủ Shop</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/spa-thu-cung-chuyen-nghiep-bi-quyet-marketing-0-dong-tang-loi-nhuan" target="_blank">Spa Thú Cưng Chuyên Nghiệp: Bí Quyết Marketing 0 Đồng Tăng Lợi Nhuận</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/chien-luoc-khac-biet-cho-spa-thu-cung-shop-nho-danh-bai-chuoi-lon" target="_blank">Chiến Lược Khác Biệt Cho Spa Thú Cưng: Shop Nhỏ Đánh Bại Chuỗi Lớn</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/spa-cho-meo-chuyen-nghiep-tai-2" target="_blank">Spa chó mèo chuyên nghiệp tại</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/spa-cho-meo-chuyen-nghiep-tai" target="_blank">Spa chó mèo chuyên nghiệp tại</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/bi-quyet-van-hanh-spa-cho-meo-chuyen-nghiep-tu-noi-dau-nhan-su-den-loi-nhuan-cao" target="_blank">Bí Quyết Vận Hành Spa Chó Mèo Chuyên Nghiệp: Từ Nỗi Đau Nhân Sự Đến Lợi Nhuận Cao</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/phan-tich-co-hoi-kinh-doanh-spa-cho-meo-chuyen-nghiep-tai-viet-nam" target="_blank">Phân tích cơ hội kinh doanh spa chó mèo chuyên nghiệp tại Việt Nam</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/dogily-petshop-tai-tp-hcm-mo-hinh-kinh-doanh-va-bai-hoc-khoi-nghiep" target="_blank">Dogily Petshop tại TP.HCM: Mô hình kinh doanh và bài học khởi nghiệp</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/dogily-petshop-canh-tranh-bang-nghe-thuat-xu-ly-khach-hang-kho-tinh" target="_blank">Dogily Petshop: Cạnh Tranh Bằng Nghệ Thuật Xử Lý Khách Hàng Khó Tính</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-dogily-petshop-gan-4" target="_blank">Cửa hàng Dogily Petshop gần</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/dogily-petshop-va-bai-toan-dong-tien-quan-ly-petshop-b2b" target="_blank">Dogily Petshop và Bài Toán Dòng Tiền Quản Lý Petshop B2B</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/dogily-petshop-va-bai-hoc-marketing-tu-he-sinh-thai-thu-duc" target="_blank">Dogily Petshop và bài học marketing từ hệ sinh thái Thủ Đức</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-dogily-petshop-gan-3" target="_blank">Cửa hàng Dogily Petshop gần</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-dogily-petshop-gan-2" target="_blank">Cửa hàng Dogily Petshop gần</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cat-meo-von-cuc-loai-nao-an-toan-sach-se-va-tiet-kiem-nhat-hien-nay" target="_blank">Cát mèo vón cục loại nào an toàn, sạch sẽ và tiết kiệm nhất hiện nay?</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/top-7-loai-cat-meo-cho-meo-song-trong-chung-cu-khong-lo-bui-va-mui" target="_blank">Top 7 loại Cát mèo cho mèo sống trong chung cư không lo bụi và mùi</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/dogily-petshop-va-bi-quyet-cham-soc-khach-hang-bang-zalo-oa" target="_blank">Dogily Petshop và Bí Quyết Chăm Sóc Khách hàng bằng Zalo OA</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/review-cat-meo-gia-re-co-thuc-su-tot-hay-ruoc-hoa-vao-than-8" target="_blank">Review Cát mèo giá rẻ có thực sự tốt hay rước họa vào thân?</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/dogily-petshop-gan-quan-7-bi-quyet-thanh-bai-tu-goc-nhin-van-hanh" target="_blank">Dogily Petshop Gần Quận 7: Bí Quyết Thành Bại Từ Góc Nhìn Vận Hành</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/5-sai-lam-khi-chon-cat-meo-khien-ca-nha-ngui-mui-khai-8" target="_blank">5 Sai lầm khi chọn Cát mèo khiến cả nhà ngửi mùi khai</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/3-yeu-to-quan-trong-nhat-khi-chon-cat-meo-cho-can-ho-chung-cu" target="_blank">3 yếu tố QUAN TRỌNG nhất khi chọn Cát mèo cho căn hộ chung cư</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-dogily-petshop-gan" target="_blank">Cửa hàng Dogily Petshop gần</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cat-meo-va-benh-tiet-nieu-o-meo-moi-lien-he-ban-khong-the-bo-qua" target="_blank">Cát mèo và bệnh tiết niệu ở mèo: Mối liên hệ bạn không thể bỏ qua</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/nguon-nhap-pate-sup-trung-cho-petshop-loi-hay-hai-voi-nguoi-moi" target="_blank">Nguồn nhập pate súp Trung cho Petshop: Lợi hay hại với người mới?</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/co-nen-tron-nhieu-loai-cat-meo-lai-voi-nhau-hai-hoa-hay-hai-nhieu" target="_blank">Có nên trộn nhiều loại Cát mèo lại với nhau? Hài hòa hay hại nhiều?</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/thu-nghiem-thuc-te-cat-meo-nao-giu-mui-tot-nhat-sau-7-ngay" target="_blank">Thử nghiệm thực tế: Cát mèo nào giữ mùi tốt nhất sau 7 ngày?</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/bien-khach-phan-nan-ve-pate-trung-thanh-fan-hai-long-bi-kip-petshop" target="_blank">Biến Khách Phàn Nàn Về Pate Trung thành Fan Hài Lòng: Bí Kíp Petshop</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cat-meo-cho-nha-nho-goi-y-san-pham-gon-nhe-sach-mui-lau" target="_blank">Cát mèo cho nhà nhỏ: Gợi ý sản phẩm gọn nhẹ, sạch mùi lâu</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/chien-luoc-nhap-pate-trung-theo-mua-toi-uu-doanh-thu-petshop" target="_blank">Chiến Lược Nhập Pate Trung Theo Mùa: Tối Ưu Doanh Thu Petshop</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/meo-bo-khay-vi-cat-meo-kham-pha-nguyen-nhan-va-cach-khac-phuc" target="_blank">Mèo bỏ khay vì Cát mèo? Khám phá nguyên nhân và cách khắc phục</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/danh-bay-mui-hoi-triet-de-voi-bo-doi-cat-meo-baking-soda" target="_blank">Đánh bay mùi hôi triệt để với bộ đôi Cát mèo + baking soda</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/nhap-pate-sup-thuong-trung-bai-toan-cashflow-cho-petshop-b2b" target="_blank">Nhập Pate, Súp Thưởng Trung: Bài Toán Cashflow Cho Petshop B2B</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cat-meo-tu-nhien-lua-chon-xanh-cho-nguoi-yeu-moi-truong-do-thi" target="_blank">Cát mèo tự nhiên – Lựa chọn xanh cho người yêu môi trường đô thị</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/kinh-doanh-pate-sup-thuong-trung-chien-luoc-marketing-0-dong-hieu-qua" target="_blank">Kinh doanh pate, súp thưởng Trung: Chiến lược marketing 0 đồng hiệu quả</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/huong-dan-bao-quan-cat-meo-dung-cach-trong-mua-mua-mien-bac" target="_blank">Hướng dẫn bảo quản Cát mèo đúng cách trong mùa mưa miền Bắc</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/mua-cat-meo-online-nhung-cam-bay-khien-ban-tien-mat-tat-mang" target="_blank">Mua Cát mèo online: Những cạm bẫy khiến bạn “tiền mất tật mang”</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/nguon-nhap-pate-sup-thuong-noi-dia-trung" target="_blank">Nguồn nhập pate, súp thưởng nội địa Trung</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/so-sanh-toc-do-hut-am-cua-5-loai-cat-meo-pho-bien-tai-viet-nam" target="_blank">So sánh tốc độ hút ẩm của 5 loại Cát mèo phổ biến tại Việt Nam</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/nguon-nhap-pate-sup-thuong-trung-chien-luoc-ux-toi-uu-de-ban-hang-hieu-qua" target="_blank">Nguồn nhập pate súp thưởng Trung: Chiến lược UX tối ưu để bán hàng hiệu quả</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/vi-sao-cat-meo-ket-tu-kem-khien-can-ho-boc-mui-sau-2-ngay" target="_blank">Vì sao Cát mèo kết tụ kém khiến căn hộ bốc mùi sau 2 ngày?</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/chien-luoc-nhap-pate-sup-thuong-trung-de-tang-loi-nhuan-cho-petshop" target="_blank">Chiến lược nhập pate súp thưởng Trung để tăng lợi nhuận cho Petshop</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cat-meo-co-mui-thom-lieu-co-an-toan-cho-meo-cung-cua-ban" target="_blank">Cát mèo có mùi thơm liệu có an toàn cho mèo cưng của bạn?</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/nguon-nhap-pate-sup-thuong-noi-dia-trung-ap-luc-van-hanh-cho-chu-petshop" target="_blank">Nguồn nhập pate súp thưởng nội địa Trung: Áp lực vận hành cho chủ petshop</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/chia-se-tu-a-z-cach-don-ve-sinh-cat-meo-khong-can-cham-tay" target="_blank">Chia sẻ từ A-Z cách dọn vệ sinh Cát mèo không cần chạm tay</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/8-dau-hieu-chung-to-ban-dang-dung-cat-meo-kem-chat-luong" target="_blank">8 dấu hiệu chứng tỏ bạn đang dùng Cát mèo KÉM CHẤT LƯỢNG</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/nguon-nhap-pate-sup-thuong-trung-loi-nhuan-cao-hay-rui-ro-lon" target="_blank">Nguồn nhập pate súp thưởng Trung: Lợi nhuận cao hay rủi ro lớn?</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cat-meo-gay-di-ung-cho-be-cach-kiem-tra-va-phong-tranh-som" target="_blank">Cát mèo gây dị ứng cho bé? Cách kiểm tra và phòng tránh sớm</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/khai-gio-petshop-chien-luoc-thu-hut-khach-tang-doanh-thu" target="_blank">Khai Giờ Petshop: Chiến Lược Thu Hút Khách &#038; Tăng Doanh Thu</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/gio-mo-cua-petshop-don-bay-chien-luoc-de-chien-thang-khach-hang-kho-tinh" target="_blank">Giờ mở cửa Petshop: Đòn bẩy chiến lược để chiến thắng khách hàng khó tính</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/chien-thuat-gio-mo-cua-pet-mart-tang-loi-nhuan-theo-mua" target="_blank">Chiến thuật giờ mở cửa Pet Mart tăng lợi nhuận theo mùa</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/gio-mo-cua-petshop-chien-luoc-dong-tien-cho-chu-shop-b2b" target="_blank">Giờ Mở Cửa Petshop: Chiến Lược Dòng Tiền Cho Chủ Shop B2B</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/chien-thuat-gio-mo-cua-pet-mart-va-marketing-0-dong-hieu-qua" target="_blank">Chiến thuật giờ mở cửa Pet Mart và marketing 0 đồng hiệu quả</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/chien-luoc-gio-mo-cua-pet-mart-de-shop-nho-chien-thang-chuoi-lon" target="_blank">Chiến lược giờ mở cửa Pet Mart để shop nhỏ chiến thắng chuỗi lớn</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/bi-quyet-tang-trai-nghiem-doanh-thu-petshop-thiet-ke-ux-va-cross-sell-thong-minh" target="_blank">Bí Quyết Tăng Trải Nghiệm &#038; Doanh Thu Petshop: Thiết Kế UX và Cross-sell Thông Minh</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/lich-mo-cua-petshop-tai-viet-nam-chien-luoc-cong-nghe-de-thu-hut-khach-hang" target="_blank">Lịch mở cửa Petshop tại Việt Nam: Chiến lược công nghệ để thu hút khách hàng</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/chien-luoc-gio-mo-cua-petshop-bai-toan-van-hanh-nhan-su-kho-nhan" target="_blank">Chiến Lược Giờ Mở Cửa Petshop: Bài Toán Vận Hành &#038; Nhân Sự Khó Nhằn</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/gio-mo-cua-petshop-chien-luoc-don-luot-khach-toi-uu-loi-nhuan" target="_blank">Giờ Mở Cửa Petshop: Chiến Lược Đón Lượt Khách &#038; Tối ưu Lợi Nhuận</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/dai-ly-phan-phoi-men-vi-sinh-canxi-thu-cung-chien-luoc-tang-loi-nhuan-cho-petshop" target="_blank">Đại lý phân phối men vi sinh canxi thú cưng: Chiến lược tăng lợi nhuận cho Petshop</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/toi-uu-dich-vu-khach-hang-petshop-bien-phan-hoi-thanh-loi-nhuan" target="_blank">Tối ưu dịch vụ khách hàng petshop: Biến phản hồi thành lợi nhuận</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/chien-luoc-phan-phoi-thu-cung-toi-uu-doanh-thu-theo-mua-vu" target="_blank">Chiến lược phân phối thú cưng: Tối ưu doanh thu theo mùa vụ</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/tiet-kiem-den-50-moi-thang-nho-bi-quyet-mua-cat-meo-thong-minh" target="_blank">Tiết kiệm đến 50% mỗi tháng nhờ bí quyết mua Cát mèo thông minh</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/dai-ly-phan-phoi-men-vi-sinh-canxi-thu-cung-bai-toan-ton-kho-va-vong-quay-von" target="_blank">Đại lý phân phối men vi sinh, canxi thú cưng: Bài toán tồn kho và vòng quay vốn</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/luu-y-vang-khi-dung-cat-meo-cho-meo-con-duoi-3-thang-tuoi" target="_blank">Lưu ý vàng khi dùng Cát mèo cho mèo con dưới 3 tháng tuổi</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/xay-dung-cong-dong-thu-cung-chien-luoc-marketing-0-dong-hieu-qua" target="_blank">Xây Dựng Cộng Đồng Thú Cưng: Chiến Lược Marketing 0 Đồng Hiệu Quả</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cat-meo-dang-hat-vs-dang-bot-loai-nao-phu-hop-voi-nha-ban" target="_blank">Cát mèo dạng hạt vs dạng bột: Loại nào phù hợp với nhà bạn?</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/meo-ken-chon-cat-meo-bi-quyet-chon-dung-loai-chi-trong-3-phut" target="_blank">Mèo kén chọn Cát mèo? Bí quyết chọn đúng loại chỉ trong 3 phút</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/dai-ly-cap-1-phan-phoi-men-vi-sinh-canxi-thu-cung-tai-viet-nam-kinh-doanh-ben-vung-giua-con-bao-chuoi-lon" target="_blank">Đại lý cấp 1 phân phối men vi sinh, canxi thú cưng tại Việt Nam &#8211; Kinh doanh bền vững giữa cơn bão chuỗi lớn</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/boc-me-su-that-ve-cat-meo-nhap-khau-co-xung-danh-dat-do" target="_blank">Bóc mẽ sự thật về Cát mèo nhập khẩu: Có xứng danh đắt đỏ?</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/dai-ly-cap-1-phan-phoi-men-vi-sinh-canxi-thu-cung-tai-viet-nam-chon-dung-diem-ban-tang-doanh-thu-ben-vung" target="_blank">Đại lý cấp 1 phân phối men vi sinh, canxi thú cưng tại Việt Nam &#8211; Chọn đúng điểm bán tăng doanh thu bền vững</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cat-meo-tu-huy-phan-giai-phap-than-ky-cho-nguoi-ban-ron-o-nha-pho" target="_blank">Cát mèo tự hủy phân – Giải pháp thần kỳ cho người bận rộn ở nhà phố?</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/dai-ly-cap-1-phan-phoi-men-vi-sinh-canxi-thu-cung-tai-viet-nam-2" target="_blank">Đại lý cấp 1 phân phối men vi sinh, canxi thú cưng tại Việt Nam</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/huong-dan-thay-cat-meo-dung-cach-de-meo-khong-di-ngoai-luong" target="_blank">Hướng dẫn thay Cát mèo đúng cách để mèo không “đi ngoài luồng”</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/dai-ly-cap-1-phan-phoi-men-vi-sinh-canxi-thu-cung-tai-viet-nam" target="_blank">Đại lý cấp 1 phân phối men vi sinh, canxi thú cưng tại Việt Nam</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/dung-voi-mua-cat-meo-neu-chua-biet-6-su-that-it-ai-noi-ra" target="_blank">Đừng vội mua Cát mèo nếu chưa biết 6 sự thật ít ai nói ra</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/dai-ly-cap-1-phan-phoi-men-vi-sinh-canxi-thu-cung-loi-nhuan-cao-cho-petshop" target="_blank">Đại lý cấp 1 phân phối men vi sinh, canxi thú cưng &#8211; Lợi nhuận cao cho petshop</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/meo-dan-gian-giup-khu-mui-cat-meo-hieu-qua-chi-voi-1-000-dong-ngay" target="_blank">Mẹo dân gian giúp khử mùi Cát mèo hiệu quả chỉ với 1.000 đồng/ngày</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-ban-hat-gia-si-quan-tan-phu-loi-nhuan-mong-bai-hoc-tu-6-diem-ban-lon" target="_blank">Cửa hàng bán hạt giá sỉ Quận Tân Phú &#8211; Lợi nhuận mỏng &#038; bài học từ 6 điểm bán lớn</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/so-sanh-chi-tiet-4-loai-cat-meo-ban-chay-nhat-2024-loai-nao-dang-tien" target="_blank">So sánh chi tiết 4 loại Cát mèo bán chạy nhất 2024: Loại nào đáng tiền?</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/canh-bao-dung-sai-cat-meo-meo-cung-de-mac-benh-duong-ho-hap" target="_blank">Cảnh báo: Dùng sai Cát mèo, mèo cưng dễ mắc bệnh đường hô hấp</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-ban-hat-gia-si-quan-go-vap-va-tan-binh-dich-vu-khach-hang-tao-nen-khac-biet" target="_blank">Cửa hàng bán hạt giá sỉ Quận Gò Vấp và Tân Bình &#8211; Dịch vụ khách hàng tạo nên khác biệt</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-ban-hat-gia-si-quan-12-go-vap-toi-uu-doanh-thu-theo-mua-vu" target="_blank">Cửa hàng bán hạt giá sỉ Quận 12 &#038; Gò Vấp &#8211; Tối ưu doanh thu theo mùa vụ</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/top-7-loai-cat-meo-duoc-long-meo-cung-nhat-tai-cac-chung-cu-ha-noi" target="_blank">Top 7 loại Cát mèo được lòng mèo cưng nhất tại các chung cư Hà Nội</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/review-cat-meo-gia-re-co-thuc-su-tot-hay-ruoc-hoa-vao-than-7" target="_blank">Review Cát mèo giá rẻ có thực sự tốt hay rước họa vào thân?</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-ban-hat-gia-si-quan-3-toi-uu-dong-tien-hieu-qua" target="_blank">Cửa hàng bán hạt giá sỉ Quận 3 &#8211; Tối ưu dòng tiền hiệu quả</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/5-sai-lam-khi-chon-cat-meo-khien-ca-nha-ngui-mui-khai-7" target="_blank">5 Sai lầm khi chọn Cát mèo khiến cả nhà ngửi mùi khai</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-ban-hat-gia-si-quan-3-xay-dung-cong-dong-marketing-mien-phi" target="_blank">Cửa hàng bán hạt giá sỉ Quận 3 &#8211; Xây dựng cộng đồng marketing miễn phí</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cat-meo-thom-mui-hoa-co-thuc-su-giup-khu-mui-tot" target="_blank">Cát mèo thơm mùi hoa có thực sự giúp khử mùi tốt?</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-ban-hat-gia-si-quan-1-3-bi-quyet-ton-tai-giua-con-bao-canh-tranh" target="_blank">Cửa hàng bán hạt giá sỉ Quận 1 &#8211; 3: Bí quyết tồn tại giữa cơn bão cạnh tranh</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/6-dau-hieu-chung-to-cat-meo-ban-dang-dung-dang-giet-meo-am-tham" target="_blank">6 dấu hiệu chứng tỏ Cát mèo bạn đang dùng đang &#8220;giết&#8221; mèo âm thầm</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-ban-hat-gia-si-quan-11-toi-uu-trai-nghiem-khach-hang-tang-doanh-thu-ben-vung" target="_blank">Cửa hàng bán hạt giá sỉ Quận 11 &#8211; Tối ưu trải nghiệm khách hàng tăng doanh thu bền vững</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cat-meo-chong-bui-giai-phap-cho-gia-dinh-co-nguoi-gia-tre-nho" target="_blank">Cát mèo chống bụi – Giải pháp cho gia đình có người già, trẻ nhỏ</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-ban-hat-gia-si-quan-4-toi-uu-trai-nghiem-khach-hang-bang-cong-nghe" target="_blank">Cửa hàng bán hạt giá sỉ Quận 4 &#8211; Tối ưu trải nghiệm khách hàng bằng công nghệ</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cat-meo-gia-bao-nhieu-la-hop-ly-dung-bi-het-gia-cao-oan" target="_blank">Cát mèo giá bao nhiêu là hợp lý? Đừng bị hét giá cao oan!</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-ban-hat-gia-si-quan-5-goc-nhin-nhan-su-van-hanh-noi-dau-thue-muon-dao-tao-nhan-vien-va-quy-trinh" target="_blank">Cửa hàng bán hạt giá sỉ Quận 5 &#8211; Góc nhìn nhân sự &#038; vận hành: Nỗi đau thuê mướn, đào tạo nhân viên và quy trình</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/lam-the-nao-de-meo-chap-nhan-chuyen-sang-loai-cat-meo-moi" target="_blank">Làm thế nào để mèo chấp nhận chuyển sang loại Cát mèo mới?</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cua-hang-ban-hat-gia-si-quan-5-co-hoi-rao-can-tai-chinh-cho-chu-shop" target="_blank">Cửa hàng bán hạt giá sỉ Quận 5 &#8211; Cơ hội &#038; Rào cản tài chính cho chủ shop</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://helloconsen.com/cat-meo-cho-nguoi-song-o-chung-cu-goi-y-tu-a-den-z" target="_blank">Cát mèo cho người sống ở chung cư: Gợi ý từ A đến Z</a>
+                        </li>
+                
+                    </ul>
+                </div>
+        
+                <div class="card">
+                    <div class="card-header">
+                        <div class="site-name">Ecopets</div>
+                        <div class="stats-pill">0 Bài Viết Mới</div>
+                    </div>
+                    
+                    <div class="metrics">
+                        <div class="metric-box">
+                            <div class="metric-value">N/A</div>
+                            <div class="metric-label">Click (7 ngày)</div>
+                        </div>
+                        <div class="metric-box">
+                            <div class="metric-value">N/A</div>
+                            <div class="metric-label">Hiển thị (7 ngày)</div>
+                        </div>
+                        <div class="metric-box">
+                            <div class="metric-value">0</div>
+                            <div class="metric-label">Từ khóa lọt Top</div>
+                        </div>
+                    </div>
+        
+                    <h4>Bài viết mới nhất:</h4>
+                    <ul class="post-list">
+        
+                        <li class="no-posts">Không có bài viết nào được xuất bản.</li>
+            
+                    </ul>
+                </div>
+        
+                <div class="card">
+                    <div class="card-header">
+                        <div class="site-name">Hồi Ký</div>
+                        <div class="stats-pill">16 Bài Viết Mới</div>
+                    </div>
+                    
+                    <div class="metrics">
+                        <div class="metric-box">
+                            <div class="metric-value">N/A</div>
+                            <div class="metric-label">Click (7 ngày)</div>
+                        </div>
+                        <div class="metric-box">
+                            <div class="metric-value">N/A</div>
+                            <div class="metric-label">Hiển thị (7 ngày)</div>
+                        </div>
+                        <div class="metric-box">
+                            <div class="metric-value">0</div>
+                            <div class="metric-label">Từ khóa lọt Top</div>
+                        </div>
+                    </div>
+        
+                    <h4>Bài viết mới nhất:</h4>
+                    <ul class="post-list">
+        
+                        <li class="post-item">
+                            <a href="https://hoiky.com.vn/y-nghia-viet-hoi-ky-ca-nhan-tai-ho-chi-minh" target="_blank">Ý nghĩa viết hồi ký cá nhân tại hồ chí minh</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://hoiky.com.vn/bao-mat-thong-tin-khi-viet-hoi-ky-thue-tphcm" target="_blank">Bảo mật thông tin khi viết hồi ký thuê tphcm</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://hoiky.com.vn/thue-ai-viet-hoi-ky-tai-ho-chi-minh" target="_blank">Thuê ai viết hồi ký tại Hồ Chí Minh</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://hoiky.com.vn/dich-vu-viet-hoi-ky-thue-uy-tin-tai-tphcm" target="_blank">Dịch vụ viết hồi ký thuê uy tín tại tphcm</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://hoiky.com.vn/gia-nguoi-viet-thue-hoi-ky-tai-ho-chi-minh" target="_blank">Giá người viết thuê hồi ký tại hồ chí minh</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://hoiky.com.vn/nguoi-viet-thue-hoi-ky-uy-tin-tai-tphcm" target="_blank">Người viết thuê hồi ký uy tín tại tphcm</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://hoiky.com.vn/nguoi-viet-thue-hoi-ky-uy-tin-tai-ho-chi-minh" target="_blank">Người viết thuê hồi ký uy tín tại hồ chí minh</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://hoiky.com.vn/goi-viet-sach-tu-truyen-tang-cha-me-gia-re" target="_blank">Gói viết sách tự truyện tặng cha mẹ giá rẻ</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://hoiky.com.vn/don-vi-lam-sach-tang-dang-sinh-thanh-kinh-nghiem-lau-nam" target="_blank">Đơn vị làm sách tặng đấng sinh thành kinh nghiệm lâu năm</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://hoiky.com.vn/viet-sach-tang-dang-sinh-thanh-bao-mat-thong-tin" target="_blank">Viết sách tặng đấng sinh thành bảo mật thông tin</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://hoiky.com.vn/dich-vu-viet-sach-hoi-ky-tang-bo-me-o-ha-noi" target="_blank">Dịch vụ viết sách hồi ký tặng bố mẹ ở hà nội</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://hoiky.com.vn/y-nghia-cua-goi-dich-vu-viet-sach-tang-cha-me" target="_blank">Ý nghĩa của gói dịch vụ viết sách tặng cha mẹ</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://hoiky.com.vn/thue-ai-viet-sach-tang-dang-sinh-thanh" target="_blank">Thuê ai viết sách tặng đấng sinh thành</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://hoiky.com.vn/dich-vu-viet-sach-tang-cha-me-uy-tin" target="_blank">Dịch vụ viết sách tặng cha mẹ uy tín</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://hoiky.com.vn/gia-goi-dich-vu-viet-sach-tang-dang-sinh-thanh-bao-nhieu" target="_blank">Giá gói dịch vụ viết sách tặng đấng sinh thành bao nhiêu</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://hoiky.com.vn/goi-dich-vu-viet-sach-tang-dang-sinh-thanh-tai-tphcm" target="_blank">Gói dịch vụ viết sách tặng đấng sinh thành tại tphcm</a>
+                        </li>
+                
+                    </ul>
+                </div>
+        
+                <div class="card">
+                    <div class="card-header">
+                        <div class="site-name">Giải Pháp QRCode</div>
+                        <div class="stats-pill">17 Bài Viết Mới</div>
+                    </div>
+                    
+                    <div class="metrics">
+                        <div class="metric-box">
+                            <div class="metric-value">N/A</div>
+                            <div class="metric-label">Click (7 ngày)</div>
+                        </div>
+                        <div class="metric-box">
+                            <div class="metric-value">N/A</div>
+                            <div class="metric-label">Hiển thị (7 ngày)</div>
+                        </div>
+                        <div class="metric-box">
+                            <div class="metric-value">0</div>
+                            <div class="metric-label">Từ khóa lọt Top</div>
+                        </div>
+                    </div>
+        
+                    <h4>Bài viết mới nhất:</h4>
+                    <ul class="post-list">
+        
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/lien-he-lam-tem-dien-tu-bao-hanh-chinh-hang-huong-dan-chon-nha-cung-cap-tem-dien-tu-uy-tin-tai-viet-nam-2" target="_blank">liên hệ làm tem điện tử bảo hành chính hãng &#8211; Hướng dẫn chọn nhà cung cấp tem điện tử uy tín tại Việt Nam.</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/lien-he-lam-tem-dien-tu-bao-hanh-chinh-hang-huong-dan-chon-nha-cung-cap-tem-dien-tu-uy-tin-tai-viet-nam" target="_blank">liên hệ làm tem điện tử bảo hành chính hãng &#8211; Hướng dẫn chọn nhà cung cấp tem điện tử uy tín tại Việt Nam.</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/lien-he-lam-tem-dien-tu-bao-hanh-chinh-hang-so-sanh-chi-phi-giai-phap-qr-code-truyen-thong-va-nen-tang-so" target="_blank">Liên hệ làm tem điện tử bảo hành chính hãng &#8211; So sánh chi phí giải pháp QR code truyền thống và nền tảng số.</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/lien-he-lam-tem-dien-tu-bao-hanh-chinh-hang-cach-tich-hop-qr-code-voi-he-thong-erp-crm-hien-co" target="_blank">Liên hệ làm tem điện tử bảo hành chính hãng &#8211; Cách tích hợp QR code với hệ thống ERP/CRM hiện có.</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/lien-he-lam-tem-dien-tu-bao-hanh-chinh-hang-goc-nhin-tu-sai-lam-pho-bien-khi-tu-lam-tem-nhan-qr" target="_blank">Liên hệ làm tem điện tử bảo hành chính hãng &#8211; góc nhìn từ sai lầm phổ biến khi tự làm tem nhãn qr.</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/lien-he-lam-tem-dien-tu-bao-hanh-chinh-hang-danh-cho-doanh-nghiep-vua-va-nho-moi-trien-khai-lan-dau" target="_blank">Liên hệ làm tem điện tử bảo hành chính hãng &#8211; Dành cho doanh nghiệp vừa và nhỏ mới triển khai lần đầu.</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/lien-he-lam-tem-dien-tu-bao-hanh-chinh-hang" target="_blank">Liên hệ làm tem điện tử bảo hành chính hãng</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/thiet-ke-app-quan-ly-bao-hanh-dien-tu-theo-yeu-cau-cach-thiet-ke-app-giup-giam-50-cuoc-goi-ho-tro-bao-hanh" target="_blank">thiết kế app quản lý bảo hành điện tử theo yêu cầu &#8211; Cách thiết kế app giúp giảm 50% cuộc gọi hỗ trợ bảo hành.</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/thiet-ke-app-quan-ly-bao-hanh-dien-tu-theo-yeu-cau-tu-goc-nhin-khach-hang-trai-nghiem-khi-quet-qr-de-dang-ky-bao-hanh" target="_blank">thiết kế app quản lý bảo hành điện tử theo yêu cầu &#8211; Từ góc nhìn khách hàng: trải nghiệm khi quét QR để đăng ký bảo hành.</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/thiet-ke-app-quan-ly-bao-hanh-dien-tu-theo-yeu-cau-phan-tich-chi-phi-phat-trien-app-theo-yeu-cau-trong-6-thang-dau-van-hanh" target="_blank">thiết kế app quản lý bảo hành điện tử theo yêu cầu &#8211; Phân tích chi phí phát triển app theo yêu cầu trong 6 tháng đầu vận hành.</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/thiet-ke-app-quan-ly-bao-hanh-dien-tu-theo-yeu-cau-huong-dan-xay-dung-app-quan-ly-bao-hanh-voi-giao-dien-toi-gian-de-dung" target="_blank">thiết kế app quản lý bảo hành điện tử theo yêu cầu &#8211; Hướng dẫn xây dựng app quản lý bảo hành với giao diện tối giản, dễ dùng.</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/thiet-ke-app-quan-ly-bao-hanh-dien-tu-theo-yeu-cau-loi-ich-cua-viec-tich-hop-xac-thuc-nguoi-dung-qua-otp-khi-kich-hoat-bao-hanh" target="_blank">thiết kế app quản lý bảo hành điện tử theo yêu cầu &#8211; Lợi ích của việc tích hợp xác thực người dùng qua OTP khi kích hoạt bảo hành.</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/thiet-ke-app-quan-ly-bao-hanh-dien-tu-theo-yeu-cau-so-sanh-giua-phan-mem-thiet-ke-app-theo-mau-va-theo-yeu-cau-rieng" target="_blank">thiết kế app quản lý bảo hành điện tử theo yêu cầu &#8211; So sánh giữa phần mềm thiết kế app theo mẫu và theo yêu cầu riêng.</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/thiet-ke-app-quan-ly-bao-hanh-dien-tu-theo-yeu-cau-tinh-huong-doanh-nghiep-bi-lam-gia-tem-bao-hanh-va-giai-phap-cong-nghe" target="_blank">thiết kế app quản lý bảo hành điện tử theo yêu cầu &#8211; Tình huống doanh nghiệp bị làm giả tem bảo hành và giải pháp công nghệ.</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/thiet-ke-app-quan-ly-bao-hanh-dien-tu-theo-yeu-cau-goc-nhin-tu-nha-phan-phoi-can-kiem-soat-he-thong-bao-hanh-da-cap" target="_blank">thiết kế app quản lý bảo hành điện tử theo yêu cầu &#8211; Góc nhìn từ nhà phân phối cần kiểm soát hệ thống bảo hành đa cấp.</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/thiet-ke-app-quan-ly-bao-hanh-dien-tu-theo-yeu-cau-danh-cho-doanh-nghiep-san-xuat-dien-tu-muon-so-hoa-quy-trinh-bao-hanh" target="_blank">thiết kế app quản lý bảo hành điện tử theo yêu cầu &#8211; Dành cho doanh nghiệp sản xuất điện tử muốn số hóa quy trình bảo hành.</a>
+                        </li>
+                
+                        <li class="post-item">
+                            <a href="https://giaiphapqrcode.com/thiet-ke-app-quan-ly-bao-hanh-dien-tu-theo-yeu-cau" target="_blank">Thiết kế app quản lý bảo hành điện tử theo yêu cầu</a>
+                        </li>
+                
+                    </ul>
+                </div>
+        
+            </div>
+            <div class="note">
+                * Lưu ý: Dữ liệu Click/Hiển thị đang trống do chưa kết nối GSC. Hãy xem hướng dẫn kết nối để cấu hình.
+            </div>
+        </div>
+    </body>
+    </html>
+    

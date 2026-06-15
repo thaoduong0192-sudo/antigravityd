@@ -1,0 +1,36 @@
+{
+    "success": true,
+    "data": {
+        "shopUrl": "https://shopee.vn/m86pet",
+        "id": "13369196",
+        "name": "M86 Pet",
+        "shopAvatar": "https://down-ws-cn.img.susercontent.com/vn-11134233-7ra0g-m9qlfi1iy076e0_tn.webp",
+        "shopType": "Standard",
+        "shipMethod": "Local",
+        "shopOpenTime": "2016-12-06",
+        "rating": 4.93,
+        "products": "141",
+        "brandProducts": "69",
+        "followers": "4,13k",
+        "newProducts": "0",
+        "coreMetrics": [
+            {
+                "label": "Revenue",
+                "value": "₫0,00"
+            },
+            {
+                "label": "Units Sold",
+                "value": "0"
+            },
+            {
+                "label": "Average Selling Price",
+                "value": "₫0,00"
+            }
+        ],
+        "MaDaiLy": "E0040",
+        "shop_id": "13369196"
+    },
+    "message": null,
+    "cached": null,
+    "code": null
+}

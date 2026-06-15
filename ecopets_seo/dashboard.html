@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecopets Chuyển Đổi & SEO Tự Động</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dashboard.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <aside class="sidebar">
+            <div class="logo">
+                <i class="bi bi-robot"></i>
+                <h2>Ecopets AUTO</h2>
+            </div>
+            <ul class="nav">
+                <li class="active"><i class="bi bi-grid-1x2"></i> Tổng Quan</li>
+                <li><i class="bi bi-cash-coin"></i> Doanh Thu</li>
+                <li><i class="bi bi-graph-up-arrow"></i> Xếp Hạng Từ Khóa</li>
+                <li><i class="bi bi-calendar-check"></i> Lịch sử Đăng Bài</li>
+            </ul>
+        </aside>
+
+        <main class="main-content">
+            <header>
+                <div class="header-left">
+                    <h1>Cỗ Máy Bán Hàng Tự Động 🚀</h1>
+                    <p>Hệ thống tự phân tích, tự chạy và chốt sale tăng chuyển đổi.</p>
+                </div>
+                <div class="header-right">
+                    <button class="btn-sync" onclick="loadData()"><i class="bi bi-arrow-clockwise"></i> Làm mới báo cáo</button>
+                    <div class="user-profile">
+                        <img src="https://ui-avatars.com/api/?name=Admin+Eco&background=10b981&color=fff" alt="Admin">
+                    </div>
+                </div>
+            </header>
+
+            <!-- KPIs -->
+            <section class="kpi-cards">
+                <div class="card kpi" style="border: 1px solid #10b981;">
+                    <div class="kpi-icon gradient-1"><i class="bi bi-currency-dollar"></i></div>
+                    <div class="kpi-info">
+                        <h3>Tổng Doanh Thu Web (Tháng)</h3>
+                        <p id="total-revenue">0đ</p>
+                    </div>
+                </div>
+                <div class="card kpi">
+                    <div class="kpi-icon gradient-2"><i class="bi bi-file-earmark-text"></i></div>
+                    <div class="kpi-info">
+                        <h3>Bài Viết Chốt Sale</h3>
+                        <p id="total-articles">--</p>
+                    </div>
+                </div>
+                <div class="card kpi">
+                    <div class="kpi-icon gradient-3"><i class="bi bi-trophy"></i></div>
+                    <div class="kpi-info">
+                        <h3>Top 10 Google</h3>
+                        <p id="top-10-count">--</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Charts & Schedule -->
+            <section class="middle-section">
+                <div class="card chart-container">
+                    <h3>Biểu Đồ Theo Dõi Xếp Hạng Thực Tế (Vị trí Google)</h3>
+                    <canvas id="rankingChart"></canvas>
+                </div>
+                
+                <div class="card schedule-container">
+                    <h3>Hoạt Động Của Hệ Thống Gần Nhất</h3>
+                    <div class="timeline" id="timeline-container">
+                        <!-- Timeline items injected by JS -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Articles Table -->
+            <section class="card table-container">
+                <h3>Các Phi Vụ Tối Ưu Chuyển Đổi Đã Tung Ra</h3>
+                <table class="styled-table">
+                    <thead>
+                        <tr>
+                            <th>Tên Bài Viết</th>
+                            <th>Từ Khóa Sinh Lời</th>
+                            <th>Trạng Thái</th>
+                            <th>Ngày Đăng Tự Động</th>
+                        </tr>
+                    </thead>
+                    <tbody id="articles-tbody">
+                        <!-- Table rows injected by JS -->
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    </div>
+    
+    <script src="dashboard.js"></script>
+</body>
+</html>

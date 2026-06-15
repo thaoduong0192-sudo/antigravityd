@@ -1,0 +1,36 @@
+{
+    "success": true,
+    "data": {
+        "MaDaiLy": "E0488",
+        "shopUrl": "https://shopee.vn/hanapet_shop",
+        "id": "1218326420",
+        "name": "Hana Pet Shop VN",
+        "shopAvatar": "https://down-ws-cn.img.susercontent.com/vn-11134233-81ztc-mkb65daa4jyafd_tn.webp",
+        "shopType": "Preferred",
+        "shipMethod": "Local",
+        "shopOpenTime": "2024-03-26",
+        "rating": 4.95,
+        "products": "192",
+        "brandProducts": "75",
+        "followers": "12,07k",
+        "newProducts": "0",
+        "coreMetrics": [
+            {
+                "label": "Revenue",
+                "value": "₫1,13tỉ"
+            },
+            {
+                "label": "Units Sold",
+                "value": "19,98k"
+            },
+            {
+                "label": "Average Selling Price",
+                "value": "₫56,52k"
+            }
+        ],
+        "shop_id": "1218326420"
+    },
+    "message": null,
+    "cached": null,
+    "code": null
+}

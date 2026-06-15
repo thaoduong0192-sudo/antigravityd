@@ -1,0 +1,36 @@
+{
+    "success": true,
+    "data": {
+        "MaDaiLy": "E0009",
+        "shopUrl": "https://shopee.vn/thegioipetcung",
+        "id": "300079263",
+        "name": "Lovely Pet Family",
+        "shopAvatar": "https://down-ws-cn.img.susercontent.com/8f3950061afce49be2fc60ad5c2d60c6_tn.webp",
+        "shopType": "Preferred",
+        "shipMethod": "Local",
+        "shopOpenTime": "2020-08-23",
+        "rating": 4.91,
+        "products": "85",
+        "brandProducts": "10",
+        "followers": "28,91k",
+        "newProducts": "0",
+        "coreMetrics": [
+            {
+                "label": "Revenue",
+                "value": "₫600,16tr"
+            },
+            {
+                "label": "Units Sold",
+                "value": "6,76k"
+            },
+            {
+                "label": "Average Selling Price",
+                "value": "₫88,79k"
+            }
+        ],
+        "shop_id": "300079263"
+    },
+    "message": null,
+    "cached": null,
+    "code": null
+}
