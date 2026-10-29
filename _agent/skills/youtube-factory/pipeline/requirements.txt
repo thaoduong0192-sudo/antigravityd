@@ -1,0 +1,28 @@
+# YouTube Factory Kit - Python Dependencies
+# Cài đặt: pip install -r requirements.txt
+
+# === Core ===
+google-generativeai>=0.8.0
+youtube-transcript-api>=0.6.2
+yt-dlp>=2024.0.0
+requests>=2.31.0
+pydantic>=2.0.0
+rich>=13.0.0
+python-dotenv>=1.0.0
+
+# === Browser Automation ===
+playwright>=1.40.0
+
+# === PDF Generation ===
+reportlab
+
+# === Windows Cookie Extraction ===
+pywin32
+cryptography
+
+# === Web GUI (tùy chọn) ===
+fastapi
+uvicorn
+
+# === NotebookLM CLI ===
+notebooklm-cli

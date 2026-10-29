@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Factory Control Panel — Antigravity</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-dark: #070a12;
+            --card-bg: rgba(18, 24, 38, 0.85);
+            --border-color: rgba(255, 255, 255, 0.12);
+            --accent-cyan: #00f2fe;
+            --accent-green: #00e676;
+            --accent-purple: #7928ca;
+            --accent-orange: #ff9800;
+            --text-main: #f0f6fc;
+            --text-muted: #919eab;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            background-image: 
+                radial-gradient(at 10% 10%, rgba(0, 242, 254, 0.15) 0px, transparent 50%),
+                radial-gradient(at 90% 90%, rgba(0, 230, 118, 0.12) 0px, transparent 50%),
+                radial-gradient(at 50% 50%, rgba(121, 40, 202, 0.1) 0px, transparent 60%);
+            color: var(--text-main);
+            min-height: 100vh;
+            padding: 1.5rem;
+        }
+
+        .header-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1400px;
+            margin: 0 auto 2rem auto;
+            padding: 1rem 1.5rem;
+            background: var(--card-bg);
+            backdrop-filter: blur(16px);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+        }
+
+        .header-title h1 {
+            font-size: 1.8rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--accent-cyan), var(--accent-green));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .header-title p {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        .status-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.4rem 1rem;
+            background: rgba(0, 230, 118, 0.15);
+            border: 1px solid var(--accent-green);
+            border-radius: 20px;
+            color: var(--accent-green);
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .pulse-dot {
+            width: 8px;
+            height: 8px;
+            background-color: var(--accent-green);
+            border-radius: 50%;
+            box-shadow: 0 0 10px var(--accent-green);
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(0.95); opacity: 0.8; }
+            50% { transform: scale(1.3); opacity: 1; }
+            100% { transform: scale(0.95); opacity: 0.8; }
+        }
+
+        .main-grid {
+            display: grid;
+            grid-template-columns: 420px 1fr;
+            gap: 1.5rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        @media (max-width: 1024px) {
+            .main-grid { grid-template-columns: 1fr; }
+        }
+
+        .glass-card {
+            background: var(--card-bg);
+            backdrop-filter: blur(16px);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 1.5rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+            margin-bottom: 1.5rem;
+        }
+
+        .card-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 1.25rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .card-header h2 {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--accent-cyan);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+
+        .form-group {
+            margin-bottom: 1rem;
+        }
+
+        .form-group.full-width {
+            grid-column: span 2;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.4rem;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--text-muted);
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 0.65rem 0.9rem;
+            background: rgba(10, 14, 23, 0.8);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            color: var(--text-main);
+            font-size: 0.9rem;
+            transition: all 0.2s ease;
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--accent-cyan);
+            box-shadow: 0 0 10px rgba(0, 242, 254, 0.2);
+        }
+
+        /* 5-Step Pipeline Grid */
+        .step-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .step-card {
+            background: rgba(10, 14, 23, 0.7);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1.25rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: all 0.2s ease;
+        }
+
+        .step-card:hover {
+            border-color: var(--accent-cyan);
+            transform: translateY(-2px);
+        }
+
+        .step-number {
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: var(--accent-cyan);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 0.3rem;
+        }
+
+        .step-title {
+            font-size: 1.05rem;
+            font-weight: 700;
+            margin-bottom: 0.4rem;
+        }
+
+        .step-desc {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-bottom: 1rem;
+            line-height: 1.3;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 0.7rem 1rem;
+            border: none;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 0.85rem;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            transition: all 0.2s ease;
+        }
+
+        .btn-cyan {
+            background: linear-gradient(135deg, #00f2fe, #4facfe);
+            color: #000;
+        }
+
+        .btn-cyan:hover {
+            box-shadow: 0 4px 15px rgba(0, 242, 254, 0.4);
+            transform: scale(1.02);
+        }
+
+        .btn-green {
+            background: linear-gradient(135deg, #00e676, #1de9b6);
+            color: #000;
+        }
+
+        .btn-green:hover {
+            box-shadow: 0 4px 15px rgba(0, 230, 118, 0.4);
+            transform: scale(1.02);
+        }
+
+        .btn-purple {
+            background: linear-gradient(135deg, #7928ca, #ff0080);
+            color: #fff;
+        }
+
+        .btn-purple:hover {
+            box-shadow: 0 4px 15px rgba(121, 40, 202, 0.5);
+            transform: scale(1.02);
+        }
+
+        .btn-master {
+            background: linear-gradient(135deg, #00f2fe, #00e676);
+            color: #000;
+            font-size: 1.05rem;
+            padding: 1rem;
+            border-radius: 12px;
+            box-shadow: 0 6px 25px rgba(0, 242, 254, 0.3);
+        }
+
+        .btn-master:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(0, 230, 118, 0.5);
+        }
+
+        /* Log Console */
+        .console-box {
+            background: #04060a;
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1rem;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.82rem;
+            height: 340px;
+            overflow-y: auto;
+            color: #4af626;
+            line-height: 1.5;
+            box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.8);
+        }
+
+        .console-line {
+            margin-bottom: 0.2rem;
+            word-break: break-word;
+        }
+
+        /* Channel Table */
+        .table-responsive {
+            overflow-x: auto;
+        }
+
+        .channel-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.85rem;
+        }
+
+        .channel-table th, .channel-table td {
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid var(--border-color);
+            text-align: left;
+        }
+
+        .channel-table th {
+            color: var(--text-muted);
+            font-weight: 600;
+        }
+
+        .phase-chip {
+            padding: 0.4rem 0.7rem;
+            background: rgba(0, 242, 254, 0.1);
+            border: 1px solid rgba(0, 242, 254, 0.3);
+            border-radius: 6px;
+            font-size: 0.78rem;
+            font-weight: 500;
+            color: var(--accent-cyan);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header-nav">
+    <div class="header-title">
+        <h1>🎬 YouTube Factory Control Panel</h1>
+        <p>Hệ thống tự động hóa kênh YouTube 5 bước — Đa kênh song song | Powered by Antigravity</p>
+    </div>
+    <div class="status-badge">
+        <span class="pulse-dot"></span>
+        <span>HỆ THỐNG SẴN SÀNG</span>
+    </div>
+</div>
+
+<div class="main-grid">
+    <!-- Left Column: Config & Action Panel -->
+    <div>
+        <div class="glass-card">
+            <div class="card-header">
+                <h2>⚙️ Cấu Hình Kênh Mục Tiêu</h2>
+            </div>
+            
+            <form id="configForm">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label>STT Kênh (Thứ tự)</label>
+                        <input type="number" id="channel_index" class="form-control" value="1" min="1" max="99">
+                    </div>
+                    <div class="form-group">
+                        <label>Mã Kênh / Tên Thư Mục</label>
+                        <input type="text" id="channel_id" class="form-control" value="nobocos" required>
+                    </div>
+                </div>
+
+                <div class="form-group full-width">
+                    <label>1. Chủ Đề Kênh (Topic)</label>
+                    <input type="text" id="topic" class="form-control" value="Vibe code bằng Antigravity cho Gen Alpha" required>
+                </div>
+
+                <div class="form-group full-width">
+                    <label>2. Đối Tượng Kênh (Target Audience)</label>
+                    <input type="text" id="target_audience" class="form-control" value="Học sinh cấp 2 & Phụ huynh" required>
+                </div>
+
+                <div class="form-group full-width">
+                    <label>3. Mô Tả Chi Tiết Chủ Đề (Detailed Description)</label>
+                    <textarea id="topic_description" class="form-control" rows="3" required>Hướng dẫn học sinh cấp 2 tự làm game và giao diện lơ lửng bằng vibe code antigravity không cần gõ lệnh khô khan.</textarea>
+                </div>
+
+                <div class="form-group full-width">
+                    <label>4. Kết Quả Mong Muốn (Desired Outcome/Goal)</label>
+                    <textarea id="desired_outcome" class="form-control" rows="2" required>Tự làm được ứng dụng mini lơ lửng, hiểu bản chất tư duy code và nhận Ebook giáo trình miễn phí.</textarea>
+                </div>
+
+                <div class="form-group full-width">
+                    <label>5. Ngày Bắt Đầu Lên Lịch Đăng (YYYY-MM-DD)</label>
+                    <input type="date" id="start_date" class="form-control" value="2026-08-16">
+                </div>
+
+                <button type="button" onclick="initChannel()" class="btn btn-cyan" style="margin-top: 0.5rem;">
+                    📁 KHỞI TẠO THƯ MỤC KÊNH MỚI
+                </button>
+            </form>
+        </div>
+
+        <button type="button" onclick="runMasterPipeline()" class="btn btn-master">
+            ⚡ CHẠY TỰ ĐỘNG CẢ 5 BƯỚC (1-CLICK A-Z)
+        </button>
+    </div>
+
+    <!-- Right Column: 5 Steps & Log Console -->
+    <div>
+        <!-- 5 Steps Control Grid with Detailed Step 1 Sub-Phases -->
+        <div class="step-grid">
+            <!-- Step 1: Detailed 7 Sub-Phases with Approval Checkpoints -->
+            <div class="step-card full-width" style="grid-column: 1 / -1; background: rgba(0, 242, 254, 0.05); border: 1px solid var(--accent-cyan);">
+                <div>
+                    <div class="step-number" style="font-size: 0.9rem;">Bước 01 — Quy Trình Nền Tảng (7 Giai Đoạn & 2 Điểm Duyệt)</div>
+                    <div class="step-title" style="font-size: 1.2rem; color: var(--accent-cyan);">📚 Phân Tích Insight, Cào 150 Nguồn, Tạo NotebookLM & PDF Ebook</div>
+                    <div class="step-desc">Tự động phân tích Insight từ 4 đầu vào, đề xuất từ khóa (Chờ Duyệt 1), cào 150 nguồn YouTube vào NotebookLM (Chờ Duyệt 2), sau đó xuất Giáo trình 20 bài + 100 Short + PDF Ebook.</div>
+                    
+                    <!-- 7 Sub-Phases Pipeline Status Tracker -->
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 0.75rem; margin: 1rem 0;">
+                        <div class="phase-chip">1.1 Phân tích Insight</div>
+                        <div class="phase-chip">1.2 Đề xuất Từ khóa (Duyệt 1)</div>
+                        <div class="phase-chip">1.3 Cào 150 Nguồn YT</div>
+                        <div class="phase-chip">1.4 Link NotebookLM (Duyệt 2)</div>
+                        <div class="phase-chip">1.5 Sinh 20 Notes CT</div>
+                        <div class="phase-chip">1.6 Tạo Metadata Text</div>
+                        <div class="phase-chip">1.7 Xuất PDF Ebook</div>
+                    </div>
+
+                    <!-- Checkpoint 1 Container -->
+                    <div id="checkpoint1Box" style="display: none; background: #0d1117; border: 1px solid var(--accent-cyan); border-radius: 8px; padding: 1rem; margin-bottom: 1rem;">
+                        <h4 style="color: var(--accent-cyan); margin-bottom: 0.5rem;">🧠 [Điểm Duyệt 1] Từ Khóa Tìm Kiếm Đề Xuất:</h4>
+                        <div id="insightSummary" style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 0.5rem;"></div>
+                        <ul id="keywordsList" style="color: #c9d1d9; font-family: monospace; font-size: 0.9rem; padding-left: 1.2rem; margin-bottom: 1rem;"></ul>
+                        <button onclick="approveCheckpoint1()" class="btn btn-green" style="width: auto;">✅ DUYỆT TỪ KHÓA & BẮT ĐẦU CÀO NGUỒN</button>
+                    </div>
+
+                    <!-- Checkpoint 2 Container -->
+                    <div id="checkpoint2Box" style="display: none; background: #0d1117; border: 1px solid var(--accent-green); border-radius: 8px; padding: 1rem; margin-bottom: 1rem;">
+                        <h4 style="color: var(--accent-green); margin-bottom: 0.5rem;">🔗 [Điểm Duyệt 2] Link NotebookLM 150 Nguồn Uy Tín:</h4>
+                        <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 0.8rem;">Vui lòng mở link để kiểm tra chất lượng 150 nguồn trước khi cho phép xuất Ebook & Render Video:</p>
+                        <div style="display: flex; gap: 1rem;">
+                            <a id="nbLinkBtn" href="https://notebooklm.google.com" target="_blank" class="btn btn-cyan" style="width: auto; text-decoration: none;">🔗 MỞ NOTEBOOKLM ĐỂ KIỂM TRA NGUỒN 🚀</a>
+                            <button onclick="approveCheckpoint2()" class="btn btn-green" style="width: auto;">✅ DUYỆT NGUỒN & BẮT ĐẦU RENDER VIDEO + EBOOK</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="display: flex; gap: 1rem; align-items: center; margin-top: 1rem;">
+                    <button onclick="analyzeKeywords()" class="btn btn-cyan" style="flex: 1;">🧠 1. Phân Tích Insight & Đề Xuất Từ Khóa</button>
+                    <button onclick="runStep(1)" class="btn btn-green" style="flex: 1;">🚀 2. Kích Hoạt Cào Nguồn & Sinh Giáo Trình</button>
+                </div>
+            </div>
+
+            <!-- Step 2-3 -->
+            <div class="step-card">
+                <div>
+                    <div class="step-number">Bước 02-03</div>
+                    <div class="step-title">🎬 Render Video Studio</div>
+                    <div class="step-desc">Tạo NotebookLM mới, nạp nguồn & render 20 Long + 100 Short MP4s.</div>
+                </div>
+                <button onclick="runStep('2-3')" class="btn btn-green">🎬 Chạy Bước 2-3</button>
+            </div>
+
+            <!-- Step 4 -->
+            <div class="step-card">
+                <div>
+                    <div class="step-number">Bước 04</div>
+                    <div class="step-title">📤 Upload & Lên Lịch</div>
+                    <div class="step-desc">Upload Playwright lên YouTube Studio (2 Short + 1 Long / ngày).</div>
+                </div>
+                <button onclick="runStep(4)" class="btn btn-purple">📤 Chạy Bước 4</button>
+            </div>
+
+            <!-- Step 5 -->
+            <div class="step-card">
+                <div>
+                    <div class="step-number">Bước 05</div>
+                    <div class="step-title">✉️ Auto-Mailer Ebook</div>
+                    <div class="step-desc">Quét comment YouTube + IMAP Gmail để tự động gửi Ebook PDF.</div>
+                </div>
+                <button onclick="runStep(5)" class="btn btn-cyan">✉️ Chạy Bước 5</button>
+            </div>
+
+            <!-- 24/7 Daemon Worker Switch -->
+            <div class="step-card" style="background: rgba(0, 230, 118, 0.08); border: 1px solid var(--accent-green);">
+                <div>
+                    <div class="step-number" style="color: var(--accent-green);">Vận Hành Tự Động 24/7</div>
+                    <div class="step-title" style="color: var(--accent-green);">🔄 24/7 Daemon Worker</div>
+                    <div class="step-desc">Chạy ngầm liên tục 24/7: tự quét bình luận gửi email & tự động lên lịch khi tới lượt.</div>
+                </div>
+                <button id="daemonBtn" onclick="toggleDaemon()" class="btn btn-green">🟢 Đang Bật 24/7 Daemon Mode</button>
+            </div>
+        </div>
+
+        <!-- Live Log Console -->
+        <div class="glass-card">
+            <div class="card-header">
+                <h2>🖥️ Nhật Ký Thực Thi Real-Time</h2>
+                <button onclick="clearLogs()" style="background: transparent; border: 1px solid var(--border-color); color: var(--text-muted); padding: 0.3rem 0.7rem; border-radius: 6px; cursor: pointer; font-size: 0.8rem;">
+                    🧹 Xóa log
+                </button>
+            </div>
+            <div id="consoleBox" class="console-box">
+                <div class="console-line">[00:00:00] Control Panel sẵn sàng. Hãy chọn kênh và bấm nút để bắt đầu.</div>
+            </div>
+        </div>
+
+        <!-- Existing Channels Overview Table -->
+        <div class="glass-card">
+            <div class="card-header">
+                <h2>📊 Danh Sách Kênh & Thư Mục Đã Tạo</h2>
+                <button onclick="loadChannels()" class="btn btn-cyan" style="width: auto; padding: 0.4rem 0.8rem;">
+                    🔄 Tải lại
+                </button>
+            </div>
+            <div class="table-responsive">
+                <table class="channel-table">
+                    <thead>
+                        <tr>
+                            <th>Tên Thư Mục Kênh</th>
+                            <th>Long Videos</th>
+                            <th>Short Videos</th>
+                            <th>Đã Upload</th>
+                        </tr>
+                    </thead>
+                    <tbody id="channelTableBody">
+                        <tr>
+                            <td colspan="4" style="text-align: center; color: var(--text-muted);">Chưa có kênh nào. Bấm nút Khởi tạo để bắt đầu.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    const API_BASE = '';
+
+    function getPayload() {
+        return {
+            channel_index: parseInt(document.getElementById('channel_index').value) || 1,
+            channel_id: document.getElementById('channel_id').value,
+            topic: document.getElementById('topic').value,
+            target_audience: document.getElementById('target_audience').value,
+            topic_description: document.getElementById('topic_description').value,
+            desired_outcome: document.getElementById('desired_outcome').value,
+            start_date: document.getElementById('start_date').value
+        };
+    }
+
+    async function analyzeKeywords() {
+        const payload = getPayload();
+        try {
+            const res = await fetch(`${API_BASE}/api/step1/analyze-keywords`, {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify(payload)
+            });
+            const data = await res.json();
+            document.getElementById('insightSummary').innerText = data.insight;
+            const kwList = document.getElementById('keywordsList');
+            kwList.innerHTML = data.keywords.map(k => `<li>${k}</li>`).join('');
+            document.getElementById('checkpoint1Box').style.display = 'block';
+        } catch (e) {
+            alert('Lỗi phân tích từ khóa: ' + e.message);
+        }
+    }
+
+    function approveCheckpoint1() {
+        alert('✅ ĐÃ DUYỆT TỪ KHÓA! Tiến hành cào 150 nguồn YouTube vào NotebookLM...');
+        document.getElementById('checkpoint1Box').style.display = 'none';
+        runStep(1);
+        setTimeout(() => {
+            document.getElementById('checkpoint2Box').style.display = 'block';
+        }, 3000);
+    }
+
+    function approveCheckpoint2() {
+        alert('✅ ĐÃ DUYỆT NGUỒN NOTEBOOKLM! Tiến hành xuất PDF Ebook & Render 20 Long + 100 Short Video...');
+        document.getElementById('checkpoint2Box').style.display = 'none';
+        runStep('2-3');
+    }
+
+    async function initChannel() {
+        const payload = getPayload();
+        try {
+            const res = await fetch(`${API_BASE}/api/channel/init`, {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify(payload)
+            });
+            const data = await res.json();
+            alert('Đã khởi tạo thư mục kênh: ' + data.channel_dir);
+            loadChannels();
+        } catch (e) {
+            alert('Lỗi khởi tạo: ' + e.message);
+        }
+    }
+
+    async function runStep(step) {
+        const payload = getPayload();
+        let endpoint = '';
+        if (step === 1) endpoint = '/api/step1/content-gen';
+        else if (step === '2-3') endpoint = '/api/step2-3/video-factory';
+        else if (step === 4) endpoint = '/api/step4/youtube-bot';
+        else if (step === 5) endpoint = '/api/step5/auto-mailer';
+
+        try {
+            const res = await fetch(`${API_BASE}${endpoint}`, {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify(payload)
+            });
+            const data = await res.json();
+            alert(`[Đã khởi chạy Bước ${step}]: ` + data.message);
+        } catch (e) {
+            alert(`Lỗi chạy bước ${step}: ` + e.message);
+        }
+    }
+
+    async function runMasterPipeline() {
+        if (!confirm('Bạn có chắc chắn muốn chạy tự động cả 5 bước A-Z cho kênh này?')) return;
+        const payload = getPayload();
+        try {
+            const res = await fetch(`${API_BASE}/api/pipeline/run-all`, {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify(payload)
+            });
+            const data = await res.json();
+            alert('[Master Execution Started]: ' + data.message);
+        } catch (e) {
+            alert('Lỗi Master Execution: ' + e.message);
+        }
+    }
+
+    async function fetchLogs() {
+        try {
+            const res = await fetch(`${API_BASE}/api/logs`);
+            const data = await res.json();
+            const consoleBox = document.getElementById('consoleBox');
+            if (data.logs && data.logs.length > 0) {
+                consoleBox.innerHTML = data.logs.map(line => `<div class="console-line">${line}</div>`).join('');
+                consoleBox.scrollTop = consoleBox.scrollHeight;
+            }
+        } catch (e) {}
+    }
+
+    async function loadChannels() {
+        try {
+            const res = await fetch(`${API_BASE}/api/channels`);
+            const data = await res.json();
+            const tbody = document.getElementById('channelTableBody');
+            tbody.innerHTML = '';
+            if (!data.channels || data.channels.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="4" style="text-align: center; color: var(--text-muted);">Chưa có kênh nào.</td></tr>';
+                return;
+            }
+            data.channels.forEach(c => {
+                tbody.innerHTML += `
+                    <tr>
+                        <td><span class="folder-tag">${c.folder}</span></td>
+                        <td>${c.long_videos} MP4</td>
+                        <td>${c.short_videos} MP4</td>
+                        <td>${c.uploaded_videos} Video</td>
+                    </tr>
+                `;
+            });
+        } catch (e) {}
+    }
+
+    function clearLogs() {
+        document.getElementById('consoleBox').innerHTML = '';
+    }
+
+    async function toggleDaemon() {
+        try {
+            const res = await fetch(`${API_BASE}/api/daemon/toggle`, { method: 'POST' });
+            const data = await res.json();
+            const daemonBtn = document.getElementById('daemonBtn');
+            if (data.active) {
+                daemonBtn.innerText = '🟢 Đang Bật 24/7 Daemon Mode (Bấm để Tắt)';
+                daemonBtn.className = 'btn btn-green';
+            } else {
+                daemonBtn.innerText = '🔴 Đã Tắt 24/7 Daemon Mode (Bấm để Bật)';
+                daemonBtn.className = 'btn btn-purple';
+            }
+            alert(data.message);
+        } catch (e) {
+            alert('Lỗi toggle 24/7 Daemon Mode: ' + e.message);
+        }
+    }
+
+    async function checkDaemonStatus() {
+        try {
+            const res = await fetch(`${API_BASE}/api/daemon/status`);
+            const data = await res.json();
+            const daemonBtn = document.getElementById('daemonBtn');
+            if (data.active) {
+                daemonBtn.innerText = '🟢 Đang Bật 24/7 Daemon Mode (Bấm để Tắt)';
+                daemonBtn.className = 'btn btn-green';
+            } else {
+                daemonBtn.innerText = '🔴 Đã Tắt 24/7 Daemon Mode (Bấm để Bật)';
+                daemonBtn.className = 'btn btn-purple';
+            }
+        } catch (e) {}
+    }
+
+    // Auto-refresh logs every 2 seconds & load channels on open
+    setInterval(fetchLogs, 2000);
+    setInterval(loadChannels, 5000);
+    loadChannels();
+    checkDaemonStatus();
+</script>
+</body>
+</html>

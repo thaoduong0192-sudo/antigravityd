@@ -1,0 +1,42 @@
+{
+  "safety-and-secret-guard": {
+    "enabled": true,
+    "PreToolUse": [
+      {
+        "matcher": "run_command|write_file|edit_file",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ./hooks/pre-tool-guard.cjs",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  },
+  "post-edit-json-verifier": {
+    "enabled": true,
+    "PostToolUse": [
+      {
+        "matcher": "write_file|edit_file",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ./hooks/post-edit-verify.cjs",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  },
+  "session-memory-bootstrap": {
+    "enabled": true,
+    "SessionStart": [
+      {
+        "type": "command",
+        "command": "node ./hooks/session-start-memory.cjs",
+        "timeout": 5
+      }
+    ]
+  }
+}

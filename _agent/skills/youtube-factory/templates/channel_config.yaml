@@ -1,0 +1,34 @@
+# === CẤU HÌNH KÊNH YOUTUBE ===
+# Copy file này và điền thông tin cho kênh mới
+
+channel:
+  name: "Tên Kênh YouTube"
+  niche: "Chủ đề kênh (vd: Lập trình, Nấu ăn, Fitness)"
+  language: "vi"  # vi, en, ...
+  target_audience: "Đối tượng mục tiêu (vd: 8-15 tuổi)"
+  channel_description: "Mô tả kênh cho YouTube About page"
+  channel_keywords: "keyword1, keyword2, keyword3"
+
+content:
+  num_lessons: 20
+  shorts_per_lesson: 5
+  youtube_sources_count: 150
+  search_queries:
+    - "Query tìm kiếm YouTube 1"
+    - "Query tìm kiếm YouTube 2"
+    - "Query tìm kiếm YouTube 3"
+
+schedule:
+  long_video_time: "19:00"
+  short_times: ["08:00", "12:00"]
+  max_per_batch: 15
+  start_delay_days: 1
+
+branding:
+  avatar_prompt: "Mô tả avatar kênh cho AI tạo ảnh"
+  banner_prompt: "Mô tả banner kênh cho AI tạo ảnh"
+
+paths:
+  project_dir: "./"  # Thư mục gốc project
+  chrome_profile: "./chrome_profile_bot"
+  output_dir: "./output_factory"

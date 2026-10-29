@@ -1,0 +1,16 @@
+# Sổ Đăng Ký Kênh YouTube Factory
+# Mỗi kênh có thể chạy nhiều chủ đề song song
+
+channels:
+  - index: 1
+    id: nobocos
+    name: "Noboco's House"
+    chrome_profile: "output_factory/channel_01_nobocos/chrome_profile"
+    topics:
+      - index: 1
+        id: antigravity
+        name: "Vibe code bằng Antigravity cho Gen Alpha"
+        target_audience: "Học sinh cấp 2 & Phụ huynh"
+        current_step: 4
+        start_date: "2026-08-16"
+        notebook_url: ""
